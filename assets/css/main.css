@@ -2430,8 +2430,9 @@ input, select, textarea {
 		border-radius: 50% !important;
 		width: 12em;
 		height: 12em;
-		border: 0.1em solid rgba(255, 255, 255, 1);
+		border: 0.2em solid rgba(255, 255, 255, 1);
 		margin: 0 0 2em 0;
+		box-shadow: 0 0 1px 0px white inset, 0 0 1px 0px white;
 	}
 
 /* Logo */
