@@ -120,6 +120,11 @@ input, select, textarea {
 			border-bottom-color: transparent;
 		}
 
+		nav a:focus {
+			color: #e44c65 !important;
+			border-bottom-color: transparent;
+		}
+
 	strong, b {
 		color: #ffffff;
 		font-weight: 300;
@@ -234,6 +239,15 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+
+	.fixed-top {
+  		position: fixed;
+  		top: 0;
+  		right: 0;
+  		left: 0;
+  		z-index: 1030;
+	}
+
 
 /* Loader */
 
@@ -2410,12 +2424,48 @@ input, select, textarea {
 			padding: 0;
 		}
 
+/* Portrait */
+
+	.portrait {
+		border-radius: 50% !important;
+		width: 12em;
+		height: 12em;
+		border: 0.1em solid rgba(255, 255, 255, 1);
+		margin: 0 0 2em 0;
+	}
+
+/* Logo */
+
+	.dark-text {
+		color: #272832;
+	}
+
+	.logo {
+		color: #222529;
+		filter: gray;
+		-webkit-filter: grayscale(1);
+		filter: grayscale(1);
+		transition: 0.25s;
+		max-height: 4em;
+		margin: 1em;
+	}
+
+	.logo:hover {
+		-webkit-filter: grayscale(0);
+		filter: none;
+	}
+
+	.logo-link {
+		border: 0;
+	}
+
 /* Icon */
 
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		color: white;
 	}
 
 		.icon:before {
@@ -3201,7 +3251,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
-			background: #e44c65;
+			background: #f8f9fa; /*#e44c65;*/
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
@@ -3442,9 +3492,9 @@ input, select, textarea {
 	}
 
 	body.landing #header {
-		background: transparent;
+		background: #272833;
 		box-shadow: none;
-		position: absolute;
+		/*position: absolute;*/
 	}
 
 /* Banner */
