@@ -3562,7 +3562,8 @@ input, select, textarea {
 				}
 
 			#banner .content .image {
-				border-radius: 100%;
+				border-radius: 10px;
+				/* border-radius: 100%; <- restore this for the "circle effect" around the banner image*/ 
 				display: inline-block;
 				height: 18em;
 				margin-left: 3em;
@@ -3571,7 +3572,7 @@ input, select, textarea {
 			}
 
 				#banner .content .image img {
-					border-radius: 100%;
+					/* border-radius: 100%; <- restore this for the "circle effect" around the banner image*/ 
 					display: block;
 					width: 100%;
 				}
