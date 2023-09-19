@@ -120,11 +120,6 @@ input, select, textarea {
 			border-bottom-color: transparent;
 		}
 
-		nav a:focus {
-			color: #e44c65 !important;
-			border-bottom-color: transparent;
-		}
-
 	strong, b {
 		color: #ffffff;
 		font-weight: 300;
