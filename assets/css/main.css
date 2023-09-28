@@ -2437,13 +2437,34 @@ input, select, textarea {
 	}
 
 	.logo {
-		border-radius: 5px;
+		color: #222529;
+		filter: gray;
+		-webkit-filter: grayscale(1);
+		filter: grayscale(1);
+		transition: 0.25s;
 		max-height: 4em;
 		margin: 1em;
 	}
 
+	.logo:hover {
+		-webkit-filter: grayscale(0);
+		filter: none;
+	}
+
 	.logo-link {
 		border: 0;
+	}
+
+	.logo-head {
+		border-radius: 5px;
+		transition: 0.25s;
+		max-height: 4em;
+		margin: 1em;
+	}
+
+	.logo-head:hover {
+		-webkit-filter: grayscale(0);
+		filter: none;		
 	}
 
 /* Icon */
