@@ -237,9 +237,9 @@ THEME_CONFIG = {
 
 POSTS = (
     #("posts/*.rst", "news", "post.tmpl"),
-    ("posts/*.md", "news", "post.tmpl"),
-    ("posts/*.txt", "news", "post.tmpl"),
-    ("posts/*.html", "news", "post.tmpl"),
+    ("news/*.md", "news", "post.tmpl"),
+    ("news/*.txt", "news", "post.tmpl"),
+    ("news/*.html", "news", "post.tmpl"),
 )
 PAGES = (
     #("pages/*.rst", "", "page.tmpl"),
