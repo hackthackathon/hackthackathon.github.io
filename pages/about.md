@@ -10,16 +10,17 @@
 -->
 
 <!-- Hero Section -->
-<section class="text-center py-5" id="about" style="background: url('https://picsum.photos/1200/400') center/cover no-repeat; background-color: rgba(0, 0, 0, 0.5); background-blend-mode: multiply; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw;">
-    <div class="container py-4 px-4">
-        <h1 style="color: white;">Hack the Hackathon</h1>
-        <p style="color: white;">An unconference series and interdisciplinary community exploring scientific collaboration, learning, and civic engagement through hackathons.</p>
+<section class="text-center py-5" id="about" style="background: url('https://picsum.photos/1200/600') center/cover no-repeat; background-color: rgba(0, 0, 0, 0.5); background-blend-mode: multiply; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; height: 60vh; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;">
+    <div class="container">
+        <h1 style="color: white; padding-bottom: 1rem;">Hack the Hackathon</h1>
+        <p style="color: white; padding: 1rem 2rem;">An unconference series and interdisciplinary community exploring scientific collaboration, learning, and civic engagement through hackathons.</p>
     </div>
 </section>
 
+
 <!-- What is... Section -->
-<section class="py-5 bg-light">
-    <div class="container py-4 px-4 text-center">
+<section class="py-5 bg-light" style="margin-bottom: 3rem;">
+    <div class="container text-center">
         <div class="row">
             <div class="col-md-6">
                 <h2>What is a Hackathon?</h2>
@@ -39,8 +40,8 @@
 </section>
 
 <!-- Support & Resources Section -->
-<section class="py-5" id="resources" style="background-color: #f4e7ed; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw;">
-    <div class="container py-4 px-4">
+<section class="py-5" id="resources" style="background-color: #f4e7ed; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+    <div class="container">
         <h2 class="text-center">Support & Resources</h2>
         <p>
             We provide resources for organizers of hackathons, researchers, and access to experience around organizing and researching hackathons. This support comes through our community and resources designed to share practical knowledge and insights.
@@ -60,8 +61,8 @@
 </section>
 
 <!-- Is This For Me Section -->
-<section class="py-5 bg-light" style="margin-top: 4rem;">
-    <div class="container py-4 px-4">
+<section class="py-5 bg-light" style="margin-bottom: 3rem;">
+    <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <img src="https://picsum.photos/600/400" alt="Is This For Me? Image" class="img-fluid rounded">
@@ -80,8 +81,8 @@
 
 
 <!-- Our Story Section -->
-<section class="py-5" id="story">
-    <div class="container py-4 px-4">
+<section class="py-5" id="story" style="margin-bottom: 3rem;">
+    <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <h2>Our Story</h2>
