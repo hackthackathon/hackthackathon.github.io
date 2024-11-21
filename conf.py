@@ -143,7 +143,15 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/about", "About"),
-        ("/events", "Events"),
+        (
+            (
+                ('/next-event', 'Next Event'),
+                ('/hth3', 'Hack the Hackathon 3'),
+                ('/hth2', 'Hack the Hackathon 2'),
+                ('/hth1', 'Hack the Hackathon 1'),
+            ),
+            'Events'
+        ),
         ("/community", "Community"),
         ("/resources", "Resources"),
         ("/join-us", "Join Us"),
