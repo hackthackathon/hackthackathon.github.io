@@ -25,7 +25,9 @@
       <td>Author A and Author B</td>
       <td>ME</td>
       <td>Fascinating Title 1</td>
-      <td>article</td>
+      <td>
+        <span class="tag article" onclick="applyTagFilter('article')">article</span>
+      </td>
       <td><a href="link-to-journal">link-to-journal</a></td>
       <td></td>
     </tr>
@@ -33,7 +35,10 @@
       <td>Organization X</td>
       <td>ME</td>
       <td>Framework xyz</td>
-      <td>framework, how to organize</td>
+      <td>
+        <span class="tag framework" onclick="applyTagFilter('framework')">framework</span>
+        <span class="tag organize" onclick="applyTagFilter('how to organize')">how to organize</span>
+      </td>
       <td></td>
       <td><a href="pdf-link-on-website">pdf-link-on-website</a></td>
     </tr>
@@ -41,35 +46,45 @@
       <td>Author B and Author C</td>
       <td>XYZ</td>
       <td>Another great title</td>
-      <td>article, how to organize</td>
+      <td>
+        <span class="tag article" onclick="applyTagFilter('article')">article</span>
+        <span class="tag organize" onclick="applyTagFilter('how to organize')">how to organize</span>
+      </td>
       <td><a href="link-to-xarchive">link-to-xarchive</a></td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
+<!-- Clear Filter Button -->
+  <button class="clear-filter" onclick="clearTagFilter()">Clear Filter</button>
+
 
 <!-- Include DataTables.js -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
-<script>
-  var newJQuery = jQuery.noConflict(true); // Release control of $ for old jQuery
-  newJQuery(document).ready(function() {
-    newJQuery('#resources').DataTable();
-  });
-</script>
 
 <script>
-  $(document).ready(function() {
-    console.log('jQuery version:', jQuery.fn.jquery); 
-    console.log('DataTables available:', typeof jQuery.fn.DataTable); 
-    console.log('Document ready, initializing DataTable...');
-    $('#resources').DataTable({
+  var newJQuery = jQuery.noConflict(true); 
+  newJQuery(document).ready(function() {
+    const table = newJQuery('#resources').DataTable({
       paging: true,
       searching: true,
       ordering: true,
       info: true
     });
+    
+    window.applyTagFilter = function (tagText) {
+      newJQuery('.tag').removeClass('active-tag'); 
+      newJQuery(`.tag:contains(${tagText})`).addClass('active-tag'); 
+
+      table.search(tagText).draw();
+    };
+
+    window.clearTagFilter = function () {
+      table.search('').draw(); 
+      newJQuery('.tag').removeClass('active-tag'); 
+    };
   });
 </script>
