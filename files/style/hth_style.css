@@ -10,3 +10,9 @@ a.navbar-brand {
 .footer-padding {
     padding: 3px;
 }
+
+td, th {
+    padding: 1em;
+    border: gray;
+    border-style: solid;
+}
