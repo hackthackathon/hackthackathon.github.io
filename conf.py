@@ -142,19 +142,19 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/about", "About"),
+        ("/about/index.html", "About"),
         (
             (
-                ('/events', 'Next Event'),
+                ('/events/index.html', 'Next Event'),
                 ('https://hackthackathon.github.io/hth3.html', 'Hack the Hackathon 3'),
                 ('https://indico.flatironinstitute.org/event/3157/', 'Hack the Hackathon 2'),
                 ('https://www.lorentzcenter.nl/hack-the-hackathon-shaping-the-future-of-hackathon-research-and-practice.html', 'Hack the Hackathon 1'),
             ),
             'Events'
         ),
-        ("/community", "Community"),
-        ("/resources", "Resources"),
-        ("/join-us", "Join Us"),
+        ("/community/index.html", "Community"),
+        ("/resources/index.html", "Resources"),
+        ("/join-us/index.html", "Join Us"),
     ),
 }
 
