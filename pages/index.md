@@ -15,27 +15,26 @@
 
 ---
 
-### Gallery
 <section class="text-center py-5" id="about" style="background: url('/images/hth4-participants.png') center/cover no-repeat; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; height: 60vh; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;">
 </section>
 ---
 
 ### Funders
-<section id="funders" class="py-5 bg-light">
+
+<section id="funders" class="py-5 bg-light" style="margin-bottom: 19px;">
     <div class="container text-center">
-        <h2 class="mb-4">Our Funders</h2>
         <div class="row justify-content-center">
             <div class="col-md-3 col-6 mb-4">
-                <img src="/images/biodatasage.png" alt="BioData Sage" class="img-fluid">
+                <img src="/images/biodatasage.png" alt="BioData Sage" class="img-fluid" style="height: 50px">
             </div>
             <div class="col-md-3 col-6 mb-4">
-                <img src="/images/nasa-grantee.png" alt="Nasa" class="img-fluid">
+                <img src="/images/nasa-grantee.png" alt="Nasa" class="img-fluid" style="height: 50px">
             </div>
             <div class="col-md-3 col-6 mb-4">
-                <img src="/images/scripps.png" alt="Scripps" class="img-fluid">
+                <img src="/images/scripps.png" alt="Scripps" class="img-fluid" style="height: 50px">
             </div>
             <div class="col-md-3 col-6 mb-4">
-                <img src="/images/sloan.png" alt="Sloan" class="img-fluid">
+                <img src="/images/sloan.png" alt="Sloan" class="img-fluid" style="height: 50px">
             </div>
         </div>
     </div>
