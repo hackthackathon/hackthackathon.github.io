@@ -176,6 +176,7 @@ article.post-micro {
 /* Custom page footer */
 #footer {
     padding-top: 19px;
+    padding-bottom: 9px;
     color: #777;
     border-top: 1px solid #e5e5e5;
 }
