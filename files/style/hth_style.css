@@ -1,0 +1,12 @@
+/* styles for HTH */
+
+a.navbar-brand {
+    position: abolute;
+    margin: 0;
+    top: 0;
+    width: 100px;
+}
+
+.footer-padding {
+    padding: 3px;
+}

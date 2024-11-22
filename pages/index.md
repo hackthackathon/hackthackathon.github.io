@@ -9,6 +9,12 @@
 .. type: text
 -->
 
-Write your page here.
+### Mission statement
 
-[news](news/)
+---
+
+### Gallery
+
+---
+
+### Funders
