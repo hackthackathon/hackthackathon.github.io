@@ -40,7 +40,7 @@
 </section>
 
 <!-- Support & Resources Section -->
-<section class="py-5" id="resources" style="background-color: #f4e7ed; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
     <div class="container">
         <h2 class="text-center mb-4">Support & Resources</h2>
         <p class="text-center mb-4">
