@@ -145,10 +145,10 @@ NAVIGATION_LINKS = {
         ("/about", "About"),
         (
             (
-                ('/next-event', 'Next Event'),
-                ('/hth3', 'Hack the Hackathon 3'),
-                ('/hth2', 'Hack the Hackathon 2'),
-                ('/hth1', 'Hack the Hackathon 1'),
+                ('/events', 'Next Event'),
+                ('https://hackthackathon.github.io/hth3.html', 'Hack the Hackathon 3'),
+                ('https://indico.flatironinstitute.org/event/3157/', 'Hack the Hackathon 2'),
+                ('https://www.lorentzcenter.nl/hack-the-hackathon-shaping-the-future-of-hackathon-research-and-practice.html', 'Hack the Hackathon 1'),
             ),
             'Events'
         ),
