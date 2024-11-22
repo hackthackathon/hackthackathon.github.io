@@ -40,25 +40,50 @@
 </section>
 
 <!-- Support & Resources Section -->
-<section class="py-5" id="resources" style="background-color: #f4e7ed; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
     <div class="container">
-        <h2 class="text-center">Support & Resources</h2>
-        <p>
+        <h2 class="text-center mb-4">Support & Resources</h2>
+        <p class="text-center mb-4">
             We provide resources for organizers of hackathons, researchers, and access to experience around organizing and researching hackathons. This support comes through our community and resources designed to share practical knowledge and insights.
         </p>
-        <div class="row text-center mt-4" style="margin-bottom: 2rem;">
+        <div class="row text-center" style="margin-bottom: 2rem;">
+            <!-- Card 1 -->
             <div class="col-md-4">
-                <button class="btn btn-primary w-100 py-3">Resource 1</button>
+                <div class="card">
+                    <img src="https://picsum.photos/300/200" class="card-img-top" alt="Resource 1 Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Resource 1</h5>
+                        <p class="card-text">Discover key tools and insights for successful hackathon organization.</p>
+                        <a href="#" style="color: #ff0123; text-decoration: underline; font-weight: bold;">Read More ></a>
+                    </div>
+                </div>
             </div>
+            <!-- Card 2 -->
             <div class="col-md-4">
-                <button class="btn btn-primary w-100 py-3">Resource 2</button>
+                <div class="card">
+                    <img src="https://picsum.photos/300/200" class="card-img-top" alt="Resource 2 Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Resource 2</h5>
+                        <p class="card-text">Explore research methodologies and case studies in hackathon contexts.</p>
+                        <a href="#" style="color: #ff0123; text-decoration: underline; font-weight: bold;">Read More ></a>
+                    </div>
+                </div>
             </div>
+            <!-- Card 3 -->
             <div class="col-md-4">
-                <button class="btn btn-primary w-100 py-3">Resource 3</button>
+                <div class="card">
+                    <img src="https://picsum.photos/300/200" class="card-img-top" alt="Resource 3 Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Resource 3</h5>
+                        <p class="card-text">Join our community for access to shared experiences and best practices.</p>
+                        <a href="#" style="color: #ff0123; text-decoration: underline; font-weight: bold;">Read More ></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
 
 <!-- Is This For Me Section -->
 <section class="py-5 bg-light" style="margin-bottom: 3rem;">
@@ -73,7 +98,18 @@
                     Do you have experience organizing or managing participant-driven events? Are you interested in studying how people collaborate?  
                     If yes, then join our community or attend our next event! If you’re interested in organizing an event, we offer resources and a supportive community of experienced individuals to help you succeed.
                 </p>
-                <a href="/join-us" class="btn btn-success">Join the Community</a>
+                <a href="/join-us/index.html" 
+                    style="color: #ff0123; 
+                           text-decoration: none; 
+                           font-weight: bold; 
+                           border: 2px solid #ff0123; 
+                           padding: 5px 10px; 
+                           display: inline-block; 
+                           transition: background-color 0.3s ease, color 0.3s ease;" 
+                    onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';" 
+                    onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';">
+                    Join the Community
+                 </a>
             </div>
         </div>
     </div>
@@ -92,7 +128,18 @@
                 <p>
                     Two separate groups were working on hackathon planning kits, both supported by funding from the Sloan Foundation. These groups were brought together, and the first Hack the Hackathon was born.
                 </p>
-                <a href="#organizers" class="btn btn-primary mt-3">Learn About Organizers</a>
+                <a href="#" 
+                    style="color: #ff0123; 
+                           text-decoration: none; 
+                           font-weight: bold; 
+                           border: 2px solid #ff0123; 
+                           padding: 5px 10px; 
+                           display: inline-block; 
+                           transition: background-color 0.3s ease, color 0.3s ease;" 
+                    onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';" 
+                    onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';">
+                    Meet the Team
+                 </a>
             </div>
             <div class="col-md-6">
                 <img src="https://picsum.photos/600/400" alt="Our Story Image" class="img-fluid rounded">
