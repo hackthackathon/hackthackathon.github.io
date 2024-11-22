@@ -16,3 +16,48 @@ td, th {
     border: gray;
     border-style: solid;
 }
+
+/*Tags in Resources*/
+.tag {
+    display: inline-block;
+    background-color: #e0f7fa;
+    color: #00796b;
+    padding: 0.2em 0.5em;
+    margin: 0.1em;
+    border-radius: 12px;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.tag.article {
+    background-color: #e3f2fd;
+    color: #1e88e5;
+}
+.tag.organize {
+    background-color: #e8f5e9;
+    color: #388e3c;
+}
+.tag.framework {
+    background-color: #fff3e0;
+    color: #f57c00;
+}
+.tag:hover {
+    opacity: 0.8;
+}
+.active-tag {
+    background-color: #00796b;
+    color: white;
+}
+
+/* Clear button in resources styling */
+.clear-filter {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.clear-filter:hover {
+    background-color: #e53935;
+}
