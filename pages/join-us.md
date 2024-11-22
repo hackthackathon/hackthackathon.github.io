@@ -9,4 +9,4 @@
 .. type: text
 -->
 
-Write your page here.
+The best way to join the community is to attend an [event](events/)! But failing that, you can join our Discord... as soon as we have the invite link here!
