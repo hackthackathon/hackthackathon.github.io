@@ -2203,6 +2203,21 @@ input, select, textarea {
 			width: 75%;
 		}
 
+	header.alt-major {
+		margin: 0 0 4em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		header.alt-major:after {
+			background: #1c1d26;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 20em;
+			width: 75%;
+		}
+
 	footer.major {
 		margin: 4em 0 0 0;
 	}
