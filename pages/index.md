@@ -15,7 +15,7 @@
 
 ---
 
-<section class="text-center py-5" id="about" style="background: url('/images/hth4-participants.png') center/cover no-repeat; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; height: 60vh; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;">
+<section class="text-center py-5" id="about" style="background: url('/images/hth4-participants-small.png') center/cover no-repeat; width: 100%; height: 30vh; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;">
 </section>
 ---
 
@@ -25,16 +25,16 @@
     <div class="container text-center">
         <div class="row justify-content-center">
             <div class="col-md-3 col-6 mb-4">
-                <img src="/images/biodatasage.png" alt="BioData Sage" class="img-fluid" style="height: 50px">
+                <img src="/images/biodatasage.png" alt="BioData Sage" class="img-fluid funder-logo" style="height: 50px">
             </div>
             <div class="col-md-3 col-6 mb-4">
-                <img src="/images/nasa-grantee.png" alt="Nasa" class="img-fluid" style="height: 50px">
+                <img src="/images/nasa-grantee.png" alt="Nasa" class="img-fluid funder-logo" style="height: 50px">
             </div>
             <div class="col-md-3 col-6 mb-4">
-                <img src="/images/scripps.png" alt="Scripps" class="img-fluid" style="height: 50px">
+                <img src="/images/scripps.png" alt="Scripps" class="img-fluid funder-logo" style="height: 50px">
             </div>
             <div class="col-md-3 col-6 mb-4">
-                <img src="/images/sloan.png" alt="Sloan" class="img-fluid" style="height: 50px">
+                <img src="/images/sloan.png" alt="Sloan" class="img-fluid funder-logo" style="height: 50px">
             </div>
         </div>
     </div>
