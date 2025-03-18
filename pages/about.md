@@ -10,10 +10,13 @@
 -->
 
 <!-- Hero Section -->
-<section class="text-center py-5" id="about" style="background: url('https://picsum.photos/1200/600') center/cover no-repeat; background-color: rgba(0, 0, 0, 0.5); background-blend-mode: multiply; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; height: 60vh; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;">
+<section class="text-center py-5" id="about"
+         style="background: url('https://picsum.photos/seed/825/1200/150?grayscale') center/cover no-repeat; background-color: rgba(0, 0, 0, 0.5);
+                 background-blend-mode: multiply; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; height: 15vh; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;"
+         xmlns="http://www.w3.org/1999/html">
     <div class="container">
         <h1 style="color: white; padding-bottom: 1rem;">Hack the Hackathon</h1>
-        <p style="color: white; padding: 1rem 2rem;">An unconference series and interdisciplinary community exploring scientific collaboration, learning, and civic engagement through hackathons.</p>
+        <h2 style="color: white; padding: 1rem 2rem;">An unconference series and interdisciplinary community exploring scientific collaboration, learning, and civic engagement through hackathons.</h2>
     </div>
 </section>
 
@@ -28,7 +31,7 @@
                     Hackathons are "time-bounded participant-driven events that are organized to foster specific goals or objectives. [...] People that participate in an event often have different backgrounds and bring different expertise. Their primary motivation to join an event is to work on a shared team project that interests them [...]. During the event, teams attempt to create an artifact that can be shared with other participants."
                 </p>
                 <blockquote class="blockquote">
-                    <p>Falk, J., Nolte, A., Huppenkothen, D., Weinzierl, M., et al. (2024). <em>The future of hackathon research and practice</em>. IEEE Access 12, 133406 - 133425.</p>
+                    <p style="margin-bottom: 1em; font-size: 0.75em; line-height: 1.5em;">Falk, J., Nolte, A., Huppenkothen, D., Weinzierl, M., Gama, K., Spikol, D., Tollerud, E., Chue Hong, N., Knäpper, I., &amp; Hayden, L. B. (2024). The future of hackathon research and practice. IEEE Access 12, 133406 - 133425. (<a href="https://hackathon-planning-kit.org/files/Falk-IEEEAccess-2024.pdf" target="_blank">PDF</a>)</p>
                 </blockquote>
             </div>
             <div class="col-md-6">
@@ -44,7 +47,8 @@
     <div class="container">
         <h2 class="text-center mb-4">Support & Resources</h2>
         <p class="text-center mb-4">
-            We provide resources for organizers of hackathons, researchers, and access to experience around organizing and researching hackathons. This support comes through our community and resources designed to share practical knowledge and insights.
+            We're collecting and curating resources for organizers of hackathons, researchers, and provide access to experience around organizing and researching hackathons. 
+            This support comes through our community and resources designed to share practical knowledge and insights.
         </p>
         <div class="row text-center" style="margin-bottom: 2rem;">
             <!-- Card 1 -->
