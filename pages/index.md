@@ -17,6 +17,7 @@
 
 <section class="text-center py-5" id="about" style="background: url('/images/hth4-participants-small.png') center/cover no-repeat; width: 100%; height: 30vh; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;">
 </section>
+
 ---
 
 ### Funders
