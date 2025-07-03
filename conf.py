@@ -148,7 +148,7 @@ NAVIGATION_LINKS = {
                 ('/events/index.html', 'Next Event'),
                 ('https://hackthackathon.github.io/hth3.html', 'Hack the Hackathon 3'),
                 ('https://indico.flatironinstitute.org/event/3157/', 'Hack the Hackathon 2'),
-                ('https://www.lorentzcenter.nl/hack-the-hackathon-shaping-the-future-of-hackathon-research-and-practice.html', 'Hack the Hackathon 1'),
+                ('/events/hth1/index.html', 'Hack the Hackathon 1'),
             ),
             'Events'
         ),
@@ -1276,7 +1276,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
-EXTRA_HEAD_DATA = "<link href=\"/style/hth_style.css\" rel=\"stylesheet\"><script src=\"https://use.fontawesome.com/releases/v5.12.1/js/all.js\" crossorigin=\"anonymous\"></script>"
+EXTRA_HEAD_DATA = "<link rel=\"icon\" href=\"/images/favicon.png\" type=\"image/png\"><link href=\"/style/hth_style.css\" rel=\"stylesheet\"><script src=\"https://use.fontawesome.com/releases/v5.12.1/js/all.js\" crossorigin=\"anonymous\"></script><link rel=\"stylesheet\" href=\"/academicons/css/academicons.min.css\"/>"
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)

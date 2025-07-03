@@ -1,6 +1,7 @@
 <!--
 .. title: About Us
 .. slug: about
+.. hide_title: false
 .. date: 2024-11-21 19:59:43 UTC
 .. tags: 
 .. category: 
