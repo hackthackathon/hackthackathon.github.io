@@ -16,7 +16,7 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "HtH Organizers"  # (translatable)
+BLOG_AUTHOR = "HTH Community"  # (translatable)
 BLOG_TITLE = "Hack the Hackathon"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
@@ -24,7 +24,7 @@ SITE_URL = "http://hackthehackathon.org/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://hackthehackathon.org/"
-BLOG_EMAIL = "n.tesla@example.com"
+BLOG_EMAIL = "contact@hackthehackathon.org"
 BLOG_DESCRIPTION = "Hack the Hackathon main web site"  # (translatable)
 
 # Nikola is multilingual!
