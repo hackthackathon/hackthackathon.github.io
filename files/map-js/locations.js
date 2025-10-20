@@ -3,6 +3,7 @@ const locations = [
   { name: "Antofagasta", lat: -23.703000, lng: -70.422200 },
   { name: "Baltimore", lat: 39.336600, lng: -76.630300 },
   { name: "Batavia", lat: 41.842300, lng: -88.245800 },
+  { name: "Béjaïa", lat: 36.770181, lng: 4.9245776 },
   { name: "Belém", lat: -1.467700, lng: -48.443500 },
   { name: "Bellingham", lat: 48.734100, lng: -122.487500 },
   { name: "Berkeley", lat: 37.875500, lng: -122.239100 },
@@ -24,6 +25,7 @@ const locations = [
   { name: "Elizabeth City", lat: 36.280100, lng: -76.213400 },
   { name: "Elsiesriver", lat: -33.932700, lng: 18.628600 },
   { name: "Evanston", lat: 42.055700, lng: -87.675300 },
+  { name: "Flagstaff", lat: 35.1827165, lng: -111.9248773 },
   { name: "Geneva", lat: 46.198600, lng: 6.151000 },
   { name: "Hanover", lat: 52.374500, lng: 9.738600 },
   { name: "Heidelberg", lat: 49.385200, lng: 8.709900 },
@@ -32,8 +34,11 @@ const locations = [
   { name: "Lemont", lat: 41.709100, lng: -87.978600 },
   { name: "Liberty", lat: 34.787000, lng: -82.693700 },
   { name: "London", lat: 51.524200, lng: -0.133000 },
-  { name: "Marseille", lat: 43.296200, lng: 5.370000 },
+  { name: "Madison", lat: 43.085255, lng: -89.5739569 },
+  { name: "Malmö", lat: 55.5689735, lng: 12.3922127 },
+  { name: "Manchester", lat: 53.4723364, lng: -2.3882697 },
   { name: "Montreal", lat: 45.503200, lng: -73.569800 },
+  { name: "Marseille", lat: 43.296200, lng: 5.370000 },
   { name: "Mountain View", lat: 37.389400, lng: -122.083200 },
   { name: "Muncie", lat: 40.209700, lng: -85.411200 },
   { name: "New York", lat: 40.712700, lng: -74.006000 },
@@ -53,6 +58,8 @@ const locations = [
   { name: "Tartu", lat: 58.381000, lng: 26.719600 },
   { name: "Tempe", lat: 33.421300, lng: -111.933200 },
   { name: "Toronto", lat: 43.663500, lng: -79.397800 },
+  { name: "Totnes", lat: 50.427284, lng: -3.7093583 },
   { name: "Trento", lat: 46.103000, lng: 11.129700 },
-  { name: "Urbana", lat: 40.076200, lng: -88.223300 }
+  { name: "Urbana", lat: 40.076200, lng: -88.223300 },
+  { name: "Zurich", lat: 47.3772515, lng: 8.2249106 }
 ];
