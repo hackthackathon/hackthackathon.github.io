@@ -81,3 +81,16 @@ td, th {
 .clear-filter:hover {
     background-color: #e53935;
 }
+
+.funder-logo {
+    color: rgb(34, 37, 41);
+    filter: grayscale(1);
+    max-height: 4em;
+    transition: 0.25s;
+    margin: 1em;
+}
+
+.funder-logo:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
