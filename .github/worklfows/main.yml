@@ -1,7 +1,9 @@
+name: Nikola Deploy
+
 on:
   push:
     branches:
-       - master
+       - main
 
 jobs:
   nikola_build:
