@@ -1,27 +1,19 @@
 <!--
 .. title: Community
 .. slug: community
+.. hide_title: false
 .. date: 2024-11-21 19:32:05 UTC
 .. tags: 
 .. category: 
 .. link: 
 .. description: 
 .. type: text
+.. extra_head: <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" /><link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" /><link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" /><script src="https://unpkg.com/leaflet/dist/leaflet.js"></script><script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script><script src="/map-js/locations.js"></script><script src="/map-js/renderMap.js"></script><style>#map {height: 600px; width: 100%;}</style>
 -->
 
-### This is where we are...
+## We are an international community...
 
-<section id="this-is-where-we-are" class="py-5 bg-light" style="margin-bottom: 19px;">
-    <div class="container text-center">
-        <div class="row justify-content-center">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <img src="/images/community-map.png" alt="Community Map" class="img-fluid" style="height: 400px; width: auto;">
-            </div>
-            <div class="col-md-1"></div>
-		</div>
-	</div>
-</section>
+<div id="map"></div><script>renderMap();</script>
 
 ---
 

@@ -1,6 +1,7 @@
 <!--
 .. title: Join Us
 .. slug: join-us
+.. hide_title: false
 .. date: 2024-11-21 19:32:16 UTC
 .. tags: 
 .. category: 

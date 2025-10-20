@@ -1,6 +1,7 @@
 <!--
 .. title: Resources
 .. slug: resources
+.. hide_title: false
 .. date: 2024-11-21 19:32:11 UTC
 .. tags: 
 .. category: 

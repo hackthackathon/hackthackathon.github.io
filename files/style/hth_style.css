@@ -17,6 +17,26 @@ td, th {
     border-style: solid;
 }
 
+/* sponsor logos */
+.logo {
+    color: #222529;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: 0.25s;
+    max-height: 4em;
+    margin: 1em;
+}
+
+.logo:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
+.logo-link {
+    border: 0;
+}
+
 /*Tags in Resources*/
 .tag {
     display: inline-block;
