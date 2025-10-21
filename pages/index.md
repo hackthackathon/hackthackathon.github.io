@@ -189,7 +189,16 @@
 ## Funders
 
 
-<!-- Horizontal hover slider -->
+<!-- Horizontal hover slider
+
+IMPORTANT NOTE:
+
+To add a new funder logo, you must:
+* add an <img src= ..."> command into the `slider-track`-div below
+* you must add this command *twice* as has been done with the other logos to ensure smooth scrolling
+* you must edit the `100% {transform : translateX(-5100px);}` command inside `keyframes scroll` by adding your image's width
+
+ -->
 <style>
 
 <style>
