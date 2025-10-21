@@ -1,20 +1,22 @@
 import requests
 import csv
 from datetime import datetime
+import os
 
-ACCESS_TOKEN = ''
+ACCESS_TOKEN = os.getenv('ACCESS_TOKEN')
+
 headers = {'Authorization': f'Bearer {ACCESS_TOKEN}'}
 
 def add_to_csv(resource, current_papers):
     print(current_papers['title'])
     if resource['title'] not in current_papers['title']:
-        with open('resources.csv', 'a', newline='') as csvfile:
+        with open('../files/docs/resources.csv', 'a', newline='') as csvfile:
             fieldnames = ['timestamp', 'added_by', 'author', 'title','type', 'where']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writerow(resource)
 
 
-with open('resources_2.csv', newline='') as csvfile:
+with open('../files/docs/resources.csv', newline='') as csvfile:
     reader = csv.reader(csvfile)
     csv_headers = next(reader)
     # transpose the data
@@ -61,8 +63,9 @@ for response in hits['hits']:
             resources.append(resource)
 
 print(resources)
-for x in resources:
-    with open('resources.csv', 'a+', newline='') as csvfile:
-        fieldnames = ['timestamp', 'added_by', 'author', 'title','type', 'where']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+with open('../files/docs/resources.csv', 'a+', newline='') as csvfile:
+    csvfile.write('\n')
+    fieldnames = ['timestamp', 'added_by', 'author', 'title','type', 'where']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    for x in resources:
         writer.writerow(x)

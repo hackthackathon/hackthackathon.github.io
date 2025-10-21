@@ -1,3 +1,5 @@
-Zeitstempel,Added By,Author/Creator,Title,Type,Where to find,"Resources - if you would like to share resources directly on the website, please share your email here and we will contact you"
-25.11.2024 16:31:43,Cleo,"Schulten, C., & Chounta, I. A.",How do we learn in and from Hackathons? A systematic literature review.,Article,https://link.springer.com/article/10.1007/s10639-024-12668-1,
-25.11.2024 16:34:11,Cleo,"Nolte, A., Hayden, L. B., & Herbsleb, J. D.",How to Support Newcomers in Scientific Hackathons - An Action Research Study on Expert Mentoring.,"Article, How to organize",https://hackathon-planning-kit.org/files/Nolte-CSCW-2020.pdf,
+timestamp,added_by,author,title,type,where
+25.11.2024 16:31:43,Cleo,"Schulten, C., & Chounta, I. A.",How do we learn in and from Hackathons? A systematic literature review.,Article,https://link.springer.com/article/10.1007/s10639-024-12668-1 
+25.11.2024 16:34:11,Cleo,"Nolte, A., Hayden, L. B., & Herbsleb, J. D.",How to Support Newcomers in Scientific Hackathons - An Action Research Study on Expert Mentoring.,"Article, How to organize",https://hackathon-planning-kit.org/files/Nolte-CSCW-2020.pdf 
+2025-10-21 14:03:48.347343,zenodo_script,"Affia, A., Gama, K., Herbsleb, J., & Nolte, A.","How to organize an in-person, online or hybrid hackathon - A revised planning kit","HtH, Report",https://doi.org/10.48550/arXiv.2008.08025 
+2025-10-21 14:03:48.347370,zenodo_script,"Nolte, A., Filippova, A., & Herbsleb, J.",A survey instrument for hackathon organizers and researchers,"HtH, Other",https://doi.org/10.5281/zenodo.14705828 
