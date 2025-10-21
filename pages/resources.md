@@ -13,11 +13,9 @@
   <thead>
     <tr>
       <th>Author/Creator</th>
-      <th>Added by</th>
       <th>Title</th>
       <th>Type</th>
       <th>Where to find</th>
-      <th>Resources right here</th>
     </tr>
   </thead>
   <tbody>
@@ -56,12 +54,10 @@
                     }).join(" "); 
 
                     table.row.add([
-                    cols[2],
-                    cols[1],  
+                    cols[2],  
                     cols[3], 
                     types,
                     cols[5] ? `<a href="${cols[5]}">LINK</a>` : "",
-                    cols[6] ? `<a href="${cols[6]}">LINK</a>` : "",
                     ]).draw();
                 });
                 table.columns.adjust();

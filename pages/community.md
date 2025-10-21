@@ -8,10 +8,12 @@
 .. link: 
 .. description: 
 .. type: text
-.. extra_head: <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" /><link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" /><link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" /><script src="https://unpkg.com/leaflet/dist/leaflet.js"></script><script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script><script src="/map-js/locations.js"></script><script src="/map-js/renderMap.js"></script><style>#map {height: 600px; width: 100%;}</style>
+.. extra_head: <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" /><link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" /><link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" /><script src="https://unpkg.com/leaflet/dist/leaflet.js"></script><script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script><script src="/map-js/locations.js"></script><script src="/map-js/renderMap.js"></script><style>#map {width: 100%; height: 60vh; max-height: 800px; min-height: 300px;}</style>
 -->
 
-## We are an international community...
+## Maybe we are close to you already?
+
+Our members are affiliated with institutions in many parts of the world. Below you find a map that shows where you can find us.
 
 <div id="map"></div><script>renderMap();</script>
 
@@ -30,3 +32,9 @@
 		</div>
 	</div>
 </section>
+
+---
+
+### Steering committee...
+
+Steering committee information goes here...
