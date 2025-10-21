@@ -1,3 +1,92 @@
-Zeitstempel,Added By,Author/Creator,Title,Type,Where to find,"Resources - if you would like to share resources directly on the website, please share your email here and we will contact you"
-25.11.2024 16:31:43,Cleo,"Schulten, C., & Chounta, I. A.",How do we learn in and from Hackathons? A systematic literature review.,Article,https://link.springer.com/article/10.1007/s10639-024-12668-1,
-25.11.2024 16:34:11,Cleo,"Nolte, A., Hayden, L. B., & Herbsleb, J. D.",How to Support Newcomers in Scientific Hackathons - An Action Research Study on Expert Mentoring.,"Article, How to organize",https://hackathon-planning-kit.org/files/Nolte-CSCW-2020.pdf,
+timestamp,added_by,author,title,type,where
+25.11.2024 16:31:43,Cleo,"Schulten, C., & Chounta, I. A.",How do we learn in and from Hackathons? A systematic literature review.,Article,https://link.springer.com/article/10.1007/s10639-024-12668-1 
+25.11.2024 16:34:11,Cleo,"Nolte, A., Hayden, L. B., & Herbsleb, J. D.",How to Support Newcomers in Scientific Hackathons - An Action Research Study on Expert Mentoring.,"Article, How to organize",https://hackathon-planning-kit.org/files/Nolte-CSCW-2020.pdf 
+2025-10-21 14:03:48.347343,zenodo_script,"Affia, A., Gama, K., Herbsleb, J., & Nolte, A.","How to organize an in-person, online or hybrid hackathon - A revised planning kit","HtH, Report",https://doi.org/10.48550/arXiv.2008.08025 
+2025-10-21 14:03:48.347370,zenodo_script,"Nolte, A., Filippova, A., & Herbsleb, J.",A survey instrument for hackathon organizers and researchers,"HtH, Other",https://doi.org/10.5281/zenodo.14705828 
+2025-10-21 15:16:19.652537,Oleg Lavrovsky,Park et al.,Healthcare hackathons as open innovation,Journal,https://www.nature.com/articles/s44222-023-00070-4
+2025-10-21 15:16:19.652574,Oleg Lavrovsky,Simonofski et al.,"Participation in Hackathons: A Multi-methods View on Motivators, Demotivators and Citizen Participation",Other,http://link.springer.com/10.1007/978-3-030-50316-1_14
+2025-10-21 15:16:19.652578,Oleg Lavrovsky,Barana et al.,Driving International Collaboration Beyond Boundaries Through Hackathons: A Comparative Analysis of Four Hackathon Setups,Journal,https://www.mdpi.com/2078-2489/16/6/488
+2025-10-21 15:16:19.652580,Oleg Lavrovsky,Oyetade et al.,Educational benefits of hackathon: A systematic literature review,Journal,https://un-pub.eu/ojs/index.php/wjet/article/view/7131
+2025-10-21 15:16:19.652583,Oleg Lavrovsky,Arter et al.,Development and Implementation of a Policy Hackathon to Address Nursing Staffing Issues,Journal,https://journals.sagepub.com/doi/10.1177/15271544251317196
+2025-10-21 15:16:19.652586,Oleg Lavrovsky,Flus et al.,Presenting Hackathon Data for Design Research: A Transcript Dataset,Journal,https://asmedigitalcollection.asme.org/mechanicaldesign/article/147/4/044506/1212561/Presenting-Hackathon-Data-for-Design-Research-A
+2025-10-21 15:16:19.652588,Oleg Lavrovsky,Frid et al.,Bridging generative AI and healthcare practice: insights from the GenAI Health Hackathon at Hospital Clínic de Barcelona,Journal,https://informatics.bmj.com/lookup/doi/10.1136/bmjhci-2025-101640
+2025-10-21 15:16:19.652591,Oleg Lavrovsky,Valentine and Robertson-Anderson,Hacktive Matter: data-driven discovery through hackathon-based cross-disciplinary coding,Other,https://arxiv.org/abs/2505.01365
+2025-10-21 15:16:19.652593,Oleg Lavrovsky,Basit et al.,QHackBench: Benchmarking Large Language Models for Quantum Code Generation Using PennyLane Hackathon Challenges,Other,http://arxiv.org/abs/2506.20008
+2025-10-21 15:16:19.652597,Oleg Lavrovsky,Devare,Amalgamation of Indirect Gamification into Development and Operations (DEVOPS) Course Teaching,Journal,https://arxiv.org/abs/2204.04659
+2025-10-21 15:16:19.652599,Oleg Lavrovsky,Popoola,Empirical Analysis of Pull Requests for Google Summer of Code,Other,https://arxiv.org/abs/2412.13120
+2025-10-21 15:16:19.652601,Oleg Lavrovsky,Iwami,A Methodology to Categorize Rapidly Changing Projects of Open Source Software,Other,https://ieeexplore.ieee.org/document/9882581/
+2025-10-21 15:16:19.652608,Oleg Lavrovsky,Szabó,Software Evolution and Profiling in a Competitive Environment,Other,https://ieeexplore.ieee.org/document/8756783/
+2025-10-21 15:16:19.652610,Oleg Lavrovsky,Ege et al.,The TrollLabs open hackathon dataset: Generative AI and large language models for prototyping in engineering design,Journal,https://linkinghub.elsevier.com/retrieve/pii/S2352340924003019
+2025-10-21 15:16:19.652612,Oleg Lavrovsky,Law et al.,"The role of generative <span style=""font-variant:small-caps;"">AI</span> in collaborative problem‐solving of authentic challenges",Journal,https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.70010
+2025-10-21 15:16:19.652615,Oleg Lavrovsky,Ege et al.,Benchmarking AI design skills: insights from ChatGPT's participation in a prototyping hackathon,Journal,https://www.cambridge.org/core/product/identifier/S2732527X24002025/type/journal_article
+2025-10-21 15:16:19.652618,Oleg Lavrovsky,Gama et al.,A Hackathon Methodology for Undergraduate Course Projects,Other,https://ieeexplore.ieee.org/document/8659264
+2025-10-21 15:16:19.652621,Oleg Lavrovsky,Larsen-Disney and Van Den Poel,The Hackathon Survival Guide,Book,https://www.hackathonsurvivalguide.com/
+2025-10-21 15:16:19.652623,Oleg Lavrovsky,Garfield,Why Your Company Should Invest In Hackathons,Other,https://www.forbes.com/councils/forbestechcouncil/2023/05/03/why-your-company-should-invest-in-hackathons/
+2025-10-21 15:16:19.652626,Oleg Lavrovsky,Kienzler and Fontanesi,Learning through inquiry: a Global Health Hackathon,Journal,https://www.tandfonline.com/doi/full/10.1080/13562517.2016.1221805
+2025-10-21 15:16:19.652628,Oleg Lavrovsky,Massari et al.,Hackathon,Other,https://www.transcript-open.de/doi/10.14361/9783839463475-019
+2025-10-21 15:16:19.652631,Oleg Lavrovsky,Miličević et al.,Academic performance indicators for the hackathon learning approach – The case of the blockchain hackathon,Journal,http://www.sciencedirect.com/science/article/pii/S2444569X24000404
+2025-10-21 15:16:19.652633,Oleg Lavrovsky,Gasser,Coding Dürer: International Interdisciplinary Hackathon for Art History and Information Science,Journal,https://journals.ub.uni-heidelberg.de/index.php/dah/article/view/49918
+2025-10-21 15:16:19.652636,Oleg Lavrovsky,Zeni et al.,Improving time use measurement with personal big data collection -- the experience of the European Big Data Hackathon 2019,Other,http://arxiv.org/abs/2004.11940
+2025-10-21 15:16:19.652639,Oleg Lavrovsky,Barandiaran et al.,"Decidim, a Technopolitical Network for Participatory Democracy: Philosophy, Practice and Autonomy of a Collective Platform in the Age of Digital Intelligence",Book,https://link.springer.com/10.1007/978-3-031-50784-7
+2025-10-21 15:16:19.652650,Oleg Lavrovsky,Nina Komadina,From Coding Marathons to Corporate Strategy: The Evolution of Hackathons,Other,https://datahub.io/blog/from-coding-marathons-to-corporate-strategy-the-evolution-of-hackathons
+2025-10-21 15:16:19.652653,Oleg Lavrovsky,Heller et al.,Hack your organizational innovation: literature review and integrative model for running hackathons,Journal,https://innovation-entrepreneurship.springeropen.com/articles/10.1186/s13731-023-00269-0
+2025-10-21 15:16:19.652655,Oleg Lavrovsky,Falk et al.,How Do Hackathons Foster Creativity? Towards AI Collaborative Evaluation of Creativity at Scale,Other,http://arxiv.org/abs/2503.04290
+2025-10-21 15:16:19.652658,Oleg Lavrovsky,Razzak et al.,Knowledge Management in Distributed Agile Software Development Projects,Other,http://link.springer.com/10.1007/978-3-319-28868-0_7
+2025-10-21 15:16:19.652662,Oleg Lavrovsky,Samochowiec,Future Skills – Four scenarios for the world of tomorrow,Other,https://gdi.ch/en/publications/studies/future-skills-pdf-2020-e?page=2#attr=
+2025-10-21 15:16:19.652665,Oleg Lavrovsky,Zimmermann et al.,Reflections from the 2024 Large Language Model (LLM) Hackathon for Applications in Materials Science and Chemistry,Other,http://arxiv.org/abs/2411.15221
+2025-10-21 15:16:19.652667,Oleg Lavrovsky,Ryś,Discovering Sources and Approaches in Financing Hackathons,Journal,https://sciendo.com/article/10.2478/fiqf-2024-0026
+2025-10-21 15:16:19.652670,Oleg Lavrovsky,Emmanouil et al.,Maximising Hackathon Impact: A Comprehensive Framework for Sustaining Post-Event Outcome,Journal,https://papers.academic-conferences.org/index.php/ecie/article/view/2798
+2025-10-21 15:16:19.652673,Oleg Lavrovsky,Adinda et al.,Educational hackathon: preparing students for collaborative competency,Journal,https://www.tandfonline.com/doi/full/10.1080/03055698.2024.2369868
+2025-10-21 15:16:19.652675,Oleg Lavrovsky,Fanelli et al.,AI4EIC Hackathon: PID with the ePIC dRICH,Journal,https://www.epj-conferences.org/articles/epjconf/abs/2024/05/epjconf_chep2024_08004/epjconf_chep2024_08004.html
+2025-10-21 15:16:19.652678,Oleg Lavrovsky,LIVE IT Project,Summative evaluation of LIVE IT 'hackathons',Other,https://zenodo.org/record/7230010
+2025-10-21 15:16:19.652681,Oleg Lavrovsky,Irani,Hackathons and the Making of Entrepreneurial Citizenship,Journal,https://doi.org/10.1177/0162243915578486
+2025-10-21 15:16:19.652685,Oleg Lavrovsky,Li,Hackathon Projects dataset on HuggingFace,Other,https://huggingface.co/datasets/alvanlii/devpost-hackathon-projects
+2025-10-21 15:16:19.652688,Oleg Lavrovsky,Maillart et al.,"Computational Diplomacy: How ""hackathons for good"" feed a participatory future for multilateralism in the digital age",Journal,http://arxiv.org/abs/2410.03286
+2025-10-21 15:16:19.652690,,Paganini and Gama,Engaging Women’s Participation in Hackathons: A Qualitative Study with Participants of a Female-focused Hackathon,Other,https://dl.acm.org/doi/10.1145/3409456.3409458
+2025-10-21 15:16:19.652693,,Paganini et al.,Promoting Game Jams and Hackathons as more Women-Inclusive Environments for Informal Learning,Other,https://ieeexplore.ieee.org/abstract/document/9637301
+2025-10-21 15:16:19.652696,,Paganini et al.,Opportunities and constraints of women-focused online hackathons,Other,https://ieeexplore.ieee.org/abstract/document/10213437
+2025-10-21 15:16:19.652698,Oleg Lavrovsky,Pass,How to Organize a Successful Hackathon (With a Template),Other,https://medium.com/scoro-engineering/how-to-organize-a-successful-hackathon-with-a-template-220a8e439431
+2025-10-21 15:16:19.652701,Oleg Lavrovsky,Poder,An Expandable Explanation into Hackathon Organizing,Other,https://hackclub.com/how-to-organize-a-hackathon/
+2025-10-21 15:16:19.652704,Oleg Lavrovsky,Attalah et al.,Who captures value from hackathons? Innovation contests with collective intelligence tools bridging creativity and coupled open innovation,Journal,https://onlinelibrary.wiley.com/doi/abs/10.1111/caim.12552
+2025-10-21 15:16:19.652706,Oleg Lavrovsky,Kumar,Birth of Document360 - Planning & Hackathon Experience,Other,https://document360.com/blog/birth-of-document360-inside-story-behind-14-days-hackathon/
+2025-10-21 15:16:19.652709,Oleg Lavrovsky,Uemura,Interview with Henning Brauer,Journal,https://undeadly.org/cgi?action=article&sid=20101115091138
+2025-10-21 15:16:19.652714,Oleg Lavrovsky,Badger,Are Civic Hackathons Stupid?,Other,https://www.bloomberg.com/news/articles/2013-07-05/are-civic-hackathons-stupid
+2025-10-21 15:16:19.652717,Oleg Lavrovsky,Faludi,Hack for impact – sociomateriality and the emergent structuration of social hackathons,Journal,https://www.emerald.com/insight/content/doi/10.1108/JOE-12-2022-0036/full/html
+2025-10-21 15:16:19.652720,Oleg Lavrovsky,Förschler and Decuypere,"Where are we heading? Hackathons as a new, relational form of policymaking",Journal,https://www.tandfonline.com/doi/full/10.1080/02680939.2024.2313199
+2025-10-21 15:16:19.652724,Oleg Lavrovsky,Oyetade et al.,Evaluation of the impact of hackathons in education,Journal,https://www.tandfonline.com/doi/full/10.1080/2331186X.2024.2392420
+2025-10-21 15:16:19.652726,Oleg Lavrovsky,Le,A New Place to Work and Play: Play Labor and the Production of the New Worker-Subject at Hackathons,Journal,https://academiccommons.columbia.edu/doi/10.7916/D8348XXN
+2025-10-21 15:16:19.652729,Oleg Lavrovsky,Stoltzfus et al.,Community and Code: Nine Lessons from Nine NESCent Hackathons,Journal,https://f1000research.com/articles/6-786/v1
+2025-10-21 15:16:19.652732,Oleg Lavrovsky,Alberts and Oldenziel,Hacking Europe: From Computer Cultures to Demoscenes,Book,https://link.springer.com/10.1007/978-1-4471-5493-8
+2025-10-21 15:16:19.652734,Oleg Lavrovsky,Wilkie,Empowering software engineering teams through the power of co-discovery and co-creation,Other,https://medium.com/@phanwilkie/empowering-software-engineering-teams-through-the-power-of-co-discovery-and-co-creation-314ef2c01a58
+2025-10-21 15:16:19.652739,Oleg Lavrovsky,Kohne and Wehmeier,Hackathons: Von der Idee zur erfolgreichen Umsetzung,Book,http://link.springer.com/10.1007/978-3-658-26028-6
+2025-10-21 15:16:19.652743,Oleg Lavrovsky,Falk et al.,The Future of Hackathon Research and Practice,Journal,https://ieeexplore.ieee.org/document/10666667
+2025-10-21 15:16:19.652746,Oleg Lavrovsky,Samochowiec et al.,The New Volunteers – The Future of civic participation,Other,https://gdi.ch/en/publications/studies/the-new-volunteers-pdf-2018-e?page=3#attr=
+2025-10-21 15:16:19.652749,Oleg Lavrovsky,Affia et al.,Developing and Evaluating a Hackathon Approach to Foster Cyber Security Learning,Other,https://link.springer.com/10.1007/978-3-030-58157-2_1
+2025-10-21 15:16:19.652754,Oleg Lavrovsky,Roberts,Creating Data Art: Authentic Learning and Visualisation Exhibition,Other,http://arxiv.org/abs/2408.07590
+2025-10-21 15:16:19.652760,Oleg Lavrovsky,Ibrahim et al.,Beyond static AI evaluations: advancing human interaction evaluations for LLM harms and risks,Other,http://arxiv.org/abs/2405.10632
+2025-10-21 15:16:19.652764,Oleg Lavrovsky,Gupta,Integrating Ideation and Hackathons for Business Model Innovation: 360-Degree Approach,Other,https://link.springer.com/10.1007/978-3-031-19741-3_7
+2025-10-21 15:16:19.652768,Oleg Lavrovsky,Temiz,Open Innovation via Crowdsourcing: A Digital Only Hackathon Case Study from Sweden,Journal,https://linkinghub.elsevier.com/retrieve/pii/S2199853122008083
+2025-10-21 15:16:19.652772,Oleg Lavrovsky,Jaribion et al.,Crowdsourcing Properties and Mechanisms of Mega Hackathons: The Case of Junction,Journal,https://ieeexplore.ieee.org/document/9453857/
+2025-10-21 15:16:19.652776,Oleg Lavrovsky,Valjamae et al.,The BrainHack Project: Exploring Art - BCI Hackathons,Other,https://dl.acm.org/doi/10.1145/3038439.3038447
+2025-10-21 15:16:19.652780,Oleg Lavrovsky,Taylor,There Is an App for That: Technological Solutionism as COVID-19 Policy in the Global North,Other,https://link.springer.com/10.1007/978-3-030-65355-2_30
+2025-10-21 15:16:19.652784,Oleg Lavrovsky,D'Ignazio et al.,"""The Personal is Political"": Hackathons as Feminist Consciousness Raising",Journal,https://dl.acm.org/doi/10.1145/3415221
+2025-10-21 15:16:19.652788,Oleg Lavrovsky,Madianou,Technocolonialism: Digital Innovation and Data Practices in the Humanitarian Response to Refugee Crises,Journal,http://journals.sagepub.com/doi/10.1177/2056305119863146
+2025-10-21 15:16:19.652791,Oleg Lavrovsky,Austin,Should you enter a Hackathon?,Journal,https://medium.com/@Andrew-Austin/should-you-enter-a-hackathon-6aa4df501d26
+2025-10-21 15:16:19.652796,Oleg Lavrovsky,Hope et al.,Hackathons as Participatory Design: Iterating Feminist Utopias,Other,https://dl.acm.org/doi/10.1145/3290605.3300291
+2025-10-21 15:16:19.652801,Oleg Lavrovsky,Chan and Goldstein,Engagement in Practice: Social Performance and Harm in Civic Hackathons,Other,http://peer.asee.org/37043
+2025-10-21 15:16:19.652807,Oleg Lavrovsky,Briscoe,Digital Innovation: The Hackathon Phenomenon,Journal,https://www.semanticscholar.org/paper/Digital-Innovation%3A-The-Hackathon-Phenomenon-Briscoe/cb8e44ec1bcd6062e5fccafb6837030be334731d
+2025-10-21 15:16:19.652813,Oleg Lavrovsky,Bulathwela et al.,"Artificial Intelligence Alone Will Not Democratise Education: On Educational Inequality, Techno-Solutionism and Inclusive Tools",Journal,https://www.mdpi.com/2071-1050/16/2/781
+2025-10-21 15:16:19.652817,Oleg Lavrovsky,Hou and Wang,Hacking with NPOs: Collaborative Analytics and Broker Roles in Civic Data Hackathons,Journal,https://dl.acm.org/doi/10.1145/3134688
+2025-10-21 15:16:19.652822,Oleg Lavrovsky,Taylor and Clarke,Everybody's Hacking: Participation and the Mainstreaming of Hackathons,Other,https://dl.acm.org/doi/10.1145/3173574.3173746
+2025-10-21 15:16:19.652827,Oleg Lavrovsky,Endrissat and Islam,"Hackathons as Affective Circuits: Technology, organizationality and affect",Journal,http://journals.sagepub.com/doi/10.1177/01708406211053206
+2025-10-21 15:16:19.652832,Oleg Lavrovsky,Schulten and Chounta,How do we learn in and from Hackathons? A systematic literature review,Journal,https://link.springer.com/10.1007/s10639-024-12668-1
+2025-10-21 15:16:19.652894,Oleg Lavrovsky,Szymanska et al.,The Effects of Hackathons on the Entrepreneurial Skillset and Perceived Self-Efficacy as Factors Shaping Entrepreneurial Intentions,Journal,https://www.mdpi.com/2076-3387/10/3/73
+2025-10-21 15:16:19.652993,Oleg Lavrovsky,Lombard et al.,Play and work for greater good: the case of hackathons,Journal,https://www.ssrn.com/abstract=4783197
+2025-10-21 15:16:19.653001,Oleg Lavrovsky,Sajja et al.,"Integrating Generative AI in Hackathons: Opportunities, Challenges, and Educational Implications",Other,http://arxiv.org/abs/2401.17434
+2025-10-21 15:16:19.653007,Oleg Lavrovsky,Birbeck et al.,Self Harmony: Rethinking Hackathons to Design and Critique Digital Technologies for Those Affected by Self-Harm,Other,https://dl.acm.org/doi/10.1145/3025453.3025931
+2025-10-21 15:16:19.653011,Oleg Lavrovsky,Mendes et al.,Socio-technical Constraints and Affordances of Virtual Collaboration - A Study of Four Online Hackathons,Journal,https://dl.acm.org/doi/10.1145/3555221
+2025-10-21 15:16:19.653015,Oleg Lavrovsky,Wang et al.,Institutionalizing healthcare hackathons to promote diversity in collaboration in medicine,Journal,https://doi.org/10.1186/s12909-018-1385-x
+2025-10-21 15:16:19.653018,Oleg Lavrovsky,Imam and Dey,Tracking Hackathon Code Creation and Reuse,Other,https://ieeexplore.ieee.org/abstract/document/9463076/
+2025-10-21 15:16:19.653022,Oleg Lavrovsky,Tucci et al.,Translating Science Into Business Innovation: The Case of Open Food and Nutrition Data Hackathons,Journal,https://www.frontiersin.org/article/10.3389/fnut.2018.00096/full
+2025-10-21 15:16:19.653026,Oleg Lavrovsky,Trinaistic,Hackathons as Instruments for Settlement Sector Innovation,Journal,https://www.jstor.org/stable/48645213
+2025-10-21 15:51:46.471149,Oleg Lavrovsky,Araújo et al.,Can participation in a hackathon impact the motivation of software engineering students? A preliminary case study analysis,Other,http://arxiv.org/abs/2402.05339
