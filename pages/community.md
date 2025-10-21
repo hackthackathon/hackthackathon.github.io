@@ -37,4 +37,60 @@ Our members are affiliated with institutions in many parts of the world. Below y
 
 ### Steering committee...
 
-Steering committee information goes here...
+<!-- Support & Resources Section -->
+<section class="py-5" id="resources" style="margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+    <div class="container">
+        <div class="row text-center" style="margin-bottom: 2rem;">
+            <!-- Allissa -->
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="/images/steeringcommittee/allissa.png" class="card-img-top" alt="Allissa Dillman" style="height: 150px; width: auto;">
+                    <div class="card-body">
+                        <h4 class="card-title" style="font-weight: bold">Allissa Dillman</h4>
+                        <p class="card-text">I am...</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Joseph -->
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="/images/steeringcommittee/joseph.jpg" class="card-img-top" alt="Joseph Gum" style="height: 150px;">
+                    <div class="card-body">
+                        <h4 class="card-title" style="font-weight: bold">Joseph Gum</h4>
+                        <p class="card-text">I am...</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Daniela -->
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="/images/steeringcommittee/daniela.jpg" class="card-img-top" alt="Daniela Huppenkothen" style="height: 150px;">
+                    <div class="card-body">
+                        <h4 class="card-title" style="font-weight: bold">Daniela Huppenkothen</h4>
+                        <p class="card-text">I am...</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Cecilia -->
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="/images/steeringcommittee/cecilia.jpeg" class="card-img-top" alt="Cecilia La Place" style="height: 150px;">
+                    <div class="card-body">
+                        <h4 class="card-title" style="font-weight: bold">Cecilia La Place</h4>
+                        <p class="card-text">I am...</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Alex -->
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="/images/steeringcommittee/alex.jpg" class="card-img-top" alt="Alexander Nolte" style="height: 150px;">
+                    <div class="card-body">
+                        <h4 class="card-title" style="font-weight: bold">Alexander Nolte</h4>
+                        <p class="card-text">I am...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
