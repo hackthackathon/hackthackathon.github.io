@@ -62,7 +62,6 @@ for response in hits['hits']:
             resource = {'timestamp': datetime.now(), 'added_by': 'zenodo_script', 'author': author_names, 'title': title, 'type': type, 'where': link}
             resources.append(resource)
 
-print(resources)
 with open('../files/docs/resources.csv', 'a+', newline='') as csvfile:
     csvfile.write('\n')
     fieldnames = ['timestamp', 'added_by', 'author', 'title','type', 'where']
