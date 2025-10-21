@@ -28,6 +28,28 @@ Our members are affiliated with institutions in many parts of the world. Below y
             <div class="col-md-10">
                 <img src="/images/community-domains.png" alt="Community Domains" class="img-fluid" style="height: 400px; width: auto;">
             </div>
+            <div class="col-md-10">
+                <img src="/images/Research_Areas.gif" alt="Community Domains" class="img-fluid" style="height: 400px; width: auto;">
+            </div>
+            <div class="col-md-10">
+                <img src="/images/Researcher_v_Organizer.gif" alt="Community Domains" class="img-fluid" style="height: 400px; width: auto;">
+            </div>
+            <div class="col-md-1"></div>
+		</div>
+	</div>
+</section>
+
+---
+
+### Continued participation
+
+<section id="this-is-what-we-do" class="py-5 bg-light" style="margin-bottom: 19px;">
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <img src="/images/continued_participation.png" alt="Community Domains" class="img-fluid" style="height: 400px; width: auto;">
+            </div>
             <div class="col-md-1"></div>
 		</div>
 	</div>
