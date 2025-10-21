@@ -41,6 +41,7 @@ Our members are affiliated with institutions in many parts of the world. Below y
 <section class="py-5" id="resources" style="margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
     <div class="container">
         <div class="row text-center" style="margin-bottom: 2rem;">
+            <div class="col-md-1"></div>
             <!-- Allissa -->
             <div class="col-md-2">
                 <div class="card">
@@ -91,6 +92,7 @@ Our members are affiliated with institutions in many parts of the world. Below y
                     </div>
                 </div>
             </div>
+            <div class="col-md-1"></div>
         </div>
     </div>
 </section>
