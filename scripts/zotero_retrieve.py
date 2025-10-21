@@ -8,7 +8,6 @@ GROUP_ID = '5538025'
 resources = []
 titles = []
 
-r = requests.get(f'https://api.zotero.org/groups/{GROUP_ID}/items', params={'limit': '100'}, headers=headers)
 with open('../files/docs/resources.csv', newline='') as csvfile:
     reader = csv.reader(csvfile)
     csv_headers = next(reader)
@@ -18,36 +17,47 @@ with open('../files/docs/resources.csv', newline='') as csvfile:
     # create a dictionary by combining the headers with the data
     d = dict(zip(csv_headers, csv_data))
 
-responses = r.json()
-for response in responses:
-    data = response['data']
-    if 'title' in data:
-        title = data['title']
-    else:
-        continue
-    if title in d['title']:
-        continue
-    if title in titles:
-        continue
-    titles.append(title)
-    if 'creatorSummary' in response['meta']:
-        authors = response['meta']['creatorSummary']
-    else:
-        continue
-    resource = ''
-    if 'url' in data:
-        resource = data['url']
-    else:
-        if 'DOI' in data:
-            resource = data['DOI']
-    type = 'Other'
-    if data['itemType'] == 'journalArticle':
-        type = 'Journal'
-    if data['itemType'] == 'book':
-        type = 'Book'
-    added_by = response['meta']['createdByUser']['name']
-    resource = {'timestamp': datetime.now(), 'added_by': added_by, 'author': authors, 'title': title, 'type': type, 'where': resource}
-    resources.append(resource)
+def make_request(url):
+    r = requests.get(url, params={'limit': '100'}, headers=headers)
+    responses = r.json()
+    for response in responses:
+        data = response['data']
+        if 'title' in data:
+            title = data['title']
+        else:
+            continue
+        if title in d['title']:
+            continue
+        if title in titles:
+            continue
+        titles.append(title)
+        if 'creatorSummary' in response['meta']:
+            authors = response['meta']['creatorSummary']
+        else:
+            continue
+        resource = ''
+        if 'url' in data:
+            resource = data['url']
+        else:
+            if 'DOI' in data:
+                resource = data['DOI']
+        type = 'Other'
+        if data['itemType'] == 'journalArticle':
+            type = 'Journal'
+        if data['itemType'] == 'book':
+            type = 'Book'
+        added_by = response['meta']['createdByUser']['name']
+        resource = {'timestamp': datetime.now(), 'added_by': added_by, 'author': authors, 'title': title, 'type': type, 'where': resource}
+        resources.append(resource)
+    return r
+
+request_url = f'https://api.zotero.org/groups/{GROUP_ID}/items'
+r = make_request(request_url)
+
+if 'url' in r.links.get('next'):
+    print(r.links['next']['url'])
+    r = make_request(r.links['next']['url'])
+
 
 with open('../files/docs/resources.csv', 'a+', newline='') as csvfile:
     csvfile.write('\n')
