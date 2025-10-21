@@ -8,6 +8,11 @@
 .. link: 
 .. description: 
 .. type: text
+.. extra_head_data:
+   <link rel="stylesheet" href="/assets/css/slider.css">
+   <script src="/assets/js/siema.min.js"></script>
+   <script src="/assets/js/slider.js" defer></script>
+
 -->
 
 > Hack the Hackathon is a global community of hackathon organizers, participants, and researchers. We come from many corners of society, including academia, industry, non-profits, and government organizations. What unites us is a deep curiosity about how humans collaborate and build things together and the belief that hackathons and similar events can help us solve important societal and scientific problems and that they can aid us in creating supportive and equitable communities around shared challenges.
@@ -21,32 +26,10 @@
 
 ---
 
-### Funders
-
-<section id="funders" class="py-5 bg-light" style="margin-bottom: 19px;">
-    <div class="container text-center">
-        <div class="row justify-content-center">
-            <div class="col-md-3 col-6 mb-4">
-                <img src="/images/biodatasage.png" alt="BioData Sage" class="img-fluid funder-logo" style="height: 50px">
-            </div>
-            <div class="col-md-3 col-6 mb-4">
-                <img src="/images/nasa-grantee.png" alt="Nasa" class="img-fluid funder-logo" style="height: 50px">
-            </div>
-            <div class="col-md-3 col-6 mb-4">
-                <img src="/images/scripps.png" alt="Scripps" class="img-fluid funder-logo" style="height: 50px">
-            </div>
-            <div class="col-md-3 col-6 mb-4">
-                <img src="/images/sloan.png" alt="Sloan" class="img-fluid funder-logo" style="height: 50px">
-            </div>
-        </div>
-    </div>
-</section>
-
-
 <!-- Hero Section -->
 <section class="text-center py-5" id="about"
          style="background: url('https://picsum.photos/seed/825/1200/150?grayscale') center/cover no-repeat; background-color: rgba(0, 0, 0, 0.5);
-                 background-blend-mode: multiply; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; height: 15vh; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;"
+                 background-blend-mode: multiply; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; height: auto; min-height:25vw; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;"
          xmlns="http://www.w3.org/1999/html">
     <div class="container">
         <h1 style="color: white; padding-bottom: 1rem;">Hack the Hackathon</h1>
@@ -202,3 +185,109 @@
         </div>
     </div>
 </section>
+
+## Funders
+
+
+<!-- Horizontal hover slider -->
+<style>
+
+<style>
+.slider-strip {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  height: 120px; /* adjust for logo height */
+}
+
+.slider-track {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.slider-track img {
+  height: 100px;
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* scroll animation on hover */
+.slider-strip:hover .slider-track {
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-5100px); }
+}
+</style>
+
+</style>
+<div class="slider-strip">
+  <div class="slider-track">
+    <img src="/images/funders/CIRCE.png" alt="Logo 1">
+    <img src="/images/funders/Logo_of_the_University_of_Geneva.jpg" alt="Logo 2">
+    <img src="/images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien-logo.webp" alt="Logo 3">
+    <img src="/images/funders/biodatasage.png" alt="Logo 4">
+    <img src="/images/funders/copenhagen-university.png" alt="Logo 5">
+    <img src="/images/funders/datalab-kub-library.png" alt="Logo 6">
+    <img src="/images/funders/flatiron-institute.png" alt="Logo 7">
+    <img src="/images/funders/g48.png" alt="Logo 8">
+    <img src="/images/funders/idea-square.jpg" alt="Logo 9">
+    <img src="/images/funders/lorentz-center.jpg" alt="Logo 10">
+    <img src="/images/funders/nasa-grantee.png" alt="Logo 10">
+    <img src="/images/funders/open-geneva.png" alt="Logo 10">
+    <img src="/images/funders/scripps.png" alt="Logo 10">
+    <img src="/images/funders/sdg-solution-space.png" alt="Logo 10">
+    <img src="/images/funders/sloan-foundation.png" alt="Logo 10">
+    <img src="/images/funders/tops.webp" alt="Logo 10">
+    <img src="/images/funders/un-library.png" alt="Logo 10">
+    <img src="/images/funders/unitar.jpg" alt="Logo 10">
+
+    <!-- duplicate logos for seamless scroll -->
+    <img src="/images/logo1.png" alt="Logo 1">
+    <img src="/images/funders/CIRCE.png" alt="Logo 1">
+    <img src="/images/funders/Logo_of_the_University_of_Geneva.jpg" alt="Logo 2">
+    <img src="/images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien-logo.webp" alt="Logo 3">
+    <img src="/images/funders/biodatasage.png" alt="Logo 4">
+    <img src="/images/funders/copenhagen-university.png" alt="Logo 5">
+    <img src="/images/funders/datalab-kub-library.png" alt="Logo 6">
+    <img src="/images/funders/flatiron-institute.png" alt="Logo 7">
+    <img src="/images/funders/g48.png" alt="Logo 8">
+    <img src="/images/funders/idea-square.jpg" alt="Logo 9">
+    <img src="/images/funders/lorentz-center.jpg" alt="Logo 10">
+    <img src="/images/funders/nasa-grantee.png" alt="Logo 10">
+    <img src="/images/funders/open-geneva.png" alt="Logo 10">
+    <img src="/images/funders/scripps.png" alt="Logo 10">
+    <img src="/images/funders/sdg-solution-space.png" alt="Logo 10">
+    <img src="/images/funders/sloan-foundation.png" alt="Logo 10">
+    <img src="/images/funders/tops.webp" alt="Logo 10">
+    <img src="/images/funders/un-library.png" alt="Logo 10">
+    <img src="/images/funders/unitar.jpg" alt="Logo 10">
+
+  </div>
+</div>
+
+
+
+<!---
+<section id="funders" class="py-5 bg-light" style="margin-bottom: 19px;">
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-6 mb-4">
+                <img src="/images/biodatasage.png" alt="BioData Sage" class="img-fluid funder-logo" style="height: 50px">
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <img src="/images/nasa-grantee.png" alt="Nasa" class="img-fluid funder-logo" style="height: 50px">
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <img src="/images/scripps.png" alt="Scripps" class="img-fluid funder-logo" style="height: 50px">
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <img src="/images/sloan.png" alt="Sloan" class="img-fluid funder-logo" style="height: 50px">
+            </div>
+        </div>
+    </div>
+</section>
+-->
