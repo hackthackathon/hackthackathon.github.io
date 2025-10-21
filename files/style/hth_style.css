@@ -94,3 +94,23 @@ td, th {
     -webkit-filter: grayscale(0);
     filter: none;
 }
+
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+    background-color: red !important;
+    color: white;
+}
+
+.marker-cluster div {
+    background-color: red !important;
+}
+
+.marker-cluster span {
+    font-weight: bold;
+    color: white !important;
+}
+
+.marker-cluster {
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.6);
+}
