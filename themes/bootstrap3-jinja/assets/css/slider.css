@@ -54,11 +54,13 @@ td, th {
   box-shadow:
     0 4px 10px rgba(0, 0, 0, 0.25),
     0 0 0 5px #fff;
+  filter: grayscale(100%);
   transition: transform 0.2s ease;
 }
 
 .image-marquee .marquee__inner > a > img.marquee__item:hover {
   transform: scale(1.05);
+  filter: grayscale(0%);
 }
 
 @keyframes marquee-scroll {
