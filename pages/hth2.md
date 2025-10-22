@@ -42,7 +42,7 @@ IMAGE HERE + LIST
 - Dan Foreman-Mackey, Flatiron Institute (New York, NY, USA)
 - Joseph Gum, University of Hawaii (Manoa, HI, USA)
 - Daniela Huppenkothen, SRON Netherlands Institute for Space Research (Leiden, The Netherlands)
-- Alexander Nolte, University of Tartu (Estonia) & Carnegie Mellon University (Pittsburgh, PA, USA)
+- Alexander Nolte, University of Tartu (Tartu, Estonia) & Carnegie Mellon University (Pittsburgh, PA, USA)
 - Je’aime H. Powell, Texas Advanced Computing Center (Austin, TX, USA)
 - Erik J. Tollerud, Space Telescope Science Institute (Baltimore, Maryland, USA)
 

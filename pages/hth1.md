@@ -37,7 +37,7 @@ IMAGE HERE + LIST
 ## Outcomes
 
 ## Organizers
-- Alexander Nolte, University of Tartu (Estonia) & Carnegie Mellon University (Pittsburgh, PA, USA)
+- Alexander Nolte, University of Tartu (Tartu, Estonia) & Carnegie Mellon University (Pittsburgh, PA, USA)
 - James D. Herbsleb, Carnegie Mellon University (Pittsburgh, PA, USA)
 - Daniela Huppenkothen, SRON Netherlands Institute for Space Research (Leiden, The Netherlands)
 - Anthony Arendt, University of Washington (Seattle, WA, USA)
