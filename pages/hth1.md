@@ -26,6 +26,9 @@ December 6-10, 2021
 Lorentz Center, Leiden, The Netherlands ([website](https://www.lorentzcenter.nl/), [maps](https://maps.app.goo.gl/BkWBzmPYQkv6aYnE9))  
 The workshop was held online due to the ongoing COVID-19 pandemic.
 
+## Previous website
+[Hack the Hackathon: Shaping the Future of Hackathon Research and Practice](https://www.lorentzcenter.nl/hack-the-hackathon-shaping-the-future-of-hackathon-research-and-practice.html)
+
 ## Participants
 IMAGE HERE + LIST
 
