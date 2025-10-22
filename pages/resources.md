@@ -1,13 +1,16 @@
 <!--
 .. title: Resources
 .. slug: resources
-.. date: 2024-11-21 19:32:11 UTC
+.. hide_title: false
+.. date: 2024-11-21 19:32:05 UTC
 .. tags: 
 .. category: 
 .. link: 
 .. description: 
 .. type: text
 -->
+
+# Resources
 
 <table id="resources" class="display" style="width:100%">
   <thead>
