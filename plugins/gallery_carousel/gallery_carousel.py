@@ -55,13 +55,35 @@ class GalleryCarousel(ShortcodePlugin):
          height: auto;       /* maintain aspect ratio */
          object-fit: contain; /* ensure whole image is visible, with blank space around */
          }}
-        </style>
-        /* Make images fit inside the fixed height without stretching */
-       # {carousel_id} .carousel-inner > .item > img {{
-            max-height: 100%;   /* don’t exceed container height */
-            width: auto;        /* keep aspect ratio */
-            object-fit: contain; /* keep the whole image visible */
-        }}
+         /* Style the caption banner */
+         #{carousel_id} .carousel-caption {{
+           background: rgba(0, 0, 0, 0.7); /* semi-transparent black */
+           padding: 10px 10px;
+           border-radius: 8px;
+           bottom: 40px; /* position a bit above the bottom edge */
+           left: 50%;
+           transform: translateX(-50%);
+           width: 100%; /* slightly narrower than the image */
+         }}
+       
+         #{carousel_id} .carousel-caption h3,
+         #{carousel_id} .carousel-caption p {{
+           color: #fff; /* make text white for contrast */
+           text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+           margin: 0;
+         }}
+         #{carousel_id} .carousel-caption h3 {{
+             font-size: 0.4em;   /* smaller title */
+             margin-bottom: 4px;
+         }}
+         
+         #{carousel_id} .carousel-caption p {{
+             font-size: 0.9em;   /* smaller caption text */
+             margin: 0;
+         }}
+         #{carousel_id} .carousel-indicators {{
+             bottom: -4px; /* moves dots further below the image; increase for more space */
+         }}
         </style>
         <div id="{carousel_id}" class="carousel slide" data-ride="carousel" data-interval="false">
           {indicators_html}
