@@ -246,8 +246,9 @@
     </div>
 </section>
 
-## Funders
+## Funders and Supporters
 
+Big thanks to all the amazing organizations that power “Hack the Hackathon”. Their ongoing support helped us to build this community and helps us to keep it going. The logos are in alphabetical order.
 
 <!-- Horizontal hover slider
 
@@ -261,45 +262,44 @@ To add a new funder logo, you must:
  -->
 <div class="image-marquee">
   <div class="marquee__inner">
-    <img class="marquee__item" src="/images/funders/CIRCE.png" alt="Logo 1">
-    <img class="marquee__item" src="/images/funders/Logo_of_the_University_of_Geneva.jpg" alt="Logo 2">
-    <img class="marquee__item" src="/images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien-logo.webp" alt="Logo 3">
-    <img class="marquee__item" src="/images/funders/biodatasage.png" alt="Logo 4">
-    <img class="marquee__item" src="/images/funders/copenhagen-university.png" alt="Logo 5">
-    <img class="marquee__item" src="/images/funders/datalab-kub-library.png" alt="Logo 6">
-    <img class="marquee__item" src="/images/funders/flatiron-institute.png" alt="Logo 7">
-    <img class="marquee__item" src="/images/funders/g48.png" alt="Logo 8">
-    <img class="marquee__item" src="/images/funders/idea-square.jpg" alt="Logo 9">
-    <img class="marquee__item" src="/images/funders/lorentz-center.jpg" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/nasa-grantee.png" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/open-geneva.png" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/scripps.png" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/sdg-solution-space.png" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/sloan-foundation.png" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/tops.webp" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/un-library.png" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/unitar.jpg" alt="Logo 10">
+    <a href="https://creativeimpact.eu/en/" target="_blank"><img class="marquee__item" src="/images/funders/circe.png" alt="Creative Impact Research Centre Europe (CIRCE)"></a>
+    <a href="https://kulturstaatsminister.de/" target="_blank"><img class="marquee__item" src="/images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien.png" alt="Beauftragte der Bundesregierung für Kultur und Medien"></a>
+    <a href="https://www.biodatasage.com/" target="_blank"><img class="marquee__item" src="/images/funders/biodatasage.png" alt="BioData Sage"></a>
+    <a href="https://kub.ku.dk/biblioteker/nord/" target="_blank"><img class="marquee__item" src="/images/funders/datalab-kub-library.png" alt="Datalab of Copenhagen University Library"></a>
+    <a href="https://www.simonsfoundation.org/flatiron/" target="_blank"><img class="marquee__item" src="/images/funders/flatiron-institute.png" alt="Flatiron Institute"></a>
+    <a href="https://garage48.org/" target="_blank"><img class="marquee__item" src="/images/funders/garage48.png" alt="Garage 48"></a>
+    <a href="https://ideasquare.cern/" target="_blank"><img class="marquee__item" src="/images/funders/idea-square.png" alt="Idea Square"></a>
+    <a href="https://www.lorentzcenter.nl/" target="_blank"><img class="marquee__item" src="/images/funders/lorentz-center.png" alt="Lorentz Center"></a>
+    <a href="https://www.nasa.gov/" target="_blank"><img class="marquee__item" src="/images/funders/nasa-grantee.png" alt="NASA"></a>
+    <a href="https://opengeneva.org/" target="_blank"><img class="marquee__item" src="/images/funders/open-geneva.png" alt="Open Geneva"></a>
+    <a href="https://scripps.ucsd.edu/" target="_blank"><img class="marquee__item" src="/images/funders/scripps.png" alt="Scripps Institution of Oceanography"></a>
+    <a href="https://sdgsolutionspace.org/" target="_blank"><img class="marquee__item" src="/images/funders/sdg-solution-space.png" alt="SDG Solution Space"></a>
+    <a href="https://sloan.org/" target="_blank"><img class="marquee__item" src="/images/funders/sloan-foundation.png" alt="Alfred P. Sloan Foundation"></a>
+    <a href="https://science.nasa.gov/open-science/" target="_blank"><img class="marquee__item" src="/images/funders/tops.png" alt="NASA TOPS"></a>
+    <a href="https://archives.ungeneva.org/" target="_blank"><img class="marquee__item" src="/images/funders/un-library.png" alt="United Nations Library and Archives"></a>
+    <a href="https://www.ku.dk/en" target="_blank"><img class="marquee__item" src="/images/funders/university-of-copenhagen.png" alt="University of Copenhagen"></a>
+    <a href="https://www.unige.ch/en/" target="_blank"><img class="marquee__item" src="/images/funders/university-of-geneva.png" alt="University of Geneva"></a>
+    <a href="https://unitar.org/" target="_blank"><img class="marquee__item" src="/images/funders/unitar.png" alt="United Nations Institute for Training and Research"></a>
 
     <!-- duplicate logos for seamless scroll -->
-    <img class="marquee__item" src="/images/funders/CIRCE.png" alt="Logo 1">
-    <img class="marquee__item" src="/images/funders/Logo_of_the_University_of_Geneva.jpg" alt="Logo 2">
-    <img class="marquee__item" src="/images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien-logo.webp" alt="Logo 3">
-    <img class="marquee__item" src="/images/funders/biodatasage.png" alt="Logo 4">
-    <img class="marquee__item" src="/images/funders/copenhagen-university.png" alt="Logo 5">
-    <img class="marquee__item" src="/images/funders/datalab-kub-library.png" alt="Logo 6">
-    <img class="marquee__item" src="/images/funders/flatiron-institute.png" alt="Logo 7">
-    <img class="marquee__item" src="/images/funders/g48.png" alt="Logo 8">
-    <img class="marquee__item" src="/images/funders/idea-square.jpg" alt="Logo 9">
-    <img class="marquee__item" src="/images/funders/lorentz-center.jpg" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/nasa-grantee.png" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/open-geneva.png" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/scripps.png" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/sdg-solution-space.png" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/sloan-foundation.png" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/tops.webp" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/un-library.png" alt="Logo 10">
-    <img class="marquee__item" src="/images/funders/unitar.jpg" alt="Logo 10">
-
+    <a href="https://creativeimpact.eu/en/" target="_blank"><img class="marquee__item" src="/images/funders/circe.png" alt="Creative Impact Research Centre Europe (CIRCE)"></a>
+    <a href="https://kulturstaatsminister.de/" target="_blank"><img class="marquee__item" src="/images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien.png" alt="Beauftragte der Bundesregierung für Kultur und Medien"></a>
+    <a href="https://www.biodatasage.com/" target="_blank"><img class="marquee__item" src="/images/funders/biodatasage.png" alt="BioData Sage"></a>
+    <a href="https://kub.ku.dk/biblioteker/nord/" target="_blank"><img class="marquee__item" src="/images/funders/datalab-kub-library.png" alt="Datalab of Copenhagen University Library"></a>
+    <a href="https://www.simonsfoundation.org/flatiron/" target="_blank"><img class="marquee__item" src="/images/funders/flatiron-institute.png" alt="Flatiron Institute"></a>
+    <a href="https://garage48.org/" target="_blank"><img class="marquee__item" src="/images/funders/garage48.png" alt="Garage 48"></a>
+    <a href="https://ideasquare.cern/" target="_blank"><img class="marquee__item" src="/images/funders/idea-square.png" alt="Idea Square"></a>
+    <a href="https://www.lorentzcenter.nl/" target="_blank"><img class="marquee__item" src="/images/funders/lorentz-center.png" alt="Lorentz Center"></a>
+    <a href="https://www.nasa.gov/" target="_blank"><img class="marquee__item" src="/images/funders/nasa-grantee.png" alt="NASA"></a>
+    <a href="https://opengeneva.org/" target="_blank"><img class="marquee__item" src="/images/funders/open-geneva.png" alt="Open Geneva"></a>
+    <a href="https://scripps.ucsd.edu/" target="_blank"><img class="marquee__item" src="/images/funders/scripps.png" alt="Scripps Institution of Oceanography"></a>
+    <a href="https://sdgsolutionspace.org/" target="_blank"><img class="marquee__item" src="/images/funders/sdg-solution-space.png" alt="SDG Solution Space"></a>
+    <a href="https://sloan.org/" target="_blank"><img class="marquee__item" src="/images/funders/sloan-foundation.png" alt="Alfred P. Sloan Foundation"></a>
+    <a href="https://science.nasa.gov/open-science/" target="_blank"><img class="marquee__item" src="/images/funders/tops.png" alt="NASA TOPS"></a>
+    <a href="https://archives.ungeneva.org/" target="_blank"><img class="marquee__item" src="/images/funders/un-library.png" alt="United Nations Library and Archives"></a>
+    <a href="https://www.ku.dk/en" target="_blank"><img class="marquee__item" src="/images/funders/university-of-copenhagen.png" alt="University of Copenhagen"></a>
+    <a href="https://www.unige.ch/en/" target="_blank"><img class="marquee__item" src="/images/funders/university-of-geneva.png" alt="University of Geneva"></a>
+    <a href="https://unitar.org/" target="_blank"><img class="marquee__item" src="/images/funders/unitar.png" alt="United Nations Institute for Training and Research"></a>
   </div>
 </div>
 
