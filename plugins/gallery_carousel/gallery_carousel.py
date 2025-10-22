@@ -5,7 +5,7 @@ from nikola.plugin_categories import ShortcodePlugin
 class GalleryCarousel(ShortcodePlugin):
     name = "gallery_carousel"
 
-    def handler(self, data_file, carousel_id="myCarousel", site=None, data=None, lang=None, post=None):
+    def handler(self, data_file, carousel_id="myCarousel",height="500px", site=None, data=None, lang=None, post=None):
         # Make path relative to site root if needed
         if not os.path.isabs(data_file):
             data_file = os.path.join(site.config['OUTPUT_FOLDER'], '..', data_file)
@@ -43,6 +43,27 @@ class GalleryCarousel(ShortcodePlugin):
         
         # Generate complete carousel
         html = f'''
+        <style>
+           #{carousel_id} .carousel-inner {{
+             height: {height};
+           }}
+           #{carousel_id} .carousel-inner > .item {{
+             height: {height};
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             background-color: #000;
+           }}
+           #{carousel_id} .carousel-inner > .item > img {{
+             max-width: 100%;
+             max-height: 100%;
+             width: auto;
+             height: auto;
+             object-fit: contain;
+           }}
+      
+        </style>
+
         <div id="{carousel_id}" class="carousel slide" data-ride="carousel" data-interval="false">
           {indicators_html}
           {items_html}
