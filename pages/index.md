@@ -8,45 +8,15 @@
 .. link: 
 .. description: 
 .. type: text
+.. extra_head_data:
+   <link rel="stylesheet" href="/assets/css/slider.css">
 -->
-
-> Hack the Hackathon is a global community of hackathon organizers, participants, and researchers. We come from many corners of society, including academia, industry, non-profits, and government organizations. What unites us is a deep curiosity about how humans collaborate and build things together and the belief that hackathons and similar events can help us solve important societal and scientific problems and that they can aid us in creating supportive and equitable communities around shared challenges.
-
-> We are a loose collective, partly organized via Discord and through a yearly “Hack the Hackathon” workshop. If, like us, you are excited to share insights, discuss current practices, address open challenges, and explore the future of hackathons, we invite you to join us!
-
----
-
-<section class="text-center py-5" id="about" style="background: url('/images/hth4-participants-small.png') center/cover no-repeat; width: 100%; height: 30vh; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;">
-</section>
-
----
-
-### Funders
-
-<section id="funders" class="py-5 bg-light" style="margin-bottom: 19px;">
-    <div class="container text-center">
-        <div class="row justify-content-center">
-            <div class="col-md-3 col-6 mb-4">
-                <img src="/images/biodatasage.png" alt="BioData Sage" class="img-fluid funder-logo" style="height: 50px">
-            </div>
-            <div class="col-md-3 col-6 mb-4">
-                <img src="/images/nasa-grantee.png" alt="Nasa" class="img-fluid funder-logo" style="height: 50px">
-            </div>
-            <div class="col-md-3 col-6 mb-4">
-                <img src="/images/scripps.png" alt="Scripps" class="img-fluid funder-logo" style="height: 50px">
-            </div>
-            <div class="col-md-3 col-6 mb-4">
-                <img src="/images/sloan.png" alt="Sloan" class="img-fluid funder-logo" style="height: 50px">
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <!-- Hero Section -->
 <section class="text-center py-5" id="about"
-         style="background: url('https://picsum.photos/seed/825/1200/150?grayscale') center/cover no-repeat; background-color: rgba(0, 0, 0, 0.5);
-                 background-blend-mode: multiply; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; height: 15vh; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;"
+         style="background: url('/images/hth_banner.jpg') center/cover no-repeat; background-color: rgba(0, 0, 0, 0.5);
+                 background-blend-mode: multiply; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; height: auto; min-height:25vw; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;"
          xmlns="http://www.w3.org/1999/html">
     <div class="container">
         <h1 style="color: white; padding-bottom: 1rem;">Hack the Hackathon</h1>
@@ -54,6 +24,77 @@
     </div>
 </section>
 
+> Hack the Hackathon is a global community of hackathon organizers, participants, and researchers. We come from many corners of society, including academia, industry, non-profits, and government organizations. What unites us is a deep curiosity about how humans collaborate and build things together and the belief that hackathons and similar events can help us solve important societal and scientific problems and that they can aid us in creating supportive and equitable communities around shared challenges.
+
+> We are a loose collective, partly organized via Discord and through a yearly “Hack the Hackathon” workshop. If, like us, you are excited to share insights, discuss current practices, address open challenges, and explore the future of hackathons, we invite you to join us!
+
+
+<!--
+   <div class="container">
+     <div class="row" id="gallery-row">
+       <div class="col-xs-6 col-sm-4 col-md-3">
+         <a href="#" data-toggle="modal" data-target="#galleryModal" data-slide-to="0">
+           <img src="/images/gallery/hth_impressions1.JPG" alt="Photo 1" class="img-responsive thumbnail" />
+         </a>
+       </div>
+       <div class="col-xs-6 col-sm-4 col-md-3">
+         <a href="#" data-toggle="modal" data-target="#galleryModal" data-slide-to="1">
+           <img src="/images/gallery/hth_impressions2.jpg" alt="Photo 2" class="img-responsive thumbnail" />
+         </a>
+       </div>
+     </div>
+   </div>
+
+   <div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+       <div class="modal-content">
+         <div class="modal-body">
+           <div id="galleryCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+             <div class="carousel-inner" role="listbox">
+               <div class="item active">
+                 <img src="/images/gallery/hth_impressions1.JPG" alt="Photo 1" class="img-responsive center-block" />
+               </div>
+               <div class="item">
+                 <img src="/images/gallery/hth_impressions2.jpg" alt="Photo 2" class="img-responsive center-block" />
+               </div>
+             </div>
+
+             <a class="left carousel-control" href="#galleryCarousel" role="button" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+             </a>
+             <a class="right carousel-control" href="#galleryCarousel" role="button" data-slide="next">
+               <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+             </a>
+           </div>
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <script>
+   (function() {
+     // When a thumbnail is clicked, jump the carousel to the correct slide
+     $('#galleryModal').on('show.bs.modal', function (e) {
+       var trigger = $(e.relatedTarget);
+       var index = trigger.data('slide-to') || 0;
+       $('#galleryCarousel').carousel(index);
+     });
+     // Optional: if you close the modal, stop the carousel (useful if autoplay enabled)
+     $('#galleryModal').on('hidden.bs.modal', function () {
+       $('#galleryCarousel').carousel(0);
+     });
+   })();
+   </script>
+-->
+<!--
+<section class="text-center py-5" id="about" style="background: url('/images/hth4-participants-small.png') center/cover no-repeat; width: 100%; height: 30vh; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;">
+</section>
+-->
 
 <!-- What is... Section -->
 <section class="py-5 bg-light" style="margin-bottom: 3rem;">
@@ -62,15 +103,65 @@
             <div class="col-md-6">
                 <h2>What is a Hackathon?</h2>
                 <p>
-                    Hackathons are "time-bounded participant-driven events that are organized to foster specific goals or objectives. [...] People that participate in an event often have different backgrounds and bring different expertise. Their primary motivation to join an event is to work on a shared team project that interests them [...]. During the event, teams attempt to create an artifact that can be shared with other participants."
+                    Hackathons are "time-bounded participant-driven events that are organized to foster specific goals or objectives. [...] People that participate in an event often have different backgrounds and bring different expertise. Their primary motivation to join an event is to work on a shared team project that interests them [...]. During the event, teams attempt to create an artifact that can be shared with other participants." <a href="https://hackathon-planning-kit.org/files/Falk-IEEEAccess-2024.pdf" target="_blank">Falk et al. (2025)</a>
                 </p>
-                <blockquote class="blockquote">
-                    <p style="margin-bottom: 1em; font-size: 0.75em; line-height: 1.5em;">Falk, J., Nolte, A., Huppenkothen, D., Weinzierl, M., Gama, K., Spikol, D., Tollerud, E., Chue Hong, N., Knäpper, I., &amp; Hayden, L. B. (2024). The future of hackathon research and practice. IEEE Access 12, 133406 - 133425. (<a href="https://hackathon-planning-kit.org/files/Falk-IEEEAccess-2024.pdf" target="_blank">PDF</a>)</p>
-                </blockquote>
             </div>
             <div class="col-md-6">
                 <h2>What is an Unconference?</h2>
                 <p>An unconference is essentially a conference without predefined topics. There is a high-level structure and theme, but actual topics are generated by the participants on the spot. Breakout groups are formed dynamically based on interest and relevance.</p>
+	    </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Support & Resources Section -->
+<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+    <div class="container">
+        <h2 class="text-center mb-4">What We Do</h2>
+        <p class="text-center mb-4">
+	Placeholder text
+        </p>
+        <div class="row text-center" style="margin-bottom: 2rem;">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/images/hth_workshop.jpg" class="card-img-top" alt="empty signpost stock photo">
+                    <div class="card-body">
+                        <h4 class="card-title" style="font-weight: bold">Workshops</h4>
+                        <p class="card-text">We organize a yearly hybrid workshop (in-person and online) to bring together the disparate communities interested in organizing and studying hackathons and related events. Come and explore our previous workshops!</p>
+                        <a href="/events/index.html" style="color: #ff0123; text-decoration: underline; font-weight: bold;">Read More ></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/images/hth_virtual.png" class="card-img-top" alt="survey stock photo">
+                    <div class="card-body">
+                        <h4 class="card-title" style="font-weight: bold">Virtual Community</h4>
+                        <p class="card-text">We build community and share resources on Discord..</p>
+                        <a href="/join-us/index.html" style="color: #ff0123; text-decoration: underline; font-weight: bold;">Read More ></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/images/hth_resources.jpg" class="card-img-top" alt="Resource 3 Image">
+                    <div class="card-body">
+                        <h4 class="card-title">Resources</h4>
+                        <p class="card-text">We collect resources, tools, best practices and research across our different communities to continuously improve the hackathon experience.</p>
+                        <a href="/resources/index.html" style="color: #ff0123; text-decoration: underline; font-weight: bold;">Read More ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-5 bg-light" style="margin-bottom: 3rem;">
+
+           <div>
                 <h2>Is This For Me?</h2>
                 <p>
                     Do you have experience organizing or managing participant-driven events? Are you interested in studying how people collaborate?  
@@ -89,56 +180,8 @@
                     Join the Community
                  </a>
             </div>
-        </div>
-    </div>
-</section>
 
-<!-- Support & Resources Section -->
-<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
-    <div class="container">
-        <h2 class="text-center mb-4">Support & Resources</h2>
-        <p class="text-center mb-4">
-            We're collecting and curating resources for organizers of hackathons, researchers, and provide access to experience around organizing and researching hackathons. 
-            This support comes through our community and resources designed to share practical knowledge and insights.
-        </p>
-        <div class="row text-center" style="margin-bottom: 2rem;">
-            <!-- Card 1 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="/images/pixabay-signpost.jpg" class="card-img-top" alt="empty signpost stock photo">
-                    <div class="card-body">
-                        <h4 class="card-title" style="font-weight: bold">Hackathon Planning Kit</h4>
-                        <p class="card-text">Guiding you through key decisions to design a successful hackathon.</p>
-                        <a href="https://hackathon-planning-kit.org/" style="color: #ff0123; text-decoration: underline; font-weight: bold;">Read More ></a>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="/images/pixabay-opinion-poll.jpg" class="card-img-top" alt="survey stock photo">
-                    <div class="card-body">
-                        <h4 class="card-title" style="font-weight: bold">Post-Hackathon Survey</h4>
-                        <p class="card-text">A survey instrument for hackathon organizers and researchers.</p>
-                        <a href="https://zenodo.org/records/14705828" style="color: #ff0123; text-decoration: underline; font-weight: bold;">Read More ></a>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://picsum.photos/300/200" class="card-img-top" alt="Resource 3 Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Resource 3</h5>
-                        <p class="card-text">Join our community for access to shared experiences and best practices.</p>
-                        <a href="#" style="color: #ff0123; text-decoration: underline; font-weight: bold;">Read More ></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
-
 
 <!-- Is This For Me Section 
 <section class="py-5 bg-light" style="margin-bottom: 3rem;">
@@ -202,3 +245,61 @@
         </div>
     </div>
 </section>
+
+## Funders
+
+
+<!-- Horizontal hover slider
+
+IMPORTANT NOTE:
+
+To add a new funder logo, you must:
+* add an <img src= ..."> command into the `slider-track`-div below
+* you must add this command *twice* as has been done with the other logos to ensure smooth scrolling
+* you must edit the `100% {transform : translateX(-5100px);}` command inside `keyframes scroll` by adding your image's width
+
+ -->
+<div class="image-marquee">
+  <div class="marquee__inner">
+    <img class="marquee__item" src="/images/funders/CIRCE.png" alt="Logo 1">
+    <img class="marquee__item" src="/images/funders/Logo_of_the_University_of_Geneva.jpg" alt="Logo 2">
+    <img class="marquee__item" src="/images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien-logo.webp" alt="Logo 3">
+    <img class="marquee__item" src="/images/funders/biodatasage.png" alt="Logo 4">
+    <img class="marquee__item" src="/images/funders/copenhagen-university.png" alt="Logo 5">
+    <img class="marquee__item" src="/images/funders/datalab-kub-library.png" alt="Logo 6">
+    <img class="marquee__item" src="/images/funders/flatiron-institute.png" alt="Logo 7">
+    <img class="marquee__item" src="/images/funders/g48.png" alt="Logo 8">
+    <img class="marquee__item" src="/images/funders/idea-square.jpg" alt="Logo 9">
+    <img class="marquee__item" src="/images/funders/lorentz-center.jpg" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/nasa-grantee.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/open-geneva.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/scripps.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/sdg-solution-space.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/sloan-foundation.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/tops.webp" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/un-library.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/unitar.jpg" alt="Logo 10">
+
+    <!-- duplicate logos for seamless scroll -->
+    <img class="marquee__item" src="/images/funders/CIRCE.png" alt="Logo 1">
+    <img class="marquee__item" src="/images/funders/Logo_of_the_University_of_Geneva.jpg" alt="Logo 2">
+    <img class="marquee__item" src="/images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien-logo.webp" alt="Logo 3">
+    <img class="marquee__item" src="/images/funders/biodatasage.png" alt="Logo 4">
+    <img class="marquee__item" src="/images/funders/copenhagen-university.png" alt="Logo 5">
+    <img class="marquee__item" src="/images/funders/datalab-kub-library.png" alt="Logo 6">
+    <img class="marquee__item" src="/images/funders/flatiron-institute.png" alt="Logo 7">
+    <img class="marquee__item" src="/images/funders/g48.png" alt="Logo 8">
+    <img class="marquee__item" src="/images/funders/idea-square.jpg" alt="Logo 9">
+    <img class="marquee__item" src="/images/funders/lorentz-center.jpg" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/nasa-grantee.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/open-geneva.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/scripps.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/sdg-solution-space.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/sloan-foundation.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/tops.webp" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/un-library.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/unitar.jpg" alt="Logo 10">
+
+  </div>
+</div>
+
