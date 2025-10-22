@@ -1,0 +1,136 @@
+{
+  "images": [
+    {
+      "src": "/images/galleries/mainpage-gallery/hth_impressions3.jpg",
+      "alt": "Welcoming participants to Hack the Hackathon 4",
+      "title": "Welcome to HtH4!",
+      "description": "Organizers welcoming in-person (and online) participants to Hack the Hackathon 4 in San Diego"
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions8.jpeg",
+      "alt": "Six people sitting around a table with laptops, engaged in active discussion",
+      "title": "Exploring strategies for equity in hackathons",
+      "description": "At Hack the Hackathon 3, we discussed in detail how to foster equity at hackathons."
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions11.jpg",
+      "alt": "A woman peeking out through a window of a red London bus",
+      "title": "Have you come to steal my hack ideas?",
+      "description": "Hacking at CERN's IdeaSquare, which includes an old red London bus to work in."
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions15.jpg",
+      "alt": "A group of hack the hackathon participants in the room, and on Zoom in the background",
+      "title": "Hack the Hackathon 2",
+      "description": "HtH2 was our first hybrid workshop, with the in-person workshop in New York at the Flatiron Institute."
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions18.pdf",
+      "alt": "A poster for Hack the Hackathon, showing a clothes iron with an egg taped to it, and a fork in front of it.",
+      "title": "Hack the Hackathon poster",
+      "description": "The poster for Hack the Hackathon 1, made by the Lorentz Centre's awesome graphic designer. It is the origin of our workshop's obsession with eggs."
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions21.jpg",
+      "alt": "A person taking a selfie with a Zoom screen filled with images of people.",
+      "title": "Organiser selfie with the virtual participants",
+      "description": ""
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions23.jpg",
+      "alt": "a group of hack the hackathon participants laughing.",
+      "title": "Hack the hackathon is not just work, but also a lot of fun!",
+      "description": ""
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions29.jpeg",
+      "alt": "Two men standing next to a sign saying 'hack the hackathon', one holding a computer. They are in deep discussion.",
+      "title": "Checking in",
+      "description": "Project discussions can happen everywhere: over coffee, or standing right next to the entrance."
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions30.jpeg",
+      "alt": "a row of laser cut wood coasters saying `hack the hackathon` on them, and the name of each participant",
+      "title": "Hack the Hackathon Swag!",
+      "description": "At HtH3, the local makerspace folks made us personalised coasters to remember the event"
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions32.jpeg",
+      "alt": "A woman standing in front of a screen showing a hack outcome",
+      "title": "Sharing successes and failures",
+      "description": "Sharing hackathon outcomes is an essential part of every event. Whether the hack was successful or not, we'll cheer either way."
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions33.jpg",
+      "alt": "A group of hack the hackathon participants sitting around tables in a meeting room.",
+      "title": "Final stretch",
+      "description": "Tired (but happy) faces at the end of Hack the Hackathon 2 in New York."
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions37.jpeg",
+      "alt": "An image of a laptop screen showing a video of a room with people, as well as graphics with sensor data from sensors deployed in the room",
+      "title": "Hacking hardware",
+      "description": "Figuring out what participants do is crucial for studying hackathons. Here, Hack the Hackathon participants are exploring the deployment of sensors during hackathons to gain insights about participants' movements."
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions38.jpeg",
+      "alt": "A group of Hack the Hackathon participants in the UN Libraries in Geneva. There's a huge, colourful painting in the background.",
+      "title": "Hacking International Diplomacy",
+      "description": "At Hack the Hackathon 3, we were invited to visit the UN Libraries and demonstrate a hackathon for them focused on international sustainable development goals."
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions45.jpg",
+      "alt": "Three Hack the Hackathon participants actively working on a hack related to stickers.",
+      "title": "Hacking international development",
+      "description": "Ongoing hacking at the UN Libraries. "
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions8.jpg",
+      "alt": "A group of people in a huge hangar turned into a Makerspace, sitting around tables with laptops and listening to someone at the front give a presentation. In the back, there is a big red London bus that's part of the furniture.",
+      "title": "Hacking @ CERN",
+      "description": "At Hack the Hackathon 3, we spent a day at CERN's IdeaSquare to hack on better hackathon tools and methods."
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions50.jpg",
+      "alt": "a group of people in a meeting room focused on a person on Zoom during a discussion.",
+      "title": "Hybrid hacking",
+      "description": "Making our events hybrid has always been a crucial component of Hack the Hackathon, because it allows us to test new ideas for making hybrid hackathons work."
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions52.jpg",
+      "alt": "A screenshot of a screen showing a slide with important conference information, as well as a video of the speaker and a video of the room with in-person participants",
+      "title": "Hybrid Hacking",
+      "description": "a good tech setup is key to making hybrid hackathons work"
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions54.png",
+      "alt": "A slide with 3D printed sculptures of the hack the hackathon logo, and the title 'The Great Chocolate Smuggling Hack'",
+      "title": "Tasty hacks",
+      "description": "Sometimes, hacks need to be fun! Here, participants 3D-printed the Hack the Hackathon logos to make chocolate moulds out of them later on."
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions55.png",
+      "alt": "A pile of tokens of various sizes and colours, with the outlines of animals printed on them",
+      "title": "Facilitating team formation",
+      "description": "Team formation at hackathons is hard! Here, a team is prototyping physical tokens to help teams find other participants."
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions61.png",
+      "alt": "A slide with the words 'hack the hackathon', with images of all participants",
+      "title": "Virtual hacking",
+      "description": "The original Hack the Hackathon had to be moved online with only a few days notice due to a COVID lockdown, but we made the best of things anyway, and learned a lot about running online conferences in the process."
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions66.png",
+      "alt": "A slide with an 8-bit animation of bees and shrubs, with the text 'Welcome to the Vibe Hive' on it",
+      "title": "The Vibe Hive",
+      "description": "How do we provide comfortable spaces for hackathon participants to take a break, have discussions and recharge? The Vibe Hive team was prototyping solutions at Hack the Hackathon 3 in Geneva."
+    },
+    { 
+      "src": "/images/galleries/mainpage-gallery/hth_impressions69.png",
+      "alt": "A slide with a chart with two axis. The horizontal axis is labelled 'structured' (left) to 'big picture' (right), the vertical axis 'solitary' (bottom) to 'outgoing' (top). There are cartoon figures of roleplaying characters in each quadrant.",
+      "title": "Hackathon organiser alignment",
+      "description": "Is there a type of person who likes organising hackathons? Are there different types of organisers, and do they have different character traits that filter into the event organisation? At Hack the Hackathon 3, a team set out to find out."
+    }
+  ]
+}

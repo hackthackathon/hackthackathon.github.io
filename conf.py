@@ -1277,6 +1277,8 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # before </head>
 # (translatable)
 EXTRA_HEAD_DATA = "<link rel=\"icon\" href=\"/images/favicon.png\" type=\"image/png\"><link href=\"/style/hth_style.css\" rel=\"stylesheet\"><script src=\"https://use.fontawesome.com/releases/v5.12.1/js/all.js\" crossorigin=\"anonymous\"></script><link rel=\"stylesheet\" href=\"/academicons/css/academicons.min.css\"/>"
+EXTRA_HEAD_DATA += '<link rel="stylesheet" href="/assets/css/slider.css">'
+
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
@@ -1424,3 +1426,8 @@ GLOBAL_CONTEXT = {}
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
 GLOBAL_CONTEXT_FILLER = []
+
+SHORTCODE_ENGINE = "mako"
+TEMPLATE_ENGINE = "mako"
+
+PLUGIN_PATHS= ["plugins"] 

@@ -1,0 +1,12 @@
+[Core]
+Name = gallery_carousel
+Module = gallery_carousel
+
+[Nikola]
+PluginCategory = ShortcodePlugin
+
+[Documentation]
+Author = Daniela Huppenkothen
+Version = 0.1
+Description = Generate Bootstrap carousel from JSON data
+

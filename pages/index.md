@@ -10,8 +10,6 @@
 .. type: text
 .. extra_head_data:
    <link rel="stylesheet" href="/assets/css/slider.css">
-   <script src="/assets/js/siema.min.js"></script>
-   <script src="/assets/js/slider.js" defer></script>
 -->
 
 
@@ -31,10 +29,72 @@
 > We are a loose collective, partly organized via Discord and through a yearly “Hack the Hackathon” workshop. If, like us, you are excited to share insights, discuss current practices, address open challenges, and explore the future of hackathons, we invite you to join us!
 
 
+<!--
+   <div class="container">
+     <div class="row" id="gallery-row">
+       <div class="col-xs-6 col-sm-4 col-md-3">
+         <a href="#" data-toggle="modal" data-target="#galleryModal" data-slide-to="0">
+           <img src="/images/gallery/hth_impressions1.JPG" alt="Photo 1" class="img-responsive thumbnail" />
+         </a>
+       </div>
+       <div class="col-xs-6 col-sm-4 col-md-3">
+         <a href="#" data-toggle="modal" data-target="#galleryModal" data-slide-to="1">
+           <img src="/images/gallery/hth_impressions2.jpg" alt="Photo 2" class="img-responsive thumbnail" />
+         </a>
+       </div>
+     </div>
+   </div>
 
+   <div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+       <div class="modal-content">
+         <div class="modal-body">
+           <div id="galleryCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+             <div class="carousel-inner" role="listbox">
+               <div class="item active">
+                 <img src="/images/gallery/hth_impressions1.JPG" alt="Photo 1" class="img-responsive center-block" />
+               </div>
+               <div class="item">
+                 <img src="/images/gallery/hth_impressions2.jpg" alt="Photo 2" class="img-responsive center-block" />
+               </div>
+             </div>
+
+             <a class="left carousel-control" href="#galleryCarousel" role="button" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+             </a>
+             <a class="right carousel-control" href="#galleryCarousel" role="button" data-slide="next">
+               <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+             </a>
+           </div>
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <script>
+   (function() {
+     // When a thumbnail is clicked, jump the carousel to the correct slide
+     $('#galleryModal').on('show.bs.modal', function (e) {
+       var trigger = $(e.relatedTarget);
+       var index = trigger.data('slide-to') || 0;
+       $('#galleryCarousel').carousel(index);
+     });
+     // Optional: if you close the modal, stop the carousel (useful if autoplay enabled)
+     $('#galleryModal').on('hidden.bs.modal', function () {
+       $('#galleryCarousel').carousel(0);
+     });
+   })();
+   </script>
+-->
+<!--
 <section class="text-center py-5" id="about" style="background: url('/images/hth4-participants-small.png') center/cover no-repeat; width: 100%; height: 30vh; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;">
 </section>
-
+-->
 
 <!-- What is... Section -->
 <section class="py-5 bg-light" style="margin-bottom: 3rem;">
@@ -199,103 +259,47 @@ To add a new funder logo, you must:
 * you must edit the `100% {transform : translateX(-5100px);}` command inside `keyframes scroll` by adding your image's width
 
  -->
-<style>
-
-<style>
-.slider-strip {
-  overflow: hidden;
-  white-space: nowrap;
-  width: 100%;
-  height: 120px; /* adjust for logo height */
-}
-
-.slider-track {
-  display: inline-block;
-  white-space: nowrap;
-}
-
-.slider-track img {
-  height: 100px;
-  margin-right: 20px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-/* scroll animation on hover */
-.slider-strip:hover .slider-track {
-  animation: scroll 10s linear infinite;
-}
-
-@keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-5100px); }
-}
-</style>
-
-</style>
-<div class="slider-strip">
-  <div class="slider-track">
-    <img src="/images/funders/CIRCE.png" alt="Logo 1">
-    <img src="/images/funders/Logo_of_the_University_of_Geneva.jpg" alt="Logo 2">
-    <img src="/images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien-logo.webp" alt="Logo 3">
-    <img src="/images/funders/biodatasage.png" alt="Logo 4">
-    <img src="/images/funders/copenhagen-university.png" alt="Logo 5">
-    <img src="/images/funders/datalab-kub-library.png" alt="Logo 6">
-    <img src="/images/funders/flatiron-institute.png" alt="Logo 7">
-    <img src="/images/funders/g48.png" alt="Logo 8">
-    <img src="/images/funders/idea-square.jpg" alt="Logo 9">
-    <img src="/images/funders/lorentz-center.jpg" alt="Logo 10">
-    <img src="/images/funders/nasa-grantee.png" alt="Logo 10">
-    <img src="/images/funders/open-geneva.png" alt="Logo 10">
-    <img src="/images/funders/scripps.png" alt="Logo 10">
-    <img src="/images/funders/sdg-solution-space.png" alt="Logo 10">
-    <img src="/images/funders/sloan-foundation.png" alt="Logo 10">
-    <img src="/images/funders/tops.webp" alt="Logo 10">
-    <img src="/images/funders/un-library.png" alt="Logo 10">
-    <img src="/images/funders/unitar.jpg" alt="Logo 10">
+<div class="image-marquee">
+  <div class="marquee__inner">
+    <img class="marquee__item" src="/images/funders/CIRCE.png" alt="Logo 1">
+    <img class="marquee__item" src="/images/funders/Logo_of_the_University_of_Geneva.jpg" alt="Logo 2">
+    <img class="marquee__item" src="/images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien-logo.webp" alt="Logo 3">
+    <img class="marquee__item" src="/images/funders/biodatasage.png" alt="Logo 4">
+    <img class="marquee__item" src="/images/funders/copenhagen-university.png" alt="Logo 5">
+    <img class="marquee__item" src="/images/funders/datalab-kub-library.png" alt="Logo 6">
+    <img class="marquee__item" src="/images/funders/flatiron-institute.png" alt="Logo 7">
+    <img class="marquee__item" src="/images/funders/g48.png" alt="Logo 8">
+    <img class="marquee__item" src="/images/funders/idea-square.jpg" alt="Logo 9">
+    <img class="marquee__item" src="/images/funders/lorentz-center.jpg" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/nasa-grantee.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/open-geneva.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/scripps.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/sdg-solution-space.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/sloan-foundation.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/tops.webp" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/un-library.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/unitar.jpg" alt="Logo 10">
 
     <!-- duplicate logos for seamless scroll -->
-    <img src="/images/funders/CIRCE.png" alt="Logo 1">
-    <img src="/images/funders/Logo_of_the_University_of_Geneva.jpg" alt="Logo 2">
-    <img src="/images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien-logo.webp" alt="Logo 3">
-    <img src="/images/funders/biodatasage.png" alt="Logo 4">
-    <img src="/images/funders/copenhagen-university.png" alt="Logo 5">
-    <img src="/images/funders/datalab-kub-library.png" alt="Logo 6">
-    <img src="/images/funders/flatiron-institute.png" alt="Logo 7">
-    <img src="/images/funders/g48.png" alt="Logo 8">
-    <img src="/images/funders/idea-square.jpg" alt="Logo 9">
-    <img src="/images/funders/lorentz-center.jpg" alt="Logo 10">
-    <img src="/images/funders/nasa-grantee.png" alt="Logo 10">
-    <img src="/images/funders/open-geneva.png" alt="Logo 10">
-    <img src="/images/funders/scripps.png" alt="Logo 10">
-    <img src="/images/funders/sdg-solution-space.png" alt="Logo 10">
-    <img src="/images/funders/sloan-foundation.png" alt="Logo 10">
-    <img src="/images/funders/tops.webp" alt="Logo 10">
-    <img src="/images/funders/un-library.png" alt="Logo 10">
-    <img src="/images/funders/unitar.jpg" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/CIRCE.png" alt="Logo 1">
+    <img class="marquee__item" src="/images/funders/Logo_of_the_University_of_Geneva.jpg" alt="Logo 2">
+    <img class="marquee__item" src="/images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien-logo.webp" alt="Logo 3">
+    <img class="marquee__item" src="/images/funders/biodatasage.png" alt="Logo 4">
+    <img class="marquee__item" src="/images/funders/copenhagen-university.png" alt="Logo 5">
+    <img class="marquee__item" src="/images/funders/datalab-kub-library.png" alt="Logo 6">
+    <img class="marquee__item" src="/images/funders/flatiron-institute.png" alt="Logo 7">
+    <img class="marquee__item" src="/images/funders/g48.png" alt="Logo 8">
+    <img class="marquee__item" src="/images/funders/idea-square.jpg" alt="Logo 9">
+    <img class="marquee__item" src="/images/funders/lorentz-center.jpg" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/nasa-grantee.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/open-geneva.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/scripps.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/sdg-solution-space.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/sloan-foundation.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/tops.webp" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/un-library.png" alt="Logo 10">
+    <img class="marquee__item" src="/images/funders/unitar.jpg" alt="Logo 10">
 
   </div>
 </div>
 
-
-
-<!---
-<section id="funders" class="py-5 bg-light" style="margin-bottom: 19px;">
-    <div class="container text-center">
-        <div class="row justify-content-center">
-            <div class="col-md-3 col-6 mb-4">
-                <img src="/images/biodatasage.png" alt="BioData Sage" class="img-fluid funder-logo" style="height: 50px">
-            </div>
-            <div class="col-md-3 col-6 mb-4">
-                <img src="/images/nasa-grantee.png" alt="Nasa" class="img-fluid funder-logo" style="height: 50px">
-            </div>
-            <div class="col-md-3 col-6 mb-4">
-                <img src="/images/scripps.png" alt="Scripps" class="img-fluid funder-logo" style="height: 50px">
-            </div>
-            <div class="col-md-3 col-6 mb-4">
-                <img src="/images/sloan.png" alt="Sloan" class="img-fluid funder-logo" style="height: 50px">
-            </div>
-        </div>
-    </div>
-</section>
--->
