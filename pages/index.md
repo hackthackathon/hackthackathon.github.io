@@ -65,8 +65,8 @@
                     <img src="/images/hth_workshop.jpg" class="card-img-top" alt="empty signpost stock photo">
                     <div class="card-body">
                         <h4 class="card-title" style="font-weight: bold">Workshops</h4>
-                        <p class="card-text">We organize a yearly hybrid workshop (in-person and online) to bring together the disparate communities interested in organizing and studying hackathons and related events. Come and explore our previous workshops!</p>
-                        <a href="/events/index.html" style="color: #ff0123; text-decoration: underline; font-weight: bold;">Read More ></a>
+                        <p class="card-text">We organize a yearly hybrid workshop (in-person and online) to bring together the disparate communities interested in organizing and studying hackathons and related events. Come and explore our previous workshops, or sign up to the next one!</p>
+                        <a href="/events/index.html" style="text-decoration: underline; font-size: 18px;">Explore workshops ></a>
                     </div>
                 </div>
             </div>
@@ -76,8 +76,8 @@
                     <img src="/images/hth_virtual.png" class="card-img-top" alt="survey stock photo">
                     <div class="card-body">
                         <h4 class="card-title" style="font-weight: bold">Virtual Community</h4>
-                        <p class="card-text">We build community and share resources on Discord..</p>
-                        <a href="/join-us/index.html" style="color: #ff0123; text-decoration: underline; font-weight: bold;">Read More ></a>
+                        <p class="card-text">In betwen workshops, we build community and share resources on Discord. Come and join us there!</p>
+                        <a href="/join-us/index.html" style="text-decoration: underline; font-size: 18px;">Join us ></a>
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@
                     <div class="card-body">
                         <h4 class="card-title">Resources</h4>
                         <p class="card-text">We collect resources, tools, best practices and research across our different communities to continuously improve the hackathon experience.</p>
-                        <a href="/resources/index.html" style="color: #ff0123; text-decoration: underline; font-weight: bold;">Read More ></a>
+                        <a href="/resources/index.html" style="text-decoration: underline; font-size: 18px;">Explore hackathon resources ></a>
                     </div>
                 </div>
             </div>
@@ -104,10 +104,10 @@
             <div class="col-md-6">
                 <h2>Our Story</h2>
                 <p>
-                    Hack the Hackathon began with the realization that hackathons are interdisciplinary and run in diverse spaces and communities. We aimed to create a space for anyone interested in organizing such events to collaborate, share resources, and learn from each other. We also wanted to give a space to researchers of hackathons to come together, share their newest results both with each other and the community of organizers, and recruit organizers for future studies.
-                </p>
-                <p>
-                    Two separate groups were working on hackathon planning kits, both supported by funding from the <a href="https://sloan.org" target="_blank">Sloan Foundation</a>. These groups were brought together, and the first Hack the Hackathon was born.
+                    Hack the Hackathon began with the realization that hackathons are interdisciplinary and run in diverse spaces and communities. Two separate groups were working on hackathon planning kits, both supported by funding from the <a href="https://sloan.org" target="_blank">Sloan Foundation</a>. These groups were brought together, and the first Hack the Hackathon was born. 
+</p>
+<p>
+ We wanted to create a space for anyone interested in organizing such events to collaborate, share resources, and learn from each other. We also realized that researchers of hackathons were missing a venue to come together, share their newest results both with each other and the community of organizers, and recruit organizers for future studies.
                 </p>
                 <a href="#" 
                     style="color: #ff0123; 
@@ -140,7 +140,7 @@
                 <h2>Is This For Me?</h2>
                 <p>
                     Do you have experience organizing or managing participant-driven events? Are you interested in studying how people collaborate?
-                    If yes, then join our community or attend our next event! If you’re interested in organizing an event, we offer resources and a supportive community of experienced individuals to help you succeed.
+                    If yes, then come and join our community or attend our next event! We'd love to have you! If you’re interested in organizing an event, we offer resources and a supportive community of experienced individuals to help you succeed.
                 </p>
                 <a href="/join-us/index.html"
                     style="color: #ff0123;
@@ -162,7 +162,7 @@
 
 ## Funders and Supporters
 
-Big thanks to all the amazing organizations that power “Hack the Hackathon”. Their ongoing support helped us to build this community and helps us to keep it going. The logos are in alphabetical order.
+We thank all the amazing organizations that power “Hack the Hackathon”. Their ongoing support helped us to build this community and helps us to keep it going. The logos are in alphabetical order.
 
 <!-- Horizontal hover slider
 
