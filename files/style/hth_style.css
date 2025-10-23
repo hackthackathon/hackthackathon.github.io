@@ -33,7 +33,10 @@ blockquote p {
 
 a {
     color: #333333;
-    text-decoration: underline dotted;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: currentColor;
+    text-underline-offset: 2px;
 }
 
 a:hover {
