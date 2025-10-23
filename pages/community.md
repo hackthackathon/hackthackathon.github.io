@@ -33,7 +33,7 @@ The visualizations below highlight this diversity: one shows the various domains
 
 Together, they offer a snapshot of the backgrounds, skills, and perspectives that shape our collaborative work.
 
-<section id="this-is-what-we-do" class="py-5 bg-light" style="margin-bottom: 19px;">
+<section class="py-5 bg-light">
     <div class="container text-center">
         <div class="row justify-content-center">
             <div class="col-md-6">
@@ -52,7 +52,7 @@ Together, they offer a snapshot of the backgrounds, skills, and perspectives tha
 
 We are growing. The visualization below shows how our community has evolved across the different “Hack the Hackathon” events. It highlights both new participants joining for the first time and those who have returned to contribute repeatedly, reflecting the strength and continuity of our network.
 
-<section id="this-is-what-we-do" class="py-5 bg-light" style="margin-bottom: 19px;">
+<section class="py-5 bg-light">
     <div class="container text-center">
         <div class="row justify-content-center">
             <div class="col-md-12">
@@ -70,13 +70,13 @@ Get to know our dedicated steering committee — the group guiding our community
 
 If you’d like to get in touch, reach out through our Discord server or send us an email at <a href="mailto:contact@hackthehackathon.org" target="_blank" alt="EMail">contact@hackthehackathon.org</a>.
 
-<section id="steeringcommittee">
-    <div class="container" style="padding-top: 10px; margin-bottom: 20px;">
-        <div class="row text-center" style="margin: 0">
+<section>
+    <div class="container steeringcommittee">
+        <div class="row text-center">
             <!-- Allissa -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="/images/steeringcommittee/allissa.png" class="portrait" alt="Allissa Dillman" style="width: 100%, height: auto;">
+                    <img src="/images/steeringcommittee/allissa.png" class="portrait" alt="Allissa Dillman">
                     <div class="card-body">
                         <h4 class="card-title">Allissa Dillman</h4>
                         <p class="card-text">Social Media Chair</p>
@@ -87,7 +87,7 @@ If you’d like to get in touch, reach out through our Discord server or send us
             <!-- Joseph -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="/images/steeringcommittee/joseph.jpg" class="portrait" alt="Joseph Gum" style="width: 100%, height: auto;">
+                    <img src="/images/steeringcommittee/joseph.jpg" class="portrait" alt="Joseph Gum">
                     <div class="card-body">
                         <h4 class="card-title">Joseph Gum</h4>
                         <p class="card-text">Secretary</p>
@@ -98,7 +98,7 @@ If you’d like to get in touch, reach out through our Discord server or send us
             <!-- Daniela -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="/images/steeringcommittee/daniela.jpg" class="portrait" alt="Daniela Huppenkothen" style="width: 100%, height: auto;">
+                    <img src="/images/steeringcommittee/daniela.jpg" class="portrait" alt="Daniela Huppenkothen">
                     <div class="card-body">
                         <h4 class="card-title">Daniela Huppenkothen</h4>
                         <p class="card-text">Treasurer</p>
@@ -107,12 +107,12 @@ If you’d like to get in touch, reach out through our Discord server or send us
                     </div>
                 </div>
             </div>
-        <div class="row text-center" style="margin: 0">
+        <div class="row text-center">
         </div>
             <!-- Cecilia -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="/images/steeringcommittee/cecilia.jpg" class="portrait" alt="Cecilia La Place" style="width: 100%, height: auto;">
+                    <img src="/images/steeringcommittee/cecilia.jpg" class="portrait" alt="Cecilia La Place">
                     <div class="card-body">
                         <h4 class="card-title">Cecilia La Place</h4>
                         <p class="card-text">Webchair</p>
@@ -123,7 +123,7 @@ If you’d like to get in touch, reach out through our Discord server or send us
             <!-- Alex -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="/images/steeringcommittee/alex.jpg" class="portrait" alt="Alexander Nolte" style="width: 100%, height: auto;">
+                    <img src="/images/steeringcommittee/alex.jpg" class="portrait" alt="Alexander Nolte">
                     <div class="card-body">
                         <h4 class="card-title">Alexander Nolte</h4>
                         <p class="card-text">General Chair</p>
