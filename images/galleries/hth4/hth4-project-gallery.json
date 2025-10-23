@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "src": "/images/galleries/hth4/hth_impressions75.jpg",
+      "alt": "Hackathon Template 2.0",
+      "title": "Hackathon Template 2.0",
+      "description": "Using a cookiecutter template, is easy to setup your hackathon"
+    },
+    {
+      "src": "/images/galleries/hth4/hth_impressions77.jpg",
+      "alt": "Science Hackathon Brainstorming Game",
+      "title": "Science Hackathon Brainstorming Game",
+      "description": "The project helps group formation during hackathons"
+    },
+    {
+      "src": "/images/galle ries/hth4/hth_impressions78.jpg",
+      "alt": "Hackstorming",
+      "title": "Hackstorming",
+      "description": "The project wants to use gamification for group formation during hackathons"
+    },
+    {
+      "src": "/images/galle ries/hth4/hth_impressions79.jpg",
+      "alt": "MentorBot",
+      "title": "MentorBot",
+      "description": "The project wants to create a Discord bot, helping participants navigate a hackathon"
+    },
+    {
+      "src": "/images/galle ries/hth4/hth_impressions80.jpg",
+      "alt": "MentorBot",
+      "title": "MentorBot",
+      "description": "The project wants to create a Discord bot, helping participants navigate a hackathon"
+    }
+  ]
+}
