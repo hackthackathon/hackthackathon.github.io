@@ -12,9 +12,11 @@
 
 # Join a community of peers
 
-Welcome to the heart of hackathons, where academic excellence meets multidisciplinary exchange. Whether you're a researcher, student, or experienced professional: there's a place for you and your passion about hackathons in our growing community.
+> Welcome to the heart of hackathons, where academic excellence meets multidisciplinary exchange. Whether you're a researcher, student, or experienced professional: there's a place for you and your passion about hackathons in our growing community.
 
-Please be mindful of our [Code of Conduct](/conduct) as you participate in respectful debate. Notify the community admins of any concerns.
+> Please be mindful of our <a href="/docs/codeofconduct.pdf" target="_blank">Code of Conduct</a> as you participate in respectful debate. Notify the community admins of any concerns.
+
+---
 
 ## 4 Ways to Get Involved
 
@@ -35,5 +37,5 @@ Join our vibrant Discord community where ideas spark, partnerships form, and ide
 
 **📝 Stay Connected**
 
-Write us an e-mail with a few words on your background and interest in hackathon research, how you would like to contribute, and get invited: [info@hackthehackathon.org](mailto:info@hackthehackathon.org)
+Write us an e-mail with a few words on your background and interest in hackathon research, how you would like to contribute, and get invited: <a href="mailto:contact@hackthehackathon.org" target="_blank">contact@hackthehackathon.org</a>
 
