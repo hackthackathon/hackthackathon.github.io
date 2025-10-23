@@ -31,7 +31,7 @@ blockquote p {
     font-size: 18px;
 }
 
-a {
+a, a:visited, a:active, a:focus {
     color: #333333;
     text-decoration-line: underline;
     text-decoration-style: dotted;
