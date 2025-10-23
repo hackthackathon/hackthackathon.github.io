@@ -12,7 +12,9 @@
 
 # Resources
 
-This page gathers a wide array of resources both from our community and the wider field of hackathon research. We also include tools, software, artifacts and planning kits from our workshops and beyond. If you'd like to browse all of the available resources, go to [all resources](#all-resources). Below, we will highlight a few resources you might be particularly interested in.
+> This page gathers a wide array of resources both from our community and the wider field of hackathon research. We also include tools, software, artifacts and planning kits from our workshops and beyond. If you'd like to browse all of the available resources, go to [all resources](#all-resources). Below, we will highlight a few resources you might be particularly interested in.
+
+---
 
 ## Getting Started
 
@@ -21,6 +23,8 @@ If you're just getting started with hackathons, you might be interested in one o
  - The [Hackathon Planning Kit](https://hackathon-planning-kit.org) provides you with example timelines, decision guides and tons of resources to jump-start your hackathon organization. 
  - How do you know whether your hackathon worked, and whether it was a good experience for participants? Check out this [survey](https://zenodo.org/records/14705828) to get you started with evaluating your event.
  - Setting up the technical side of hackathons can be challenging. To help set you up, one team at Hack the Hackathon developed a hackathon cookiecutter template that sets you up with a website and more! Check out the [Hackathon Cookiecutter Template](https://github.com/hackthackathon/hackathon-template-cookiecutter). 
+
+---
 
 ## Recent Academic Highlights
 
@@ -31,8 +35,10 @@ There is a thriving community researching all facets of human collaboration and 
  - What role do hackathons play in academic research? Where and how are they used? [10 Years of Research With and On Hackathons (Falk + Halskov (2020))](https://dl.acm.org/doi/10.1145/3357236.3395543) surveyed the available literature and explored motivations for research with and about hackathons.  
  - How do we know whether a hackathon was successful? What does success even mean? [What Do We Know About Hackathon Outcomes and How to Support Them? – A Systematic Literature Review (Medina Angarita + Nolte (2020))](https://hackathon-planning-kit.org/files/Medina-Collabtech-2020.pdf) report on the state-of-the-art of potential hackathon outcomes, design aspects and connections between them.
 
+---
 
 ## All Resources {#all-resources}
+
 Take a look at the sortable table below to explore the breadth and width of resources. They include academic papers, books, tools, planning kits and more!
 
 <table id="resources" class="display" style="width:100%">
