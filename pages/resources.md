@@ -12,7 +12,7 @@
 
 # Resources
 
-This page gathers a wide array of resources both from our community and the wider field of hackathon research. We also include tools, software, artifacts and planning kids from our workshops and beyond. If you'd like to browse all of the available resources, go to [all resources](#all-resources). Below, we will highlight a few resources you might be particularly interested in.
+This page gathers a wide array of resources both from our community and the wider field of hackathon research. We also include tools, software, artifacts and planning kits from our workshops and beyond. If you'd like to browse all of the available resources, go to [all resources](#all-resources). Below, we will highlight a few resources you might be particularly interested in.
 
 ## Getting Started
 
