@@ -5,7 +5,7 @@ from nikola.plugin_categories import ShortcodePlugin
 class GalleryCarousel(ShortcodePlugin):
     name = "gallery_carousel"
 
-    def handler(self, data_file, carousel_id="myCarousel", site=None, data=None, lang=None, post=None):
+    def handler(self, data_file, carousel_id="myCarousel", height="500px", site=None, data=None, lang=None, post=None):
         # Make path relative to site root if needed
         if not os.path.isabs(data_file):
             data_file = os.path.join(site.config['OUTPUT_FOLDER'], '..', data_file)
@@ -43,6 +43,48 @@ class GalleryCarousel(ShortcodePlugin):
         
         # Generate complete carousel
         html = f'''
+        <style>
+          #{carousel_id} {{
+          max-width: 600px; /* adjust as you like */
+          margin: 0 auto;    /* centers the carousel */
+          }}
+
+         /* Adjust image to fit inside the limited width */
+         #{carousel_id} .carousel-inner > .item > img {{
+         width: 100%;
+         height: auto;       /* maintain aspect ratio */
+         object-fit: contain; /* ensure whole image is visible, with blank space around */
+         }}
+         /* Style the caption banner */
+         #{carousel_id} .carousel-caption {{
+           background: rgba(0, 0, 0, 0.7); /* semi-transparent black */
+           padding: 10px 10px;
+           border-radius: 8px;
+           bottom: 40px; /* position a bit above the bottom edge */
+           left: 50%;
+           transform: translateX(-50%);
+           width: 100%; /* slightly narrower than the image */
+         }}
+       
+         #{carousel_id} .carousel-caption h3,
+         #{carousel_id} .carousel-caption p {{
+           color: #fff; /* make text white for contrast */
+           text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+           margin: 0;
+         }}
+         #{carousel_id} .carousel-caption h3 {{
+             font-size: 0.4em;   /* smaller title */
+             margin-bottom: 4px;
+         }}
+         
+         #{carousel_id} .carousel-caption p {{
+             font-size: 0.9em;   /* smaller caption text */
+             margin: 0;
+         }}
+         #{carousel_id} .carousel-indicators {{
+             bottom: -4px; /* moves dots further below the image; increase for more space */
+         }}
+        </style>
         <div id="{carousel_id}" class="carousel slide" data-ride="carousel" data-interval="false">
           {indicators_html}
           {items_html}

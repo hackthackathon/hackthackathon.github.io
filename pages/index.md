@@ -28,73 +28,9 @@
 
 > We are a loose collective, partly organized via Discord and through a yearly “Hack the Hackathon” workshop. If, like us, you are excited to share insights, discuss current practices, address open challenges, and explore the future of hackathons, we invite you to join us!
 
-
-<!--
-   <div class="container">
-     <div class="row" id="gallery-row">
-       <div class="col-xs-6 col-sm-4 col-md-3">
-         <a href="#" data-toggle="modal" data-target="#galleryModal" data-slide-to="0">
-           <img src="/images/gallery/hth_impressions1.JPG" alt="Photo 1" class="img-responsive thumbnail" />
-         </a>
-       </div>
-       <div class="col-xs-6 col-sm-4 col-md-3">
-         <a href="#" data-toggle="modal" data-target="#galleryModal" data-slide-to="1">
-           <img src="/images/gallery/hth_impressions2.jpg" alt="Photo 2" class="img-responsive thumbnail" />
-         </a>
-       </div>
-     </div>
-   </div>
-
-   <div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-hidden="true">
-     <div class="modal-dialog modal-lg">
-       <div class="modal-content">
-         <div class="modal-body">
-           <div id="galleryCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-             <div class="carousel-inner" role="listbox">
-               <div class="item active">
-                 <img src="/images/gallery/hth_impressions1.JPG" alt="Photo 1" class="img-responsive center-block" />
-               </div>
-               <div class="item">
-                 <img src="/images/gallery/hth_impressions2.jpg" alt="Photo 2" class="img-responsive center-block" />
-               </div>
-             </div>
-
-             <a class="left carousel-control" href="#galleryCarousel" role="button" data-slide="prev">
-               <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-               <span class="sr-only">Previous</span>
-             </a>
-             <a class="right carousel-control" href="#galleryCarousel" role="button" data-slide="next">
-               <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-               <span class="sr-only">Next</span>
-             </a>
-           </div>
-         </div>
-         <div class="modal-footer">
-           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-         </div>
-       </div>
-     </div>
-   </div>
-
-   <script>
-   (function() {
-     // When a thumbnail is clicked, jump the carousel to the correct slide
-     $('#galleryModal').on('show.bs.modal', function (e) {
-       var trigger = $(e.relatedTarget);
-       var index = trigger.data('slide-to') || 0;
-       $('#galleryCarousel').carousel(index);
-     });
-     // Optional: if you close the modal, stop the carousel (useful if autoplay enabled)
-     $('#galleryModal').on('hidden.bs.modal', function () {
-       $('#galleryCarousel').carousel(0);
-     });
-   })();
-   </script>
--->
-<!--
-<section class="text-center py-5" id="about" style="background: url('/images/hth4-participants-small.png') center/cover no-repeat; width: 100%; height: 30vh; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;">
+<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+{{% gallery_carousel images/galleries/mainpage-gallery/mainpage-gallery.json height="300px" %}}
 </section>
--->
 
 <!-- What is... Section -->
 <section class="py-5 bg-light" style="margin-bottom: 3rem;">
@@ -129,8 +65,8 @@
                     <img src="/images/hth_workshop.jpg" class="card-img-top" alt="empty signpost stock photo">
                     <div class="card-body">
                         <h4 class="card-title" style="font-weight: bold">Workshops</h4>
-                        <p class="card-text">We organize a yearly hybrid workshop (in-person and online) to bring together the disparate communities interested in organizing and studying hackathons and related events. Come and explore our previous workshops!</p>
-                        <a href="/events/index.html" style="color: #ff0123; text-decoration: underline; font-weight: bold;">Read More ></a>
+                        <p class="card-text">We organize a yearly hybrid workshop (in-person and online) to bring together the disparate communities interested in organizing and studying hackathons and related events. Come and explore our previous workshops, or sign up to the next one!</p>
+                        <a href="/events/index.html" style="text-decoration: underline; font-size: 18px;">Explore workshops ></a>
                     </div>
                 </div>
             </div>
@@ -140,8 +76,8 @@
                     <img src="/images/hth_virtual.png" class="card-img-top" alt="survey stock photo">
                     <div class="card-body">
                         <h4 class="card-title" style="font-weight: bold">Virtual Community</h4>
-                        <p class="card-text">We build community and share resources on Discord..</p>
-                        <a href="/join-us/index.html" style="color: #ff0123; text-decoration: underline; font-weight: bold;">Read More ></a>
+                        <p class="card-text">In betwen workshops, we build community and share resources on Discord. Come and join us there!</p>
+                        <a href="/join-us/index.html" style="text-decoration: underline; font-size: 18px;">Join us ></a>
                     </div>
                 </div>
             </div>
@@ -152,66 +88,13 @@
                     <div class="card-body">
                         <h4 class="card-title">Resources</h4>
                         <p class="card-text">We collect resources, tools, best practices and research across our different communities to continuously improve the hackathon experience.</p>
-                        <a href="/resources/index.html" style="color: #ff0123; text-decoration: underline; font-weight: bold;">Read More ></a>
+                        <a href="/resources/index.html" style="text-decoration: underline; font-size: 18px;">Explore hackathon resources ></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="py-5 bg-light" style="margin-bottom: 3rem;">
-
-           <div>
-                <h2>Is This For Me?</h2>
-                <p>
-                    Do you have experience organizing or managing participant-driven events? Are you interested in studying how people collaborate?  
-                    If yes, then join our community or attend our next event! If you’re interested in organizing an event, we offer resources and a supportive community of experienced individuals to help you succeed.
-                </p>
-                <a href="/join-us/index.html" 
-                    style="color: #ff0123; 
-                           text-decoration: none; 
-                           font-weight: bold; 
-                           border: 2px solid #ff0123; 
-                           padding: 5px 10px; 
-                           display: inline-block; 
-                           transition: background-color 0.3s ease, color 0.3s ease;" 
-                    onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';" 
-                    onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';">
-                    Join the Community
-                 </a>
-            </div>
-
-</section>
-
-<!-- Is This For Me Section 
-<section class="py-5 bg-light" style="margin-bottom: 3rem;">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <img src="https://picsum.photos/600/400" alt="Is This For Me? Image" class="img-fluid rounded">
-            </div>
-            <div class="col-md-6">
-                <h2>Is This For Me?</h2>
-                <p>
-                    Do you have experience organizing or managing participant-driven events? Are you interested in studying how people collaborate?  
-                    If yes, then join our community or attend our next event! If you’re interested in organizing an event, we offer resources and a supportive community of experienced individuals to help you succeed.
-                </p>
-                <a href="/join-us/index.html" 
-                    style="color: #ff0123; 
-                           text-decoration: none; 
-                           font-weight: bold; 
-                           border: 2px solid #ff0123; 
-                           padding: 5px 10px; 
-                           display: inline-block; 
-                           transition: background-color 0.3s ease, color 0.3s ease;" 
-                    onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';" 
-                    onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';">
-                    Join the Community
-                 </a>
-            </div>
-        </div>
-    </div>
-</section> -->
 
 
 <!-- Our Story Section -->
@@ -221,10 +104,10 @@
             <div class="col-md-6">
                 <h2>Our Story</h2>
                 <p>
-                    Hack the Hackathon began with the realization that hackathons are interdisciplinary and run in diverse spaces and communities. We aimed to create a space for anyone interested in organizing such events to collaborate, share resources, and learn from each other.
-                </p>
-                <p>
-                    Two separate groups were working on hackathon planning kits, both supported by funding from the Sloan Foundation. These groups were brought together, and the first Hack the Hackathon was born.
+                    Hack the Hackathon began with the realization that hackathons are interdisciplinary and run in diverse spaces and communities. Two separate groups were working on hackathon planning kits, both supported by funding from the <a href="https://sloan.org" target="_blank">Sloan Foundation</a>. These groups were brought together, and the first Hack the Hackathon was born. 
+</p>
+<p>
+ We wanted to create a space for anyone interested in organizing such events to collaborate, share resources, and learn from each other. We also realized that researchers of hackathons were missing a venue to come together, share their newest results both with each other and the community of organizers, and recruit organizers for future studies.
                 </p>
                 <a href="#" 
                     style="color: #ff0123; 
@@ -236,19 +119,50 @@
                            transition: background-color 0.3s ease, color 0.3s ease;" 
                     onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';" 
                     onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';">
-                    Meet the Team
+                    Meet the Community
                  </a>
             </div>
             <div class="col-md-6">
-                <img src="https://picsum.photos/600/400" alt="Our Story Image" class="img-fluid rounded">
+                <img src="images/hth_hackingpower.jpg" alt="A laptop charger stuck into an adapter, which in turn sits in another adapter, which in turn is plugged into a socket." class="img-fluid rounded">
             </div>
         </div>
     </div>
 </section>
 
+<section class="py-5" id="contact" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="images/galleries/hth3/hth_impressions17.jpg" alt="An illustration of hands on a table filled with gears and instruments in various colours. In the middle it says 'hackathons for all'." class="img-fluid rounded">
+            </div>
+
+            <div class="col-md-6">
+                <h2>Is This For Me?</h2>
+                <p>
+                    Do you have experience organizing or managing participant-driven events? Are you interested in studying how people collaborate?
+                    If yes, then come and join our community or attend our next event! We'd love to have you! If you’re interested in organizing an event, we offer resources and a supportive community of experienced individuals to help you succeed.
+                </p>
+                <a href="/join-us/index.html"
+                    style="color: #ff0123;
+                           text-decoration: none;
+                           font-weight: bold;
+                           border: 2px solid #ff0123;
+                           padding: 5px 10px;
+                           display: inline-block;
+                           transition: background-color 0.3s ease, color 0.3s ease;"
+                    onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';"
+                    onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';">
+                    Join the Community
+                 </a>
+            </div>
+       </div>
+   </div>
+</section>
+
+
 ## Funders and Supporters
 
-Big thanks to all the amazing organizations that power “Hack the Hackathon”. Their ongoing support helped us to build this community and helps us to keep it going. The logos are in alphabetical order.
+We thank all the amazing organizations that power “Hack the Hackathon”. Their ongoing support helped us to build this community and helps us to keep it going. The logos are in alphabetical order.
 
 <!-- Horizontal hover slider
 

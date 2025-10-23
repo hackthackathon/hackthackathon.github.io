@@ -3,3 +3,4 @@ output
 .doit.db*
 __pycache__
 /assets
+.DS_Store
