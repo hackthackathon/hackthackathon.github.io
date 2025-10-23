@@ -28,7 +28,9 @@
 
 > We are a loose collective, partly organized via Discord and through a yearly “Hack the Hackathon” workshop. If, like us, you are excited to share insights, discuss current practices, address open challenges, and explore the future of hackathons, we invite you to join us!
 
+<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
 {{% gallery_carousel images/galleries/mainpage-gallery/mainpage-gallery.json height="300px" %}}
+</section>
 
 <!-- What is... Section -->
 <section class="py-5 bg-light" style="margin-bottom: 3rem;">
@@ -93,59 +95,6 @@
         </div>
     </div>
 </section>
-<section class="py-5 bg-light" style="margin-bottom: 3rem;">
-
-           <div>
-                <h2>Is This For Me?</h2>
-                <p>
-                    Do you have experience organizing or managing participant-driven events? Are you interested in studying how people collaborate?  
-                    If yes, then join our community or attend our next event! If you’re interested in organizing an event, we offer resources and a supportive community of experienced individuals to help you succeed.
-                </p>
-                <a href="/join-us/index.html" 
-                    style="color: #ff0123; 
-                           text-decoration: none; 
-                           font-weight: bold; 
-                           border: 2px solid #ff0123; 
-                           padding: 5px 10px; 
-                           display: inline-block; 
-                           transition: background-color 0.3s ease, color 0.3s ease;" 
-                    onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';" 
-                    onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';">
-                    Join the Community
-                 </a>
-            </div>
-
-</section>
-
-<!-- Is This For Me Section 
-<section class="py-5 bg-light" style="margin-bottom: 3rem;">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <img src="https://picsum.photos/600/400" alt="Is This For Me? Image" class="img-fluid rounded">
-            </div>
-            <div class="col-md-6">
-                <h2>Is This For Me?</h2>
-                <p>
-                    Do you have experience organizing or managing participant-driven events? Are you interested in studying how people collaborate?  
-                    If yes, then join our community or attend our next event! If you’re interested in organizing an event, we offer resources and a supportive community of experienced individuals to help you succeed.
-                </p>
-                <a href="/join-us/index.html" 
-                    style="color: #ff0123; 
-                           text-decoration: none; 
-                           font-weight: bold; 
-                           border: 2px solid #ff0123; 
-                           padding: 5px 10px; 
-                           display: inline-block; 
-                           transition: background-color 0.3s ease, color 0.3s ease;" 
-                    onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';" 
-                    onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';">
-                    Join the Community
-                 </a>
-            </div>
-        </div>
-    </div>
-</section> -->
 
 
 <!-- Our Story Section -->
@@ -155,10 +104,10 @@
             <div class="col-md-6">
                 <h2>Our Story</h2>
                 <p>
-                    Hack the Hackathon began with the realization that hackathons are interdisciplinary and run in diverse spaces and communities. We aimed to create a space for anyone interested in organizing such events to collaborate, share resources, and learn from each other.
+                    Hack the Hackathon began with the realization that hackathons are interdisciplinary and run in diverse spaces and communities. We aimed to create a space for anyone interested in organizing such events to collaborate, share resources, and learn from each other. We also wanted to give a space to researchers of hackathons to come together, share their newest results both with each other and the community of organizers, and recruit organizers for future studies.
                 </p>
                 <p>
-                    Two separate groups were working on hackathon planning kits, both supported by funding from the Sloan Foundation. These groups were brought together, and the first Hack the Hackathon was born.
+                    Two separate groups were working on hackathon planning kits, both supported by funding from the <a href="https://sloan.org" target="_blank">Sloan Foundation</a>. These groups were brought together, and the first Hack the Hackathon was born.
                 </p>
                 <a href="#" 
                     style="color: #ff0123; 
@@ -170,15 +119,46 @@
                            transition: background-color 0.3s ease, color 0.3s ease;" 
                     onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';" 
                     onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';">
-                    Meet the Team
+                    Meet the Community
                  </a>
             </div>
             <div class="col-md-6">
-                <img src="https://picsum.photos/600/400" alt="Our Story Image" class="img-fluid rounded">
+                <img src="images/hth_hackingpower.jpg" alt="A laptop charger stuck into an adapter, which in turn sits in another adapter, which in turn is plugged into a socket." class="img-fluid rounded">
             </div>
         </div>
     </div>
 </section>
+
+<section class="py-5" id="contact" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="images/galleries/hth3/hth_impressions17.jpg" alt="An illustration of hands on a table filled with gears and instruments in various colours. In the middle it says 'hackathons for all'." class="img-fluid rounded">
+            </div>
+
+            <div class="col-md-6">
+                <h2>Is This For Me?</h2>
+                <p>
+                    Do you have experience organizing or managing participant-driven events? Are you interested in studying how people collaborate?
+                    If yes, then join our community or attend our next event! If you’re interested in organizing an event, we offer resources and a supportive community of experienced individuals to help you succeed.
+                </p>
+                <a href="/join-us/index.html"
+                    style="color: #ff0123;
+                           text-decoration: none;
+                           font-weight: bold;
+                           border: 2px solid #ff0123;
+                           padding: 5px 10px;
+                           display: inline-block;
+                           transition: background-color 0.3s ease, color 0.3s ease;"
+                    onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';"
+                    onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';">
+                    Join the Community
+                 </a>
+            </div>
+       </div>
+   </div>
+</section>
+
 
 ## Funders and Supporters
 
