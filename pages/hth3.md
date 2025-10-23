@@ -40,7 +40,11 @@ The workshop was held in hybrid format, combining virtual and in-person gatherin
 </section>
 
 ## What we worked on
-During Hack the Hackathon 3 we saw two different sprints - one over the duration of Hack the Hackathon 3, and one at the UN Library.
+During Hack the Hackathon 3, we did two different sprints - one over the duration of Hack the Hackathon 3, and one at the UN Library. Check some highlights of the ones from the Hack the Hackathon 3 sprint in the gallery below.
+
+<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+{{% gallery_carousel images/galleries/hth3/hth3-project-gallery.json carousel_id=hth3_projects_gallery height="300px" %}}
+</section>
 
 ## Outcomes
 
