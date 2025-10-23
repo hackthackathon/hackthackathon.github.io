@@ -35,7 +35,9 @@ The workshop was held in hybrid format, combining virtual and in-person gatherin
 [Hack the Hackathon: Shaping the Future of Hackathon Research and Practice, Volume 3](https://hackthehackathon.org/hth3.html)
 
 ## Participants
-IMAGE HERE + LIST
+<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+{{% gallery_carousel images/galleries/hth3/hth3-gallery.json carousel_id=hth3_gallery height="300px" %}}
+</section>
 
 ## What we worked on
 During Hack the Hackathon 3 we saw two different sprints - one over the duration of Hack the Hackathon 3, and one at the UN Library.
