@@ -1,8 +1,3 @@
-/* marquee.js
-   Dynamically measures marquee width and sets CSS animation distance/duration
-   to ensure smooth, gap-free scrolling in all browsers (including Safari).
-*/
-
 (function () {
   var SPEED = 200;
 

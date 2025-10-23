@@ -142,20 +142,20 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/index.html", "Home"),
+        ("/", "Home"),
         (
             (
-                ('/events/index.html', 'Next Event'),
-                ('/events/hth4/index.html', 'Hack the Hackathon 4'),
-                ('/events/hth3/index.html', 'Hack the Hackathon 3'),
-                ('/events/hth2/index.html', 'Hack the Hackathon 2'),
-                ('/events/hth1/index.html', 'Hack the Hackathon 1'),
+                ('/events/', 'Next Event'),
+                ('/events/hth4/', 'Hack the Hackathon 4'),
+                ('/events/hth3/', 'Hack the Hackathon 3'),
+                ('/events/hth2/', 'Hack the Hackathon 2'),
+                ('/events/hth1/', 'Hack the Hackathon 1'),
             ),
             'Events'
         ),
-        ("/community/index.html", "Community"),
-        ("/resources/index.html", "Resources"),
-        ("/join-us/index.html", "Join Us"),
+        ("/community/", "Community"),
+        ("/resources/", "Resources"),
+        ("/join-us/", "Join Us"),
     ),
 }
 
