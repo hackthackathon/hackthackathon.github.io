@@ -28,6 +28,7 @@ While the first two workshops were effective at bringing together a diverse grou
 ## Date and location
 November 6-10, 2023  
 SGD Innovation Space in Geneva, Switzerland ([website](https://sdgsolutionspace.org), [maps](https://maps.app.goo.gl/2y2EjnzLnYvA3nef7))
+
 The workshop was held in hybrid format, combining virtual and in-person gatherings.
 
 ## Previous Website

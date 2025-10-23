@@ -24,6 +24,7 @@ The aim of this workshop was to bring together researchers of different discipli
 ## Date and location
 December 6-10, 2021  
 Lorentz Center, Leiden, The Netherlands ([website](https://www.lorentzcenter.nl/), [maps](https://maps.app.goo.gl/BkWBzmPYQkv6aYnE9))  
+
 The workshop was held online due to the ongoing COVID-19 pandemic.
 
 ## Previous website

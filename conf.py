@@ -146,6 +146,7 @@ NAVIGATION_LINKS = {
         (
             (
                 ('/events/index.html', 'Next Event'),
+                ('/events/hth4/index.html', 'Hack the Hackathon 4'),
                 ('/events/hth3/index.html', 'Hack the Hackathon 3'),
                 ('/events/hth2/index.html', 'Hack the Hackathon 2'),
                 ('/events/hth1/index.html', 'Hack the Hackathon 1'),
