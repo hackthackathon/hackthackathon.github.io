@@ -8,7 +8,7 @@
 .. link: 
 .. description: 
 .. type: text
-.. extra_head: <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" /><link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" /><link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" /><script src="https://unpkg.com/leaflet/dist/leaflet.js"></script><script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script><script src="/map-js/locations.js"></script><script src="/map-js/renderMap.js"></script><style>#map {width: 100%; height: 60vh; max-height: 800px; min-height: 300px;}</style>
+.. extra_head: <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" /><link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" /><link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" /><script src="https://unpkg.com/leaflet/dist/leaflet.js"></script><script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script><script src="/js/locations.js"></script><script src="/js/renderMap.js"></script><style>#map {width: 100%; height: 60vh; max-height: 800px; min-height: 300px;}</style>
 -->
 
 # Welcome to our community!

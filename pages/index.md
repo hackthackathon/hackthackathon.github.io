@@ -266,3 +266,4 @@ To add a new funder logo, you must:
   </div>
 </div>
 
+<script src="/js/slider.js"></script>

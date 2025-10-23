@@ -15,32 +15,29 @@ td, th {
 }
 
 .image-marquee .marquee__inner {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  width: max-content;
-  animation: marquee-scroll 15s linear infinite;
-  gap: 20px;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 0;
+  animation: marquee var(--dur, 30s) linear infinite;
   will-change: transform;
 }
 
-.image-marquee:hover .marquee__inner,
-.image-marquee .marquee__inner:hover {
+.image-marquee:hover .marquee__inner {
   animation-play-state: paused !important;
   -webkit-animation-play-state: paused !important;
 }
 
 .image-marquee .marquee__inner > a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 0 0 190px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 190px;
   height: 120px;
-  margin: 0;
-  line-height: 0;
+  box-sizing: border-box;
+  margin-right: 20px;
+  padding: 5px;
   text-decoration: none;
   background: transparent;
-  box-sizing: border-box;
+  line-height: 0;
 }
 
 .image-marquee .marquee__inner > a > img.marquee__item {
@@ -50,12 +47,11 @@ td, th {
   object-fit: contain;
   border-radius: 6px;
   background: transparent;
-  padding: 5px;
   box-shadow:
     0 4px 10px rgba(0, 0, 0, 0.25),
     0 0 0 5px #fff;
   filter: grayscale(100%);
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, filter 0.2s ease;
 }
 
 .image-marquee .marquee__inner > a > img.marquee__item:hover {
@@ -63,7 +59,14 @@ td, th {
   filter: grayscale(0%);
 }
 
-@keyframes marquee-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+@keyframes marquee {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(calc(-1 * var(--w, 1000px)), 0, 0); }
+}
+
+@supports (-webkit-touch-callout: none) {
+  .image-marquee .marquee__inner {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
 }
