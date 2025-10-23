@@ -34,55 +34,55 @@ The visualizations below highlight this diversity: one shows the various domains
 Together, they offer a snapshot of the backgrounds, skills, and perspectives that shape our collaborative work.
 
 <section class="py-5 bg-light">
-    <div class="container">
-        <p>Domains</p>
-        <div id="error" class="error" style="display: none;"></div>
-        <div id="timeline_ra" class="timeline"></div>
-        <div class="main-card">
-            <div class="nav-header">
-                <button id="prevBtn_ra" class="nav-btn">‹</button>
-                <h2 id="eventTitle_ra" class="event-title"></h2>
-                <button id="nextBtn_ra" class="nav-btn">›</button>
-            </div>
-            <div class="content-grid">
-                <div class="chart-container">
-                    <canvas id="pieChart_DOMAIN"></canvas>
+    <div class="row text-center">
+        <div class="col-md-6">
+            <div id="error" class="error" style="display: none;"></div>
+            <div id="timeline_ra" class="timeline"></div>
+            <div class="main-card">
+                <div class="nav-header">
+                    <button id="prevBtn_ra" class="nav-btn">‹</button>
+                    <h2 id="eventTitle_ra" class="event-title"></h2>
+                    <button id="nextBtn_ra" class="nav-btn">›</button>
                 </div>
-                <div class="stats domains">
-                    <div class="stat-card total">
-                        <div class="stat-label">Total Participants</div>
-                        <div id="totalValueDomain" class="stat-value"></div>
+                <div class="content-grid">
+                    <div class="chart-container">
+                        <canvas id="pieChart_DOMAIN"></canvas>
+                    </div>
+                    <div class="stats domains row">
+                        <div class="col-md-5 stat-card total">
+                            <div class="stat-label">Total Participants</div>
+                            <div id="totalValueDomain" class="stat-value"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <p>Practitioners and Researchers at Hack the Hackathon</p>
-        <div id="error" class="error" style="display: none;"></div>
-        <div id="timeline_or" class="timeline"></div>
-        <div class="main-card">
-            <div class="nav-header">
-                <button id="prevBtn_or" class="nav-btn">‹</button>
-                <h2 id="eventTitle_or" class="event-title"></h2>
-                <button id="nextBtn_or" class="nav-btn">›</button>
-            </div>
-            <div class="content-grid">
-                <div class="chart-container">
-                    <canvas id="pieChart_RO"></canvas>
+        <div class="col-md-6">
+            <div id="error" class="error" style="display: none;"></div>
+            <div id="timeline_or" class="timeline"></div>
+            <div class="main-card">
+                <div class="nav-header">
+                    <button id="prevBtn_or" class="nav-btn">‹</button>
+                    <h2 id="eventTitle_or" class="event-title"></h2>
+                    <button id="nextBtn_or" class="nav-btn">›</button>
                 </div>
-                <div class="stats ro">
-                    <div class="stat-card practitioners">
-                        <div class="stat-label">Practitioners</div>
-                        <div id="practitionerPercent" class="stat-percent"></div>
+                <div class="content-grid">
+                    <div class="chart-container">
+                        <canvas id="pieChart_RO"></canvas>
                     </div>
-                    <div class="stat-card researchers">
-                        <div class="stat-label">Researchers</div>
-                        <div id="researcherPercent" class="stat-percent"></div>
-                    </div>
-                    <div class="stat-card total">
-                        <div class="stat-label">Total Participants</div>
-                        <div id="totalValue" class="stat-value"></div>
+                    <div class="stats ro">
+                        <div class="stat-card practitioners">
+                            <div class="stat-label">Practitioners</div>
+                            <div id="practitionerPercent" class="stat-percent"></div>
+                        </div>
+                        <div class="stat-card researchers">
+                            <div class="stat-label">Researchers</div>
+                            <div id="researcherPercent" class="stat-percent"></div>
+                        </div>
+                        <div class="stat-card total">
+                            <div class="stat-label">Total Participants</div>
+                            <div id="totalValue" class="stat-value"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -97,10 +97,8 @@ We are growing. The visualization below shows how our community has evolved acro
 
 <section class="py-5 bg-light">
     <div class="container">
-        <p>Participant Retention Flow Analysis</p>
         <div id="error_sankey" class="error" style="display: none;"></div>
         <div class="chart-container-sankey">
-            <h3 class="chart-title">Participant Flow Between Events</h3>
             <div id="sankey"></div>
             <div class="legend">
                 <div class="legend-item">
@@ -381,9 +379,14 @@ If you’d like to get in touch, reach out through our Discord server or send us
             const value = event.categories[category];
             const percentage = event.total > 0 ? ((value / event.total) * 100).toFixed(1) : 0;
             
+            // Skip categories with zero values
+            if (value === 0) {
+                return;
+            }
+            
             // Create stat card
             const statCard = document.createElement('div');
-            statCard.className = `stat-card category-${index}`;
+            statCard.className = `col-md-5 stat-card category-${index}`;
             
             // Get the corresponding muted color from the chart color palette
             const originalColor = colors[index % colors.length];
@@ -1032,14 +1035,14 @@ If you’d like to get in touch, reach out through our Discord server or send us
         node.append('text')
             .attr('x', d => {
                 if (d.type === 'newcomers') {
-                    return d.x0 - 10; // Left of newcomer nodes
+                    return d.x1 + 10; // Right of newcomer nodes
                 } else {
                     return d.x1 + 10; // Right of event nodes
                 }
             })
             .attr('y', d => (d.y1 + d.y0) / 2)
             .attr('dy', '0.35em')
-            .attr('text-anchor', d => d.type === 'newcomers' ? 'end' : 'start')
+            .attr('text-anchor', 'start') // Always align text to start since all labels are now on the right
             .text(d => d.name)
             .style('fill', '#1e293b')
             .style('font-weight', d => d.type === 'event' ? 'bold' : 'normal')
