@@ -81,9 +81,10 @@
 
 .content-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    align-items: center;
+    grid-template-rows: auto auto; /* Stack vertically */
+    grid-template-columns: 1fr;   /* Single column */
+    gap: 1rem;
+    align-items: start;
 }
 
 .chart-container {
@@ -99,15 +100,10 @@
     margin-bottom: 2rem;
 }
 
-.stats {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-}
-
 .stat-card {
     padding: 1rem;
     border-radius: 0.75rem;
+    margin: 0.5em
 }
 
 #tooltip{
@@ -216,6 +212,7 @@
 
 @media (max-width: 768px) {
     .content-grid {
+        grid-template-rows: auto auto; /* Keep vertical stacking */
         grid-template-columns: 1fr;
     }
 
