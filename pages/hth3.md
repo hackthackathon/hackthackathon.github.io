@@ -62,9 +62,9 @@ During Hack the Hackathon 3 we saw two different sprints - one over the duration
     <td><a href="https://creativeimpact.eu/en/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/CIRCE.png" alt="CIRCE"/></a></td>
     <td><a href="https://www.ungeneva.org/en/library-archives/library" target="_blank" class="logo-link"><img class="logo" src="/images/funders/un-library.png" alt="United Nations Library & Archives Geneva"/></a></td>
     <td><a href="https://unitar.org" target="_blank" class="logo-link"><img class="logo" src="/images/funders/unitar.jpg" alt="UNITAR"/></a></td>
-    <td><a href="https://kulturstaatsminister.de" target="_blank" class="logo-link"><img class="logo" src="images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien-logo.webp" alt="Beauftragte der bundesregierung fur kultur und medien"/></a></td>
-    <td><a href="https://garage48.org" target="_blank" class="logo-link"><img class="logo" src="images/funders/g48.png" alt="Garage 48"/></a></td>
-    <td><a href="https://ideasquare.cern" target="_blank" class="logo-link"><img class="logo" src="images/funders/idea-square.jpg" alt="Idea Square"/></a></td>
-    <td><a href="https://www.unige.ch/en/" target="_blank" class="logo-link"><img class="logo" src="images/funders/Logo_of_the_University_of_Geneva.jpg" alt="University of Geneva"/></a></td>
+    <td><a href="https://kulturstaatsminister.de" target="_blank" class="logo-link"><img class="logo" src="/images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien.png" alt="Beauftragte der bundesregierung fur kultur und medien"/></a></td>
+    <td><a href="https://garage48.org" target="_blank" class="logo-link"><img class="logo" src="/images/funders/g48.png" alt="Garage 48"/></a></td>
+    <td><a href="https://ideasquare.cern" target="_blank" class="logo-link"><img class="logo" src="/images/funders/idea-square.png" alt="Idea Square"/></a></td>
+    <td><a href="https://www.unige.ch/en/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/university-of-geneva.png" alt="University of Geneva"/></a></td>
   </tr>
 </table>

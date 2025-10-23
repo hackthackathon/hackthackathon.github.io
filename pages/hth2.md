@@ -50,7 +50,7 @@ IMAGE HERE + LIST
 
 <table>
   <tr>
-    <td><a href="https://www.simonsfoundation.org/flatiron/" target="_blank" class="logo-link"><img class="logo" src="/images/flatiron-logo.png" alt="Flatiron Institute"/></a></td>
-    <td><a href="https://sloan.org/" target="_blank" class="logo-link"><img class="logo" src="/images/sloan.png" alt="Alfred P. Sloan Foundation"/></a></td>
+    <td><a href="https://www.simonsfoundation.org/flatiron/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/flatiron-institute.png" alt="Flatiron Institute"/></a></td>
+    <td><a href="https://sloan.org/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/sloan-foundation.png" alt="Alfred P. Sloan Foundation"/></a></td>
   </tr>
 </table>

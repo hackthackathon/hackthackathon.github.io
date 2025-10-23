@@ -46,7 +46,7 @@ IMAGE HERE + LIST
 
 <table>
   <tr>
-    <td><a href="https://www.lorentzcenter.nl/" target="_blank" class="logo-link"><img class="logo" src="/images/lorentzcenter.jpg" alt="Lorentz Center"/></a></td>
-    <td><a href="https://sloan.org/" target="_blank" class="logo-link"><img class="logo" src="/images/sloan.png" alt="Alfred P. Sloan Foundation"/></a></td>
+    <td><a href="https://www.lorentzcenter.nl/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/lorentz-center.png" alt="Lorentz Center"/></a></td>
+    <td><a href="https://sloan.org/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/sloan-foundation.png" alt="Alfred P. Sloan Foundation"/></a></td>
   </tr>
 </table>
