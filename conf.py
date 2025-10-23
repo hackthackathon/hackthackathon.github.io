@@ -146,8 +146,9 @@ NAVIGATION_LINKS = {
         (
             (
                 ('/events/index.html', 'Next Event'),
-                ('https://hackthackathon.github.io/hth3.html', 'Hack the Hackathon 3'),
-                ('https://indico.flatironinstitute.org/event/3157/', 'Hack the Hackathon 2'),
+                ('/events/hth4/index.html', 'Hack the Hackathon 4'),
+                ('/events/hth3/index.html', 'Hack the Hackathon 3'),
+                ('/events/hth2/index.html', 'Hack the Hackathon 2'),
                 ('/events/hth1/index.html', 'Hack the Hackathon 1'),
             ),
             'Events'
@@ -1277,6 +1278,8 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # before </head>
 # (translatable)
 EXTRA_HEAD_DATA = "<link rel=\"icon\" href=\"/images/favicon.png\" type=\"image/png\"><link href=\"/style/hth_style.css\" rel=\"stylesheet\"><script src=\"https://use.fontawesome.com/releases/v5.12.1/js/all.js\" crossorigin=\"anonymous\"></script><link rel=\"stylesheet\" href=\"/academicons/css/academicons.min.css\"/>"
+EXTRA_HEAD_DATA += '<link rel="stylesheet" href="/assets/css/slider.css">'
+
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
@@ -1424,3 +1427,8 @@ GLOBAL_CONTEXT = {}
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
 GLOBAL_CONTEXT_FILLER = []
+
+SHORTCODE_ENGINE = "mako"
+TEMPLATE_ENGINE = "mako"
+
+PLUGIN_PATHS= ["plugins"] 

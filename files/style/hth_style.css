@@ -1,14 +1,69 @@
 /* styles for HTH */
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+blockquote p {
+    font-size: 18px;
+}
+
+a, a:visited, a:active, a:focus {
+    color: #333333;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: currentColor;
+    text-underline-offset: 2px;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+.navbar-nav li a {
+    font-size: 17px;
+    letter-spacing: 0.05em;
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #d3d3d3;
+}
+
 a.navbar-brand {
     position: abolute;
     margin: 0;
     top: 0;
-    width: 100px;
+    width: 110px;
 }
 
 .footer-padding {
     padding: 3px;
+    font-size: 14px;
 }
 
 td, th {
@@ -113,4 +168,31 @@ td, th {
 
 .marker-cluster {
     box-shadow: 0 0 5px rgba(255, 0, 0, 0.6);
+}
+
+.portrait {
+    border-radius: 50% !important;
+    width: 12em;
+    height: 12em;
+    border: 0.2em solid #333333;
+    margin: 20px 0 5px 0;
+    box-shadow: 0 0 1px 0px white inset, 0 0 1px 0px white;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+div.card-body a {
+    font-size: 28px;
+    margin: 5px;
+}
+
+.steeringcommittee {
+    padding-top: 10px;
+    margin-bottom: 20px;
 }

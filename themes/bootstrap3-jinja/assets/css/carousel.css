@@ -1,0 +1,37 @@
+td, th {
+   border: none!important;
+}
+
+/* --- Carousel Styling --- */
+.splide__slide img {
+  width: 100%;
+  height: 150px;           /* Adjust height as desired */
+  object-fit: contain;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+/* Center the pagination dots and make them look nice */
+.splide__pagination {
+  position: relative;
+  bottom: 0;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.splide__pagination__page {
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  background: #ccc;
+  border-radius: 50%;
+  opacity: 0.7;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.splide__pagination__page.is-active {
+  background: #333;
+  transform: scale(1.3);
+  opacity: 1;
+}

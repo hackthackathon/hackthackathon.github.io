@@ -24,7 +24,11 @@ The aim of this workshop was to bring together researchers of different discipli
 ## Date and location
 December 6-10, 2021  
 Lorentz Center, Leiden, The Netherlands ([website](https://www.lorentzcenter.nl/), [maps](https://maps.app.goo.gl/BkWBzmPYQkv6aYnE9))  
+
 The workshop was held online due to the ongoing COVID-19 pandemic.
+
+## Previous website
+[Hack the Hackathon: Shaping the Future of Hackathon Research and Practice](https://www.lorentzcenter.nl/hack-the-hackathon-shaping-the-future-of-hackathon-research-and-practice.html)
 
 ## Participants
 IMAGE HERE + LIST
@@ -34,7 +38,7 @@ IMAGE HERE + LIST
 ## Outcomes
 
 ## Organizers
-- Alexander Nolte, University of Tartu (Estonia) & Carnegie Mellon University (Pittsburgh, PA, USA)
+- Alexander Nolte, University of Tartu (Tartu, Estonia) & Carnegie Mellon University (Pittsburgh, PA, USA)
 - James D. Herbsleb, Carnegie Mellon University (Pittsburgh, PA, USA)
 - Daniela Huppenkothen, SRON Netherlands Institute for Space Research (Leiden, The Netherlands)
 - Anthony Arendt, University of Washington (Seattle, WA, USA)
@@ -43,7 +47,7 @@ IMAGE HERE + LIST
 
 <table>
   <tr>
-    <td><a href="https://www.lorentzcenter.nl/" target="_blank" class="logo-link"><img class="logo" src="/images/lorentzcenter.jpg" alt="Lorentz Center"/></a></td>
-    <td><a href="https://sloan.org/" target="_blank" class="logo-link"><img class="logo" src="/images/sloan.png" alt="Alfred P. Sloan Foundation"/></a></td>
+    <td><a href="https://www.lorentzcenter.nl/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/lorentz-center.png" alt="Lorentz Center"/></a></td>
+    <td><a href="https://sloan.org/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/sloan-foundation.png" alt="Alfred P. Sloan Foundation"/></a></td>
   </tr>
 </table>
