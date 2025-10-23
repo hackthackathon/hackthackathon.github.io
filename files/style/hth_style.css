@@ -175,3 +175,16 @@ td, th {
     margin: 20px 0 5px 0;
     box-shadow: 0 0 1px 0px white inset, 0 0 1px 0px white;
 }
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+div.card-body a {
+    font-size: 28px;
+    margin: 5px;
+}

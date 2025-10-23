@@ -78,8 +78,9 @@ If you’d like to get in touch, reach out through our Discord server or send us
                 <div class="card">
                     <img src="/images/steeringcommittee/allissa.png" class="portrait" alt="Allissa Dillman" style="width: 100%, height: auto;">
                     <div class="card-body">
-                        <h4 class="card-title" style="font-weight: bold">Allissa Dillman</h4>
+                        <h4 class="card-title">Allissa Dillman</h4>
                         <p class="card-text">Social Media Chair</p>
+                        <a href="https://www.linkedin.com/in/allissa-dillman/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -88,8 +89,9 @@ If you’d like to get in touch, reach out through our Discord server or send us
                 <div class="card">
                     <img src="/images/steeringcommittee/joseph.jpg" class="portrait" alt="Joseph Gum" style="width: 100%, height: auto;">
                     <div class="card-body">
-                        <h4 class="card-title" style="font-weight: bold">Joseph Gum</h4>
+                        <h4 class="card-title">Joseph Gum</h4>
                         <p class="card-text">Secretary</p>
+                        <a href="https://www.linkedin.com/in/josephigum/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -98,8 +100,10 @@ If you’d like to get in touch, reach out through our Discord server or send us
                 <div class="card">
                     <img src="/images/steeringcommittee/daniela.jpg" class="portrait" alt="Daniela Huppenkothen" style="width: 100%, height: auto;">
                     <div class="card-body">
-                        <h4 class="card-title" style="font-weight: bold">Daniela Huppenkothen</h4>
+                        <h4 class="card-title">Daniela Huppenkothen</h4>
                         <p class="card-text">Treasurer</p>
+                        <a href="https://www.linkedin.com/in/daniela-h-0b44a97b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://huppenkothen.org/" target="_blank"><i class="fas fa-globe"></i></a>
                     </div>
                 </div>
             </div>
@@ -108,10 +112,11 @@ If you’d like to get in touch, reach out through our Discord server or send us
             <!-- Cecilia -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="/images/steeringcommittee/cecilia.jpeg" class="portrait" alt="Cecilia La Place" style="width: 100%, height: auto;">
+                    <img src="/images/steeringcommittee/cecilia.jpg" class="portrait" alt="Cecilia La Place" style="width: 100%, height: auto;">
                     <div class="card-body">
-                        <h4 class="card-title" style="font-weight: bold">Cecilia La Place</h4>
+                        <h4 class="card-title">Cecilia La Place</h4>
                         <p class="card-text">Webchair</p>
+                        <a href="https://www.linkedin.com/in/cecilia-la-place/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -120,8 +125,10 @@ If you’d like to get in touch, reach out through our Discord server or send us
                 <div class="card">
                     <img src="/images/steeringcommittee/alex.jpg" class="portrait" alt="Alexander Nolte" style="width: 100%, height: auto;">
                     <div class="card-body">
-                        <h4 class="card-title" style="font-weight: bold">Alexander Nolte</h4>
+                        <h4 class="card-title">Alexander Nolte</h4>
                         <p class="card-text">General Chair</p>
+                        <a href="https://www.linkedin.com/in/alexandernolte/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://alexandernolte.github.io/" target="_blank"><i class="fas fa-globe"></i></a>
                     </div>
                 </div>
             </div>
