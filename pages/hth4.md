@@ -26,10 +26,14 @@ Scripps Institution of Oceanography at the University of California San Diego, S
 The workshop was held in hybrid format, combining virtual and in-person gatherings.
 
 ## Participants
-IMAGE HERE + LIST
+<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+{{% gallery_carousel images/galleries/hth4/hth4-gallery.json height="300px" %}}
+</section>
 
 ## What we worked on
-
+<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+{{% gallery_carousel images/galleries/hth4/hth4-project-gallery.json height="300px" %}}
+</section>
 
 ## Outcomes
 
