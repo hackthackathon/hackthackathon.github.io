@@ -1,10 +1,28 @@
 {
   "images": [
     {
+      "src": "/images/galleries/mainpage-gallery/hth_impressions61.png",
+      "alt": "A slide with the words 'hack the hackathon', with images of all participants",
+      "title": "Virtual hacking",
+      "description": "The original Hack the Hackathon had to be moved online with only a few days notice due to a COVID lockdown, but we made the best of things anyway, and learned a lot about running online conferences in the process."
+    },
+    {
+      "src": "/images/galleries/mainpage-gallery/hth_impressions23.jpg",
+      "alt": "a group of hack the hackathon participants laughing.",
+      "title": "Hack the hackathon is not just work, but also a lot of fun!",
+      "description": ""
+    },
+    {
       "src": "/images/galleries/mainpage-gallery/hth_impressions3.jpg",
       "alt": "Welcoming participants to Hack the Hackathon 4",
       "title": "Welcome to HtH4!",
       "description": "Organizers welcoming in-person (and online) participants to Hack the Hackathon 4 in San Diego"
+    },
+    {
+      "src": "/images/galleries/mainpage-gallery/hth_impressions66.png",
+      "alt": "A slide with an 8-bit animation of bees and shrubs, with the text 'Welcome to the Vibe Hive' on it",
+      "title": "The Vibe Hive",
+      "description": "How do we provide comfortable spaces for hackathon participants to take a break, have discussions and recharge? The Vibe Hive team was prototyping solutions at Hack the Hackathon 3 in Geneva."
     },
     { 
       "src": "/images/galleries/mainpage-gallery/hth_impressions11.jpg",
@@ -31,12 +49,6 @@
       "description": ""
     },
     { 
-      "src": "/images/galleries/mainpage-gallery/hth_impressions23.jpg",
-      "alt": "a group of hack the hackathon participants laughing.",
-      "title": "Hack the hackathon is not just work, but also a lot of fun!",
-      "description": ""
-    },
-    { 
       "src": "/images/galleries/mainpage-gallery/hth_impressions29.jpg",
       "alt": "Two men standing next to a sign saying 'hack the hackathon', one holding a computer. They are in deep discussion.",
       "title": "Checking in",
@@ -59,6 +71,12 @@
       "alt": "A group of hack the hackathon participants sitting around tables in a meeting room.",
       "title": "Final stretch",
       "description": "Tired (but happy) faces at the end of Hack the Hackathon 2 in New York."
+    },
+    {
+      "src": "/images/galleries/mainpage-gallery/hth_impressions69.png",
+      "alt": "A slide with a chart with two axis. The horizontal axis is labelled 'structured' (left) to 'big picture' (right), the vertical axis 'solitary' (bottom) to 'outgoing' (top). There are cartoon figures of roleplaying characters in each quadrant.",
+      "title": "Hackathon organiser alignment",
+      "description": "Is there a type of person who likes organising hackathons? Are there different types of organisers, and do they have different character traits that filter into the event organisation? At Hack the Hackathon 3, a team set out to find out."
     },
     { 
       "src": "/images/galleries/mainpage-gallery/hth_impressions37.jpeg",
@@ -107,24 +125,6 @@
       "alt": "A pile of tokens of various sizes and colours, with the outlines of animals printed on them",
       "title": "Facilitating team formation",
       "description": "Team formation at hackathons is hard! Here, a team is prototyping physical tokens to help teams find other participants."
-    },
-    { 
-      "src": "/images/galleries/mainpage-gallery/hth_impressions61.png",
-      "alt": "A slide with the words 'hack the hackathon', with images of all participants",
-      "title": "Virtual hacking",
-      "description": "The original Hack the Hackathon had to be moved online with only a few days notice due to a COVID lockdown, but we made the best of things anyway, and learned a lot about running online conferences in the process."
-    },
-    { 
-      "src": "/images/galleries/mainpage-gallery/hth_impressions66.png",
-      "alt": "A slide with an 8-bit animation of bees and shrubs, with the text 'Welcome to the Vibe Hive' on it",
-      "title": "The Vibe Hive",
-      "description": "How do we provide comfortable spaces for hackathon participants to take a break, have discussions and recharge? The Vibe Hive team was prototyping solutions at Hack the Hackathon 3 in Geneva."
-    },
-    { 
-      "src": "/images/galleries/mainpage-gallery/hth_impressions69.png",
-      "alt": "A slide with a chart with two axis. The horizontal axis is labelled 'structured' (left) to 'big picture' (right), the vertical axis 'solitary' (bottom) to 'outgoing' (top). There are cartoon figures of roleplaying characters in each quadrant.",
-      "title": "Hackathon organiser alignment",
-      "description": "Is there a type of person who likes organising hackathons? Are there different types of organisers, and do they have different character traits that filter into the event organisation? At Hack the Hackathon 3, a team set out to find out."
     }
   ]
 }

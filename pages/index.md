@@ -55,9 +55,6 @@
 <section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
     <div class="container">
         <h2 class="text-center mb-4">What We Do</h2>
-        <p class="text-center mb-4">
-	Placeholder text
-        </p>
         <div class="row text-center" style="margin-bottom: 2rem;">
             <!-- Card 1 -->
             <div class="col-md-4">
@@ -65,8 +62,20 @@
                     <img src="/images/hth_workshop.jpg" class="card-img-top" alt="empty signpost stock photo">
                     <div class="card-body">
                         <h4 class="card-title" style="font-weight: bold">Workshops</h4>
-                        <p class="card-text">We organize a yearly hybrid workshop (in-person and online) to bring together the disparate communities interested in organizing and studying hackathons and related events. Come and explore our previous workshops, or sign up to the next one!</p>
-                        <a href="/events/index.html" style="text-decoration: underline; font-size: 18px;">Explore workshops ></a>
+                        <p class="card-text">We organize a yearly hybrid (in-person and online) workshop to bring together the many communities interested in organizing and studying hackathons and related events. Explore our previous workshops, or sign up to the next one!</p>
+                <a href="/events/index.html"
+                    style="color: #ff0123;
+                           text-decoration: none;
+                           font-size: 14px;
+                           font-weight: bold;
+                           border: 2px solid #ff0123;
+                           padding: 5px 10px;
+                           display: inline-block;
+                           transition: background-color 0.3s ease, color 0.3s ease;"
+                    onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';"
+                    onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';">
+                    Explore workshops
+                 </a>   
                     </div>
                 </div>
             </div>
@@ -76,8 +85,20 @@
                     <img src="/images/hth_virtual.png" class="card-img-top" alt="survey stock photo">
                     <div class="card-body">
                         <h4 class="card-title" style="font-weight: bold">Virtual Community</h4>
-                        <p class="card-text">In between workshops, we build community and share resources on Discord. Come and join us there!</p>
-                        <a href="/join-us/index.html" style="text-decoration: underline; font-size: 18px;">Join us ></a>
+                        <p class="card-text">Because workshops only happen once a year, we have a thriving community on Discord to keep in touch in between. Here, we build community, hang out and share resources regularly. Come and join us there!</p>
+                <a href="/join-us/index.html"
+                    style="color: #ff0123;
+                           text-decoration: none;
+                           font-size: 14px;
+                           font-weight: bold;
+                           border: 2px solid #ff0123;
+                           padding: 5px 10px;
+                           display: inline-block;
+                           transition: background-color 0.3s ease, color 0.3s ease;"
+                    onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';"
+                    onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';">
+                    Join us
+                 </a>   
                     </div>
                 </div>
             </div>
@@ -88,7 +109,19 @@
                     <div class="card-body">
                         <h4 class="card-title">Resources</h4>
                         <p class="card-text">We collect resources, tools, best practices and research across our different communities to continuously improve the hackathon experience for our participants across academia, industry and society.</p>
-                        <a href="/resources/index.html" style="text-decoration: underline; font-size: 18px;">Explore hackathon resources ></a>
+                <a href="/resources/index.html"
+                    style="color: #ff0123;
+                           text-decoration: none;
+                           font-size: 14px;
+                           font-weight: bold;
+                           border: 2px solid #ff0123;
+                           padding: 5px 10px;
+                           display: inline-block;
+                           transition: background-color 0.3s ease, color 0.3s ease;"
+                    onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';"
+                    onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';">
+                    Explore resources
+                 </a>
                     </div>
                 </div>
             </div>
@@ -109,7 +142,7 @@
 <p>
  We wanted to create a space for anyone interested in organizing such events to collaborate, share resources, and learn from each other. We also realized that researchers of hackathons were missing a venue to come together, share their newest results both with each other and the community of organizers, and recruit organizers for future studies.
                 </p>
-                <a href="#" 
+                <a href="/community/index.html" 
                     style="color: #ff0123; 
                            text-decoration: none; 
                            font-weight: bold; 
@@ -135,7 +168,6 @@
             <div class="col-md-6">
                 <img src="images/galleries/hth3/hth_impressions17.jpg" alt="An illustration of hands on a table filled with gears and instruments in various colours. In the middle it says 'hackathons for all'." class="img-fluid rounded">
             </div>
-
             <div class="col-md-6">
                 <h2>Is This For Me?</h2>
                 <p>
@@ -153,6 +185,23 @@
                     onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';"
                     onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';">
                     Join the Community
+                 </a>
+            </div>
+            <div class="col-md-6">
+                <h2>Join our next event</h2>
+                <p>Hello from Copenhagen! We are currently at Hack the Hackathon 5. Stay tuned for more information about Hack the Hackathon 6, which we are already hard at work planning. If you want to stay up to date, check back here or join our community on Discord. 
+                </p>
+                <a href="/events/index.html"
+                    style="color: #ff0123;
+                           text-decoration: none;
+                           font-weight: bold;
+                           border: 2px solid #ff0123;
+                           padding: 5px 10px;
+                           display: inline-block;
+                           transition: background-color 0.3s ease, color 0.3s ease;"
+                    onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';"
+                    onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';">
+                    Next Event
                  </a>
             </div>
        </div>
