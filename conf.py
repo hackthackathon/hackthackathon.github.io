@@ -1185,7 +1185,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # Show link to source for the posts?
 # SHOW_SOURCELINK = True
 # Copy the source files for your pages?
-# Setting it to False implies SHOW_SOURCELINK = False
+SHOW_SOURCELINK = False
 # COPY_SOURCES = True
 
 # Modify the number of Post per Index Page
