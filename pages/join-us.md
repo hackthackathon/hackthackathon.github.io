@@ -37,5 +37,5 @@ Join our vibrant Discord community where ideas spark, partnerships form, and ide
 
 **📝 Stay Connected**
 
-Write us an e-mail with a few words on your background and interest in hackathon research, how you would like to contribute, and get invited: <a href="mailto:contact@hackthehackathon.org" target="_blank">contact@hackthehackathon.org</a>
+Write us an <a class="obfuscated-email" href="#" target="_blank">e-mail</a> with a few words on your background and interest in hackathon research, how you would like to contribute, and get invited.
 
