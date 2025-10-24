@@ -13,7 +13,7 @@
 
 # Welcome to our community!
 
-> Dive in to see [where we come from](#global-network) and [what interests us](#what-we-do). Explore [how our community has grown](#community-growth) and evolved through the different “Hack the Hackathon” events, and get to know the dedicated [steering group](#steering-committee) that helps guide our journey forward.
+> Dive in to see [where we come from](#global-network) and [who we are](#what-we-do). Explore [how our community has grown](#community-growth) and evolved through the different “Hack the Hackathon” events, and get to know the dedicated [steering group](#steering-committee) that helps guide our journey forward.
 
 ---
 
