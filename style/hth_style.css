@@ -1,0 +1,207 @@
+/* styles for HTH */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+blockquote p {
+    font-size: 18px;
+}
+
+a, a:visited, a:active, a:focus {
+    color: #333333;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: currentColor;
+    text-underline-offset: 2px;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+.navbar-nav li a {
+    font-size: 17px;
+    letter-spacing: 0.05em;
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #d3d3d3;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus {
+    background: #b30000 !important;
+    background-image: none !important;
+    color: #fff !important;
+}
+
+a.navbar-brand {
+    position: abolute;
+    margin: 0;
+    top: 0;
+    width: 110px;
+}
+
+.footer-padding {
+    padding: 3px;
+    font-size: 14px;
+}
+
+td, th {
+    padding: 1em;
+    border: gray;
+    border-style: solid;
+}
+
+/* sponsor logos */
+.logo {
+    color: #222529;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: 0.25s;
+    max-height: 4em;
+    margin: 1em;
+}
+
+.logo:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
+.logo-link {
+    border: 0;
+}
+
+/*Tags in Resources*/
+.tag {
+    display: inline-block;
+    background-color: #e0f7fa;
+    color: #00796b;
+    padding: 0.2em 0.5em;
+    margin: 0.1em;
+    border-radius: 12px;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.tag.article {
+    background-color: #e3f2fd;
+    color: #1e88e5;
+}
+.tag.organize {
+    background-color: #e8f5e9;
+    color: #388e3c;
+}
+.tag.framework {
+    background-color: #fff3e0;
+    color: #f57c00;
+}
+.tag:hover {
+    opacity: 0.8;
+}
+.active-tag {
+    background-color: #00796b;
+    color: white;
+}
+
+/* Clear button in resources styling */
+.clear-filter {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.clear-filter:hover {
+    background-color: #e53935;
+}
+
+.funder-logo {
+    color: rgb(34, 37, 41);
+    filter: grayscale(1);
+    max-height: 4em;
+    transition: 0.25s;
+    margin: 1em;
+}
+
+.funder-logo:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+    background-color: red !important;
+    color: white;
+}
+
+.marker-cluster div {
+    background-color: red !important;
+}
+
+.marker-cluster span {
+    font-weight: bold;
+    color: white !important;
+}
+
+.marker-cluster {
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.6);
+}
+
+.portrait {
+    border-radius: 50% !important;
+    width: 12em;
+    height: 12em;
+    border: 0.2em solid #333333;
+    margin: 20px 0 5px 0;
+    box-shadow: 0 0 1px 0px white inset, 0 0 1px 0px white;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+div.card-body a {
+    font-size: 28px;
+    margin: 5px;
+}
+
+.steeringcommittee {
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
