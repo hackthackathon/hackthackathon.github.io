@@ -43,7 +43,7 @@ The workshop was held online due to the ongoing COVID-19 pandemic.
 - Daniela Huppenkothen, SRON Netherlands Institute for Space Research (Leiden, The Netherlands)
 - Anthony Arendt, University of Washington (Seattle, WA, USA)
 
-## Supporters
+## Funders and Supporters
 
 <table>
   <tr>

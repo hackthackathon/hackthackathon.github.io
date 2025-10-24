@@ -39,7 +39,7 @@ The workshop was held in hybrid format, combining virtual and in-person gatherin
 - Daniel Spikol - University of Copenhagen (Copenhagen, Denmark)
 - Cleo Schulten - University of Duisburg-Essen (Duisburg, Germany)
 
-## Supporters
+## Funders and Supporters
 
 <table>
   <tr>

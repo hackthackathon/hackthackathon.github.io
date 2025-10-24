@@ -44,7 +44,7 @@ The workshop was held in hybrid format, combining virtual and in-person gatherin
 - Cecilia LaPlace - Arizona State University (Phoenix, AZ, USA)
 - Erik Tollerud - Space Telescope Science Institute (Baltimore, MD, USA)
 
-## Supporters
+## Funders and Supporters
 
 <table>
   <tr>

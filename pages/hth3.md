@@ -60,7 +60,7 @@ During Hack the Hackathon 3, we did two different sprints - one over the duratio
 - Reshama Shaikh - Data Umbrella (New York, NY, USA)
 - Erik Tollerud - Space Telescope Science Institute (Baltimore, MD, USA)
 
-## Supporters
+## Funders and Supporters
 
 <table>
   <tr>

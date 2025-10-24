@@ -52,7 +52,7 @@ The workshop was held in hybrid format, combining virtual and in-person gatherin
 - Je’aime H. Powell, Texas Advanced Computing Center (Austin, TX, USA)
 - Erik J. Tollerud, Space Telescope Science Institute (Baltimore, Maryland, USA)
 
-## Supporters
+## Funders and Supporters
 
 <table>
   <tr>
