@@ -1,0 +1,22 @@
+{
+  "images": [
+    {
+      "src": "/images/galleries/hth3/hth_impressions67.png",
+      "alt": "Hackathon Map",
+      "title": "Hackathon Map",
+      "description": "The project aimed to map hackathons, including which languages were supported during the event"
+    },
+    {
+      "src": "/images/galleries/hth3/hth_impressions69.png",
+      "alt": "Hackathon Organizer's Alignment",
+      "title": "Hackathon Organizer's Alignment",
+      "description": "The project conducted a survey with the HtH organizers and made a alignment chart"
+    },
+    {
+      "src": "/images/galleries/hth3/hth_impressions66.png",
+      "alt": "Vibe Hibe Project",
+      "title": "Vibe Hibe Project",
+      "description": "The project experimented with hackathon setups, and how they could be adapted to a diverse audience"
+    }
+  ]
+}

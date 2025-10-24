@@ -1,0 +1,28 @@
+{
+  "images": [
+    {
+      "src": "/images/galleries/hth3/hth_impressions38.jpeg",
+      "alt": "Hacking in the United Nation's library",
+      "title": "Hacking in the United Nation's library",
+      "description": "During Hack the Hackathon 3, we made projects at the United Nation's Library"
+    },
+    {
+      "src": "/images/galleries/hth3/hth_impressions40.MP.jpg",
+      "alt": "Participants of Hack the Hackathon 3",
+      "title": "Participants of Hack the Hackathon 3",
+      "description": "A picture with both online and in-person participants"
+    },
+    {
+      "src": "/images/galleries/hth3/hth_impressions46.jpg",
+      "alt": "Visiting the Idea Square at CERN",
+      "title": "Visiting the Idea Square at CERN",
+      "description": "With the amazing view of a London Bus, the Hack the Hackathon participant's were introduced to Idea Square"
+    },
+    {
+      "src": "/images/galleries/hth3/hth_impressions49.jpg",
+      "alt": "Hack the Hackathon 3 participants in Idea Square at CERN",
+      "title": "Hack the Hackathon 3 participants in Idea Square at CERN",
+      "description": "The bus was so iconic that in-person participants have a picture in front of it"
+    }
+  ]
+}

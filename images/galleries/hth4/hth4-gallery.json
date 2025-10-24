@@ -1,0 +1,28 @@
+{
+  "images": [
+    {
+      "src": "/images/galleries/hth4/hth_impressions12.jpg",
+      "alt": "Visit to Scripps Sandbox Makerspace",
+      "title": "Visit to Scripps Sandbox Makerspace",
+      "description": "During Hack the Hackathon 4, we visited Scripps Sandbox Makerspace at San Diego"
+    },
+    {
+      "src": "/images/galleries/hth4/hth_impressions39.jpg",
+      "alt": "In-person participants of Hack the Hackathon 4",
+      "title": "In-person participants of Hack the Hackathon 4",
+      "description": "With the nice weather, we took a picture outside"
+    },
+    {
+      "src": "/images/galleries/hth4/hth_impressions21.jpg",
+      "alt": "Picture of the online participants with one of the organizers",
+      "title": "Online participants of Hack the Hackathon 4",
+      "description": "One of the organizers also joined the picture with the online participants"
+    },
+    {
+      "src": "/images/galleries/hth4/hth_impressions83.png",
+      "alt": "Picture of the online participants",
+      "title": "Online participants of Hack the Hackathon 4",
+      "description": "Our online participants in the Zoom Call"
+    }
+  ]
+}

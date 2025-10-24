@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "src": "/images/galleries/hth4/hth_impressions75.png",
+      "alt": "Hackathon Template 2.0",
+      "title": "Hackathon Template 2.0",
+      "description": "Using a cookiecutter template, is easy to setup your hackathon"
+    },
+    {
+      "src": "/images/galleries/hth4/hth_impressions77.png",
+      "alt": "Science Hackathon Brainstorming Game",
+      "title": "Science Hackathon Brainstorming Game",
+      "description": "The project helps group formation during hackathons"
+    },
+    {
+      "src": "/images/galleries/hth4/hth_impressions78.png",
+      "alt": "Hackstorming",
+      "title": "Hackstorming",
+      "description": "The project wants to use gamification for group formation during hackathons"
+    },
+    {
+      "src": "/images/galleries/hth4/hth_impressions79.png",
+      "alt": "MentorBot",
+      "title": "MentorBot",
+      "description": "The project wants to create a Discord bot, helping participants navigate a hackathon"
+    },
+    {
+      "src": "/images/galleries/hth4/hth_impressions80.png",
+      "alt": "Hackathon.json",
+      "title": "Hackathon.json",
+      "description": "The project encodes hackathons in a single format"
+    },
+    {
+      "src": "/images/galleries/hth4/hth_impressions81.png",
+      "alt": "The Great Chocolate Smuggling Hack",
+      "title": "The Great Chocolate Smuggling Hack",
+      "description": "The sweetest Hack the Hackathon project, using the makerspace to 3D the event logo and later becoming chocolates"
+    },
+    {
+      "src": "/images/galleries/hth4/hth_impressions82.png",
+      "alt": "The Icebreaker Game",
+      "title": "The Icebreaker Game",
+      "description": "The project uses the makerspace to print pieces used in a hackathon's icebreaker"
+    }
+  ]
+}
