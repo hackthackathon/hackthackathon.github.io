@@ -1,6 +1,6 @@
 <!--
 .. title: Hack the Hackathon vol. 5
-.. slug: events/hth4
+.. slug: events/hth5
 .. hide_title: false
 .. date: 2024-11-21 19:31:58 UTC
 .. tags: 
