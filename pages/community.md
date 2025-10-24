@@ -21,7 +21,7 @@
 
 Each dot represents a city where our community has roots. Click on the larger clusters to zoom in, or tap a single circle to explore who’s part of our global network.
 
-<div id="map"></div><script>renderMap();</script>
+<div id="map" class="main-card"></div><script>renderMap();</script>
 
 ---
 
@@ -858,15 +858,15 @@ If you’d like to get in touch, reach out through our Discord server or send us
         
         const container = document.getElementById('sankey');
         
-        // Ensure container has proper dimensions
-        const width = Math.max(container.clientWidth, 800); // Increased minimum width
-        const height = Math.max(container.clientHeight, 500); // Increased minimum height
-        
         // If container still has no dimensions, set them explicitly
         if (container.clientWidth === 0) {
             container.style.width = '100%';
             container.style.height = '500px';
         }
+        
+        // Ensure container has proper dimensions
+        const width = container.clientWidth; // Increased minimum width
+        const height = container.clientHeight; // Increased minimum height
         
         // Clear previous
         d3.select('#sankey').selectAll('*').remove();
