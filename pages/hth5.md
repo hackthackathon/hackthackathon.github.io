@@ -16,6 +16,8 @@ td, th {
 }
 </style>
 
+# Hack the Hackathon 5
+
 ## Motivation and rationale
 Hack the Hackathon (HTH) brought together researchers and professionals in Copenhagen and across the globe via hybrid meetings to collaboratively explore how hackathons can be further developed to support data science, AI, and digital media. Fields included natural sciences, engineering, education, and civic engagement. The program strengthened the translation of research into practice while promoting broad community dialogue. Its inclusive, network-driven format supports long-term partnerships, capacity building, and real-world impact across sectors. 
 
@@ -41,7 +43,7 @@ The workshop was held in hybrid format, combining virtual and in-person gatherin
 
 <table>
   <tr>
-    <td><a href="https://www.ku.dk/en" target="_blank" class="logo-link"><img class="logo" src="/images/funders/university-of-copenhagen.png" alt="University of Copenhagen"/></a></td>
     <td><a href="https://kub.kb.dk/datalab" target="_blank" class="logo-link"><img class="logo" src="/images/funders/datalab-kub-library.png" alt="Kub Datalab"/></a></td>
+    <td><a href="https://www.ku.dk/en" target="_blank" class="logo-link"><img class="logo" src="/images/funders/university-of-copenhagen.png" alt="University of Copenhagen"/></a></td>
   </tr>
 </table>

@@ -16,6 +16,8 @@ td, th {
 }
 </style>
 
+# Hack the Hackathon 4
+
 ## Motivation and rationale
 For the fourth iteration of Hack the Hackathon we want to continue to build the community and provide resources to help others when organizing their own events. How do we organize? Where can we find similar events to advertise to? Are there standard surveys to use instead of creating a unique one for each event? Having a repository for the output of work from the event series and our own outside efforts will help to build the community and bring us farther along.
 
@@ -46,9 +48,9 @@ The workshop was held in hybrid format, combining virtual and in-person gatherin
 
 <table>
   <tr>
+    <td><a href="https://www.biodatasage.com/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/biodatasage.png" alt="BioData Sage"/></a></td>
+    <td><a href="https://www.nasa.gov/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/nasa-grantee.png" alt="NASA Grantee"/></a></td>
     <td><a href="https://scripps.ucsd.edu/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/scripps.png" alt="Scripps"/></a></td>
     <td><a href="https://www.earthdata.nasa.gov/about/competitive-programs/access/terrestrial-observation-prediction-system" target="_blank" class="logo-link"><img class="logo" src="/images/funders/tops.png" alt="TOPS NASA"/></a></td>
-    <td><a href="https://www.nasa.gov/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/nasa-grantee.png" alt="NASA Grantee"/></a></td>
-    <td><a href="https://www.biodatasage.com/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/biodatasage.png" alt="BioData Sage"/></a></td>
   </tr>
 </table>

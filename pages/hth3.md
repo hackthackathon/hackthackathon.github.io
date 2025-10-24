@@ -16,6 +16,8 @@ td, th {
 }
 </style>
 
+# Hack the Hackathon 3
+
 ## Motivation and rationale
 Time-bounded events such as hackathons, hackweeks, data dives, codefests, edit-a-thons, and others have become a common form of collaboration in various domains. Scientific communities and civic communities in particular have embraced them as opportunities for researchers to acquire skills that are useful for their work and to form collaborations within their disciplines and beyond. In recent years, practitioners and researchers have acquired significant (practical) knowledge organizing and studying hackathon events. However, our understanding of motivations and best practices is largely limited to single domains and remains siloed. What is currently missing is a higher-level view of the common motivations, goals, and best practices for scientific hackathons. Similarly, it is instructive to uncover and understand differences between how different communities organize events in relation to their goals.
 
@@ -62,14 +64,14 @@ During Hack the Hackathon 3, we did two different sprints - one over the duratio
 
 <table>
   <tr>
-    <td><a href="https://sdgsolutionspace.org" target="_blank" class="logo-link"><img class="logo" src="/images/funders/sdg-solution-space.png" alt="SDG Solution Space"/></a></td>
-    <td><a href="https://opengeneva.org" target="_blank" class="logo-link"><img class="logo" src="/images/funders/open-geneva.png" alt="Open Geneva"/></a></td>
     <td><a href="https://creativeimpact.eu/en/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/CIRCE.png" alt="CIRCE"/></a></td>
-    <td><a href="https://www.ungeneva.org/en/library-archives/library" target="_blank" class="logo-link"><img class="logo" src="/images/funders/un-library.png" alt="United Nations Library & Archives Geneva"/></a></td>
-    <td><a href="https://unitar.org" target="_blank" class="logo-link"><img class="logo" src="/images/funders/unitar.jpg" alt="UNITAR"/></a></td>
-    <td><a href="https://kulturstaatsminister.de" target="_blank" class="logo-link"><img class="logo" src="/images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien.png" alt="Beauftragte der bundesregierung fur kultur und medien"/></a></td>
+    <td><a href="https://kulturstaatsminister.de" target="_blank" class="logo-link"><img class="logo" src="/images/funders/beauftragte-der-bundesregierung-fur-kultur-und-medien.png" alt="Beauftragte der Bundesregierung für Kultur und Medien"/></a></td>
     <td><a href="https://garage48.org" target="_blank" class="logo-link"><img class="logo" src="/images/funders/g48.png" alt="Garage 48"/></a></td>
     <td><a href="https://ideasquare.cern" target="_blank" class="logo-link"><img class="logo" src="/images/funders/idea-square.png" alt="Idea Square"/></a></td>
+    <td><a href="https://opengeneva.org" target="_blank" class="logo-link"><img class="logo" src="/images/funders/open-geneva.png" alt="Open Geneva"/></a></td>
+    <td><a href="https://sdgsolutionspace.org" target="_blank" class="logo-link"><img class="logo" src="/images/funders/sdg-solution-space.png" alt="SDG Solution Space"/></a></td>
+    <td><a href="https://unitar.org" target="_blank" class="logo-link"><img class="logo" src="/images/funders/unitar.jpg" alt="UNITAR"/></a></td>
+    <td><a href="https://www.ungeneva.org/en/library-archives/library" target="_blank" class="logo-link"><img class="logo" src="/images/funders/un-library.png" alt="United Nations Library & Archives Geneva"/></a></td>
     <td><a href="https://www.unige.ch/en/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/university-of-geneva.png" alt="University of Geneva"/></a></td>
   </tr>
 </table>

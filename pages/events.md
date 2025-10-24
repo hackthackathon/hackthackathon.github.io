@@ -11,12 +11,14 @@
 -->
 
 
-<h2> Upcoming Hack the Hackathon</h2>
+# Events
+
+## Upcoming Hack the Hackathon
 
 > We have just completed Hack the Hackathon 5. Stay tuned for Hack the Hackathon 6, and check back here regularly!
 
 
-<h2>Previous workshops</h2>
+## Previous workshops
 
 <section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
     <div class="container">
@@ -104,4 +106,3 @@
     </div>
 
 </section>
-
