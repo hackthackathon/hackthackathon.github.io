@@ -1,6 +1,7 @@
 <!--
 .. title: Events
 .. slug: events
+.. hide_title: false
 .. date: 2024-11-21 19:31:58 UTC
 .. tags: 
 .. category: 
