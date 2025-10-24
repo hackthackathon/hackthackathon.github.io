@@ -9,42 +9,106 @@
 .. type: text
 -->
 
-# Upcoming Hack the Hackathon
+<section class="py-5" id="story" style="margin-bottom: 3rem;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h3>Upcoming Hack the Hackathon</h3>
+                <p>
+                We have just completed Hack the Hackathon 5. Stay tuned for Hack the Hackathon 6, and check back regularly!
+                </p>
+            </div>
+            <div class="col-md-6">
+            </div>
+         </div>
+    </div>
 
-The Hack the Hackathon Conference series is always growing and changing.  The next event, Hack the Hackathon v5, is planned for Oct 13-17, 2025 in Copenhagen, Denmark. The Organizers are:
+</section>
 
-* Jeanette Falk
-* Daniel Spikol
-* Ines Knäpper
-* Cleo Schulten
-* Alexander Nolte
-* Mari Hanikat
-* Lavinia Paganini
-* Daniela Huppenkothen
+<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                    <img src="/images/galleries/mainpage-gallery/hth_impressions61.png" class="card-img-top" alt="Resource 3 Image">
+            </div>
+            <div class="col-md-6">
+                <h3>Hack the Hackathon 1</h3>
+                <p>
+                  Our first Hack the Hackathon! It was an experiment, especially since it had be moved online at the last minute due to COVID lockdowns.
+                  This workshop was hosted by the Lorentz Center, Leiden, The Netherlands from December 6 to 10, 2021. <a href="events/hth1.html">Read more</a>
+                </p>
+            </div>              
+         </div>
+    </div>
 
-# Previous Hack the Hackathon Events
+</section>
 
-## Hack the Hackathon 1
+<section class="py-5" id="hth2" style="margin-bottom: 3rem;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h3>Hack the Hackathon 2</h3>
+                <p> 
+                In 2022, we went to New York for our first hybrid event, held at the Flatiron Institute in New York, NY, USA, held from October 3 - 7, 2022. <a href="events/hth2.html">Read more</a>
+                </p>
+            </div>
+            <div class="col-md-6">
+                    <img src="/images/galleries/hth2/hth_impressions15.jpg" class="card-img-top" alt="Resource 3 Image">
+            </div>
+         </div>
+    </div>
 
-The first workshop was held online and hosted by the Lorentz Center, Leiden, The Netherlands from December 6 to 10, 2021.
+</section>
 
-[HtHv1 Web Site](https://www.lorentzcenter.nl/hack-the-hackathon-shaping-the-future-of-hackathon-research-and-practice.html)
+<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                    <img src="/images/galleries/hth3/hth_impressions46.jpg" class="card-img-top" alt="Resource 3 Image">
+            </div>
+            <div class="col-md-6">
+                <h3>Hack the Hackathon 3</h3>
+                <p>
+                  In 2023, we were welcomed at the SDG Solution Space in Geneva, Switzerland, for Hack the Hackathon 3. As part of that week, we also hacked at the UN Libraries and CERN's IdeaSquare. HtH3 took place from November 6 - 10, 2023. <a href="events/hth3.html">Read more</a>
+                </p>
+            </div>
+         </div>
+    </div>
 
-## Hack the Hackathon 2
+</section>
 
-The second workshop was conducted as a hybrid event at the Flatiron Institute in New York, NY, USA and online from October 3 to 7, 2022.
+<section class="py-5" id="hth2" style="margin-bottom: 3rem;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h3>Hack the Hackathon 4</h3>
+                <p> 
+                The fourth workshop was held as a hybrid event at Scripps Institution for Oceanography in San Diego, CA, USA, and online from November 18 to 22, 2024.
+                <a href="events/hth4.html">Read more</a>
+                </p>
+            </div>
+            <div class="col-md-6">
+                    <img src="/images/galleries/hth4/hth_impressions51.jpg" class="card-img-top" alt="Resource 3 Image">
+            </div>
+         </div>
+    </div>
 
-[HtHv2 Web Site](https://indico.flatironinstitute.org/event/3157/)
+</section>
 
-## Hack the Hackathon 3 
+<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                    <img src="/images/galleries/hth3/hth_impressions46.jpg" class="card-img-top" alt="Resource 3 Image">
+            </div>
+            <div class="col-md-6">
+                <h3>Hack the Hackathon 5</h3>
+                <p>
+                  Hack the Hackathon 5 took place as a hybrid event in Kopenhagen University's Library in Copenhagen, Denmark from October 19 - 24, 2025. <a href="events/hth5.html">Read more</a>
+                </p>
+            </div>
+         </div>
+    </div>
 
-The third workshop was held as a hybrid event at the SDG Solution Space in Geneva, Switzerland, and online from November 6 to 10, 2023.
+</section>
 
-[HtHv3 Web Site](https://hackthackathon.github.io/hth3.html)
-
-
-## Hack the Hackathon 4
-
-The fourth workshop was held as a hybrid event at Scripps Institution for Oceanography in San Diego, CA, USA, and online from November 18 to 22, 2024.
-
-HtH v4 web site (LINK TBD)
