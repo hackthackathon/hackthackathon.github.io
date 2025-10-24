@@ -125,7 +125,7 @@ We are growing. The visualization below shows how our community has evolved acro
 
 Get to know our dedicated steering committee — the group guiding our community between events and helping shape the direction of future “Hack the Hackathon” activities.
 
-If you’d like to get in touch, reach out through our Discord server or send us an email at <a href="mailto:contact@hackthehackathon.org" target="_blank" alt="EMail">contact@hackthehackathon.org</a>.
+If you’d like to get in touch, reach out through our Discord server or send us an <a href="#" class="obfuscated-email" target="_blank" alt="EMail">e-mail</a>..
 
 
 <section>
