@@ -1,0 +1,16 @@
+{
+  "images": [
+    {
+      "src": "/images/galleries/hth2/hth_impressions15.jpg",
+      "alt": "Participants of Hack the Hackathon 2",
+      "title": "Participants of Hack the Hackathon 2",
+      "description": "A picture with both online and in-person participants"
+    },
+    {
+      "src": "/images/galleries/hth2/hth_impressions33.jpg",
+      "alt": "In-person participants of Hack the Hackathon 2",
+      "title": "In-person participants of Hack the Hackathon 2",
+      "description": "While focusing on the projects presentations"
+    }
+  ]
+}

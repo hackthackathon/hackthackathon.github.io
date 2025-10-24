@@ -26,14 +26,16 @@ This is the second iteration of the workshop “Hack the Hackathon: Shaping the 
 ## Date and location
 October 3-7, 2022  
 The Flatiron Institute, New York, NY, USA ([website](https://www.simonsfoundation.org/flatiron/), [maps](https://maps.app.goo.gl/haZasUQKMuMes5QQ7))
-  
+
 The workshop was held in hybrid format, combining virtual and in-person gatherings.
 
 ## Previous Website
 [Hack the Hackathon, Volume 2](https://indico.flatironinstitute.org/event/3157/)
 
 ## Participants
-IMAGE HERE + LIST
+<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+{{% gallery_carousel images/galleries/hth2/hth2-gallery.json carousel_id=hth2_gallery height="300px" %}}
+</section>
 
 ## What we worked on
 
