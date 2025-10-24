@@ -99,7 +99,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                    <img src="/images/galleries/hth3/hth_impressions46.jpg" class="card-img-top" alt="Resource 3 Image">
+                    <img src="/images/galleries/hth5/hth5_impressions1.jpg" class="card-img-top" alt="Resource 3 Image">
             </div>
             <div class="col-md-6">
                 <h3>Hack the Hackathon 5</h3>
