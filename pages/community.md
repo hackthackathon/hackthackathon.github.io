@@ -90,6 +90,7 @@ Together, they offer a snapshot of the backgrounds, skills, and perspectives tha
     </div>
 </section>
 
+---
 
 ## How our Community Grows {#community-growth}
 
@@ -125,7 +126,7 @@ We are growing. The visualization below shows how our community has evolved acro
 
 Get to know our dedicated steering committee — the group guiding our community between events and helping shape the direction of future “Hack the Hackathon” activities.
 
-If you’d like to get in touch, reach out through our Discord server or send us an <a href="#" class="obfuscated-email" target="_blank" alt="EMail">e-mail</a>..
+If you’d like to get in touch, reach out through our Discord server or send us an <a href="#" class="obfuscated-email" target="_blank" alt="EMail">e-mail</a>.
 
 
 <section>

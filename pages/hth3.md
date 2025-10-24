@@ -10,13 +10,9 @@
 .. type: text
 -->
 
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
 # Hack the Hackathon 3
+
+---
 
 ## Motivation and rationale
 Time-bounded events such as hackathons, hackweeks, data dives, codefests, edit-a-thons, and others have become a common form of collaboration in various domains. Scientific communities and civic communities in particular have embraced them as opportunities for researchers to acquire skills that are useful for their work and to form collaborations within their disciplines and beyond. In recent years, practitioners and researchers have acquired significant (practical) knowledge organizing and studying hackathon events. However, our understanding of motivations and best practices is largely limited to single domains and remains siloed. What is currently missing is a higher-level view of the common motivations, goals, and best practices for scientific hackathons. Similarly, it is instructive to uncover and understand differences between how different communities organize events in relation to their goals.
@@ -27,14 +23,15 @@ Based on the understanding that there is a need for a cross-disciplinary space f
 
 While the first two workshops were effective at bringing together a diverse group of researchers and practitioners, building a community and developing and driving forward interdisciplinary initiatives is a larger, continuing endeavour. In addition, the first two workshop focused largely on hackathons within scientific research communities, and we rapidly identified the need to bring in a wider range of practitioners, especially from civic spaces. With this in mind, we organized ''Hack the Hackathon: Volume 3'' at the SGD Innovation Space in Geneva, Switzerland on Nov 6-10, 2023. The aim of this third workshop was to build upon the accomplishments of the first two: to grow and consolidate the community that came together previously, to include a wide range of practitioners and researchers new to this workshop series, to take up new initiatives related to hackathons and other participant-driven events, and to develop a broad research agenda for this field.
 
+---
+
 ## Date and location
 November 6-10, 2023  
 SGD Innovation Space in Geneva, Switzerland ([website](https://sdgsolutionspace.org), [maps](https://maps.app.goo.gl/2y2EjnzLnYvA3nef7))
 
 The workshop was held in hybrid format, combining virtual and in-person gatherings.
 
-## Previous Website
-[Hack the Hackathon: Shaping the Future of Hackathon Research and Practice, Volume 3](https://hackthehackathon.org/hth3.html)
+---
 
 ## Participants
 <section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
@@ -59,6 +56,8 @@ During Hack the Hackathon 3, we did two different sprints - one over the duratio
 - Je'aime Powell - Texas Advanced Computing Center (Austin, TX, USA)
 - Reshama Shaikh - Data Umbrella (New York, NY, USA)
 - Erik Tollerud - Space Telescope Science Institute (Baltimore, MD, USA)
+
+---
 
 ## Funders and Supporters
 

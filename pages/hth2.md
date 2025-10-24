@@ -10,13 +10,9 @@
 .. type: text
 -->
 
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
 # Hack the Hackathon 2
+
+---
 
 ## Motivation and rationale
 Time-bounded events such as hackathons, hackweeks, data dives, codefests, edit-a-thons, and others have become a common form of collaboration in various domains. Scientific communities in particular have embraced them as an opportunity for researchers to acquire skills that would be useful for their discipline and form collaborations within their disciplines and beyond. Such activities are necessary because many impactful discoveries occur at the interface between traditional scientific disciplines and statistics, computing, and data science. Over the past years, practitioners and researchers have acquired significant knowledge by organizing and studying hackathon events. However, knowledge about motivations and best practices is largely limited to single domains. What is currently missing is a higher-level view of the common motivations, goals, and best practices for scientific hackathons.
@@ -25,14 +21,20 @@ The aim of this workshop is to bring together researchers of different disciplin
 
 This is the second iteration of the workshop “Hack the Hackathon: Shaping the Future of Hackathon Research and Practice”. The first was held online and hosted by the Lorentz Center, Leiden, The Netherlands last year. For this second iteration of the, we aim to build on conversations started at the first workshop, develop new ideas and initiatives, and continue to grow and expand the community of hackathon practitioners and researchers.
 
+---
+
 ## Date and location
 October 3-7, 2022  
 The Flatiron Institute, New York, NY, USA ([website](https://www.simonsfoundation.org/flatiron/), [maps](https://maps.app.goo.gl/haZasUQKMuMes5QQ7))
 
 The workshop was held in hybrid format, combining virtual and in-person gatherings.
 
-## Previous Website
+---
+
+## Workshop Website
 [Hack the Hackathon, Volume 2](https://indico.flatironinstitute.org/event/3157/)
+
+---
 
 ## Participants
 <section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
@@ -51,6 +53,8 @@ The workshop was held in hybrid format, combining virtual and in-person gatherin
 - Alexander Nolte, University of Tartu (Tartu, Estonia) & Carnegie Mellon University (Pittsburgh, PA, USA)
 - Je’aime H. Powell, Texas Advanced Computing Center (Austin, TX, USA)
 - Erik J. Tollerud, Space Telescope Science Institute (Baltimore, Maryland, USA)
+
+---
 
 ## Funders and Supporters
 
