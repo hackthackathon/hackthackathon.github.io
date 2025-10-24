@@ -27,7 +27,6 @@ Lorentz Center, Leiden, The Netherlands ([website](https://www.lorentzcenter.nl/
 
 The workshop was held online due to the ongoing COVID-19 pandemic.
 
-
 ---
 
 ## Workshop website

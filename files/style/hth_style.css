@@ -54,6 +54,15 @@ a:hover {
     color: #d3d3d3;
 }
 
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus {
+    background: #b30000 !important;
+    background-image: none !important;
+    color: #fff !important;
+}
+
 a.navbar-brand {
     position: abolute;
     margin: 0;
