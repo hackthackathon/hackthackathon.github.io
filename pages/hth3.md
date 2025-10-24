@@ -46,8 +46,6 @@ During Hack the Hackathon 3, we did two different sprints - one over the duratio
 {{% gallery_carousel images/galleries/hth3/hth3-project-gallery.json carousel_id=hth3_projects_gallery height="300px" %}}
 </section>
 
-## Outcomes
-
 ## Organizers
 - Allissa Dillman - BioData Sage (Bethesda, MD, USA)
 - Joseph Gum - NSF NCAR - The National Center for Atmospheric Research (San Diego, CA, USA)

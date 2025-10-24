@@ -31,11 +31,9 @@ The workshop was held online due to the ongoing COVID-19 pandemic.
 [Hack the Hackathon: Shaping the Future of Hackathon Research and Practice](https://www.lorentzcenter.nl/hack-the-hackathon-shaping-the-future-of-hackathon-research-and-practice.html)
 
 ## Participants
-IMAGE HERE + LIST
-
-## What we worked on
-
-## Outcomes
+<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+{{% gallery_carousel images/galleries/hth1/hth1-gallery.json carousel_id=hth1_gallery height="300px" %}}
+</section>
 
 ## Organizers
 - Alexander Nolte, University of Tartu (Tartu, Estonia) & Carnegie Mellon University (Pittsburgh, PA, USA)

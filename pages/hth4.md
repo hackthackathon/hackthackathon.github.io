@@ -35,8 +35,6 @@ The workshop was held in hybrid format, combining virtual and in-person gatherin
 {{% gallery_carousel images/galleries/hth4/hth4-project-gallery.json carousel_id=hth4_projects height="300px" %}}
 </section>
 
-## Outcomes
-
 ## Organizers
 - Steve Diggs - University of California Office of the President (San Diego, CA, USA)
 - Allissa Dillman - BioData Sage (Bethesda, MD, USA)

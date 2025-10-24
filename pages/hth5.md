@@ -27,14 +27,6 @@ Datalab of Copenhagen University Library, Copenhagen, Denmark ([website](https:/
 
 The workshop was held in hybrid format, combining virtual and in-person gatherings.
 
-## Participants
-TBD
-
-## What we worked on
-TBD
-
-## Outcomes
-
 ## Organizers
 - Allissa Dillman - BioData Sage (Bethesda, MD, USA)
 - Jeanette Falk - Aalborg University Copenhagen (Copenhagen, Denmark)

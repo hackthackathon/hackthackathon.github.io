@@ -1,0 +1,16 @@
+{
+  "images": [
+    {
+      "src": "/images/galleries/hth2/hth_impressions57.png",
+      "alt": "Hacktionary",
+      "title": "Hacktionary",
+      "description": "A project to define terms used around hackathons"
+    },
+    {
+      "src": "/images/galleries/hth2/hth_impressions58.png",
+      "alt": "Hackotron",
+      "title": "Hackotron",
+      "description": "A project to setup a GitHub project for hackathons"
+    }
+  ]
+}

@@ -38,8 +38,9 @@ The workshop was held in hybrid format, combining virtual and in-person gatherin
 </section>
 
 ## What we worked on
-
-## Outcomes
+<section class="py-5" id="resources" style="background-color: #f3eff2; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); width: 100vw; margin-bottom: 3rem;">
+{{% gallery_carousel images/galleries/hth2/hth2-project-gallery.json carousel_id=hth2_project_gallery height="300px" %}}
+</section>
 
 ## Organizers
 - Dan Foreman-Mackey, Flatiron Institute (New York, NY, USA)
