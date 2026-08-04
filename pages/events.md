@@ -17,7 +17,9 @@
 
 ## Upcoming Hack the Hackathon
 
-> We have just completed Hack the Hackathon 5. Stay tuned for Hack the Hackathon 6, and check back here regularly!
+> We are planning Hack the Hackathon 6, apply [here](https://forms.gle/1RdGkDYGbKU6AR617) to join us online October 20-22, 2026!
+
+> Find out more about <a href="/events/hth6" target="_blank">HtH6</a>
 
 ---
 
