@@ -17,7 +17,18 @@
 
 ## Upcoming Hack the Hackathon
 
-> We have just completed Hack the Hackathon 5. Stay tuned for Hack the Hackathon 6, and check back here regularly!
+> We are planning Hack the Hackathon 6, join us online October 20-22, 2026! Find out more about <a href="/events/hth6" target="_blank">HtH6</a>.
+
+<a style="color: #ff0123; 
+                           text-decoration: none; 
+                           font-weight: bold; 
+                           border: 2px solid #ff0123; 
+                           padding: 5px 10px; 
+                           display: inline-block; 
+                           transition: background-color 0.3s ease, color 0.3s ease;" 
+                    onmouseover="this.style.backgroundColor='#333333'; this.style.color='white'; this.style.cursor='pointer';" 
+                    onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff0123';"
+    href="https://forms.gle/1RdGkDYGbKU6AR617">Apply to attend HtH6!</a>
 
 ---
 
