@@ -18,6 +18,7 @@
 This workshop aims to bring together researchers, organizers, and practitioners from different disciplines who are interested in hackathons, game jams, maker spaces, and similar time-bounded participant-driven events, to share the current state of practice and research related to such events, and to discuss future challenges and new directions.
 
 For this year’s edition, we will particularly focus on what currently reshapes hackathons and the world in general: generative AI is changing what's possible (and what counts as "a project") during an event, and shrinking funding is challenging who can afford to run or attend events. HTH6 will be our space to dig into both: what's changing, what’s not, what's at risk, and what do we want to do about it?
+
 ---
 
 ## Date and location
@@ -56,9 +57,8 @@ href="https://forms.gle/1RdGkDYGbKU6AR617">Apply to attend HtH6!</a>
 <table>
   <tr>
     <td><a href="https://www.biodatasage.com/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/biodatasage.png" alt="BioData Sage"/></a></td>
-    <td><a href="https://nhcoe.jabsom.hawaii.edu/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/nhcoe.png" alt="NHCOE"/></a></td>
-    <td><a href="https://poly.engineering.asu.edu/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/asu.png" alt="ASU"/></a></td>
-    <td><a href="https://api.uva.nl/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/uva.png" alt="UvA"/></a></td>
-    <td><a href="https://www.tue.nl/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/tue.png" alt="TUE"/></a></td>
+    <td><a href="https://poly.engineering.asu.edu/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/asu.png" alt="Arizona State University"/></a></td>
+    <td><a href="https://api.uva.nl/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/uva.png" alt="University of Amsterdam"/></a></td>
+    <td><a href="https://www.tue.nl/" target="_blank" class="logo-link"><img class="logo" src="/images/funders/tue.png" alt="Eindhoven University of Technology"/></a></td>
   </tr>
 </table>
